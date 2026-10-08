@@ -1,0 +1,175 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/srvx-modeling-lab/equipment-observation-v0.1.schema.json",
+  "title": "Lab equipment performance observation v0.1 (not SRVX canonical)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "observationId",
+    "family",
+    "contract",
+    "equipmentIdentity",
+    "metric",
+    "value",
+    "unit",
+    "conditions",
+    "ratingBasis",
+    "evidenceKind",
+    "source"
+  ],
+  "properties": {
+    "observationId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "family": {
+      "enum": [
+        "air_conditioning",
+        "air_source_heat_pump",
+        "residential_furnace",
+        "residential_water_heater",
+        "residential_boiler",
+        "geothermal_water_source_heat_pump"
+      ]
+    },
+    "contract": {
+      "enum": [
+        "CoolingPerformance",
+        "HeatPumpPerformance",
+        "CombustionHeatingPerformance",
+        "WaterHeatingPerformance",
+        "GroundSourcePerformance"
+      ]
+    },
+    "equipmentIdentity": {
+      "type": "object",
+      "required": [
+        "matchStatus"
+      ],
+      "properties": {
+        "matchStatus": {
+          "enum": [
+            "UNVERIFIED",
+            "SOURCE_ASSERTED",
+            "VERIFIED_MATCH",
+            "UNRESOLVED"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "metric": {
+      "type": "string",
+      "minLength": 1
+    },
+    "value": {
+      "oneOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "unit": {
+      "type": "string",
+      "minLength": 1
+    },
+    "conditions": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "ratingBasis": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": true
+    },
+    "evidenceKind": {
+      "enum": [
+        "SOURCE_REPORTED",
+        "MANUFACTURER_REPORTED",
+        "CERTIFICATION_REPORTED",
+        "INFERRED",
+        "CALCULATED",
+        "MODELING_DEFAULT",
+        "SYNTHETIC_TEST_FIXTURE"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "datasetId",
+        "snapshotId",
+        "sourceRecordId",
+        "sourceField",
+        "retrievedAt"
+      ],
+      "properties": {
+        "datasetId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "snapshotId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceRecordId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceField": {
+          "type": "string",
+          "minLength": 1
+        },
+        "retrievedAt": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fixture": {
+      "type": "boolean"
+    },
+    "synthetic": {
+      "type": "boolean"
+    },
+    "publicationAllowed": {
+      "type": "boolean"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "evidenceKind": {
+            "const": "SYNTHETIC_TEST_FIXTURE"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "synthetic": {
+            "const": true
+          },
+          "publicationAllowed": {
+            "const": false
+          }
+        },
+        "required": [
+          "synthetic",
+          "publicationAllowed"
+        ]
+      }
+    }
+  ]
+}
