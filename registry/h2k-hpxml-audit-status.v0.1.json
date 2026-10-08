@@ -1,0 +1,25 @@
+{
+  "version": "0.1",
+  "audit_date": "2026-10-08",
+  "scope": "candidate modeling field mapping, not runnable projection",
+  "hpxml_source": "https://openstudio-hpxml.readthedocs.io/en/latest/workflow_inputs.html",
+  "h2k_translator_source": "https://github.com/canmet-energy/h2k-hpxml/tree/main/src/h2k_hpxml/components",
+  "families": [
+    "air_conditioning",
+    "air_source_heat_pump",
+    "residential_furnace",
+    "residential_water_heater",
+    "residential_boiler",
+    "geothermal_water_source_heat_pump"
+  ],
+  "h2k_verification": "PENDING_LOCAL_XML_TRANSLATOR_AUDIT",
+  "schema_version": "OPENSTUDIO_HPXML_LATEST_DOCUMENTATION_UNPINNED",
+  "restrictions": [
+    "No SRVX repositories changed.",
+    "H2K actual paths must be confirmed against local H2K examples/schema/translator.",
+    "Many HPXML target fields are building/scenario data, not manufacturer evidence.",
+    "ASHRAE205, AHRI, subsidy identities remain separate.",
+    "Do not promote mapping candidates as tested simulations."
+  ],
+  "rows": 66
+}
