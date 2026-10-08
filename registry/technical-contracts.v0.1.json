@@ -1,0 +1,221 @@
+{
+  "version": "0.1.0",
+  "status": "LAB_DRAFT",
+  "principles": [
+    "Source observations are evidence, not canonical product truth.",
+    "Do not invent data to satisfy a target.",
+    "Never drop test conditions, rating basis, or source provenance.",
+    "Derived metrics and program eligibility are consumer or program outputs."
+  ],
+  "contracts": {
+    "CoolingPerformance": {
+      "fields": {
+        "coolingCapacity": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "Btu/h",
+            "kW"
+          ],
+          "notes": "Capacity at stated operating condition"
+        },
+        "seer2": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "Btu/Wh"
+          ],
+          "notes": "Preserve rating edition/basis"
+        },
+        "eer2": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "Btu/Wh"
+          ],
+          "notes": "Preserve rating edition/basis"
+        }
+      }
+    },
+    "HeatPumpPerformance": {
+      "fields": {
+        "heatingCapacity": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "Btu/h",
+            "kW"
+          ],
+          "notes": "Use conditions.outdoorTempF and conditions.operatingLevel for point measurements"
+        },
+        "hspf2": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "Btu/Wh"
+          ],
+          "notes": "Requires rating region/basis"
+        },
+        "cop": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "ratio"
+          ],
+          "notes": "Requires test conditions"
+        },
+        "coolingCapacity": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "Btu/h",
+            "kW"
+          ],
+          "notes": "Cooling operating conditions"
+        }
+      }
+    },
+    "CombustionHeatingPerformance": {
+      "fields": {
+        "afue": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "fraction",
+            "percent"
+          ],
+          "notes": "Rating basis and fuel required for interpretation"
+        },
+        "fuelType": {
+          "valueKind": "string",
+          "allowedUnits": [
+            "none"
+          ],
+          "notes": "Natural gas/propane/oil/etc; preserve source vocabulary when uncertain"
+        },
+        "heatingInputCapacity": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "Btu/h",
+            "kW"
+          ],
+          "notes": "Fuel-side rating, not heating output"
+        },
+        "heatingOutputCapacity": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "Btu/h",
+            "kW"
+          ],
+          "notes": "Delivered heat"
+        }
+      }
+    },
+    "WaterHeatingPerformance": {
+      "fields": {
+        "uef": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "ratio"
+          ],
+          "notes": "Preserve draw pattern and test standard"
+        },
+        "ef": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "ratio"
+          ],
+          "notes": "Do not convert EF to UEF"
+        },
+        "drawPattern": {
+          "valueKind": "string",
+          "allowedUnits": [
+            "none"
+          ],
+          "notes": "Source-defined draw bin"
+        },
+        "storageVolume": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "US_gal",
+            "L"
+          ],
+          "notes": "Rated nominal storage volume"
+        },
+        "firstHourRating": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "US_gal/h",
+            "L/h"
+          ],
+          "notes": "First hour output"
+        },
+        "recoveryEfficiency": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "fraction",
+            "percent"
+          ],
+          "notes": "Heating recovery efficiency"
+        },
+        "heatingInputCapacity": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "Btu/h",
+            "kW"
+          ],
+          "notes": "Input, not delivered output"
+        },
+        "fuelType": {
+          "valueKind": "string",
+          "allowedUnits": [
+            "none"
+          ],
+          "notes": "Source-defined fuel"
+        }
+      }
+    },
+    "GroundSourcePerformance": {
+      "fields": {
+        "cop": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "ratio"
+          ],
+          "notes": "Required entering-water temperature and rating conditions"
+        },
+        "eer": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "Btu/Wh"
+          ],
+          "notes": "Required entering-water temperature and rating conditions"
+        },
+        "heatingCapacity": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "Btu/h",
+            "kW"
+          ],
+          "notes": "Preserve source test conditions"
+        },
+        "coolingCapacity": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "Btu/h",
+            "kW"
+          ],
+          "notes": "Preserve source test conditions"
+        },
+        "enteringWaterTemperature": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "F",
+            "C"
+          ],
+          "notes": "Rating entering water temperature"
+        },
+        "loopFlowRate": {
+          "valueKind": "number",
+          "allowedUnits": [
+            "US_gpm",
+            "L/s"
+          ],
+          "notes": "Rating flow, not necessarily installed loop"
+        }
+      }
+    }
+  }
+}
