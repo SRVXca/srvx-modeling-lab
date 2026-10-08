@@ -1,0 +1,15 @@
+{
+  "translatorCommit": "0b77fcee8f1c717f0bfd02e4b5924c84244a9b6b",
+  "sourceWeatherModificationPreservedSha256": "787ad6df5456e8f7a68971db13cd898c2ec53afbd8fafc314329d87d61461e54",
+  "openstudio": "3.11.0+241b8abb4d",
+  "openstudioHpxml": "1.12.0",
+  "hpxmlSchema": "5.0",
+  "consumerSourceSha256": {
+    "defaults.rb": "dabf4d894fe75bd250183b323ff26a0f9f167b35ba917f63e81a5df9acd072eb",
+    "hpxml.rb": "eec3ee8da9c93e13d09cf8b73d192265159e787a14f7598516f2f683c729b34d",
+    "hvac.rb": "2365b4181cfd88561f4647ee20e18557c7aaf72251ef925b2535123757f93e5b",
+    "version.rb": "097d8cf144d4ce368b99c0f29671750abbd0ccc9d365ed6c69d24217e843f9a5",
+    "hpxml_schema/HPXML.xsd": "ad2091e9e8d494bbb6686fc7ebf049b4c0634905cc48d2d548e414c2f798c719",
+    "hpxml_schematron/EPvalidator.sch": "d4a9947f76240414c89c506b4171adaa856dcd36cb563ea057d21b3982cb30a5"
+  }
+}

@@ -1,0 +1,4 @@
+No upstream patch produced: upstream.patch.NOT_JUSTIFIED.md records the evidence and remaining decisions.
+Original h2k-hpxml working tree: unchanged by this task, including the existing weather_files.py modification.
+Clean git-archive copy: pinned source for fresh translation; no translator edits.
+Regression checks are lab-only and are not represented as tests of an upstream patch.

@@ -70,29 +70,15 @@ ENERGY STAR evidence is also used in the issue-19 investigation.
 
 ### Observation layer
 
-Partial.
-
-The modeling lab has a generic `HeatPumpPerformance` observation contract and
-source-specific adapters, but a selected real heat-pump observation has not
-yet been frozen as the equivalent of the fenestration NRCan observation.
+One real ENERGY STAR SourceRecord and four provenance-preserving HeatPumpPerformance observations are now frozen under the issue-19 bundle. The source capacities at 47°F/17°F/5°F and only available 5°F COP remain distinct from model-default or synthetic control values. Missing min/max curves, COPs and 5°F speed semantics are explicit.
 
 ### Projection layer
 
-Experimental, not yet validated for the real fixture.
-
-The current issue-19 adapter can replace the converter's fallback
-17°F fraction with an absolute externally observed `HeatingCapacity17F`.
-
-That operation works on the synthetic 12,000 Btu/h example.
-
-It is not yet established as correct for the real MURB fixture.
+The real MURB 17°F-only scenario now validates a normalized source shape while preserving model size. Its declared 47°F rating condition establishes the compatible reference basis; 11,000/12,000 replaces only the 17°F fraction. The historical absolute-capacity toy adapter is not used for this case. Full matched detailed-performance projection remains blocked by incomplete source data.
 
 ### Model mutation
 
-Incomplete.
-
-A real MURB translation exists in audit evidence, but the external equipment
-capacity basis has not been reconciled with the translated model.
+A fresh clean pinned MURB baseline, exact one-field real scenario and separate synthetic detailed consumer control have been created. The real limited scenario passes XSD/Schematron, consumer processing and a simulation execution smoke. The complete synthetic control proves 47°F/17°F/5°F consumer mechanics without supplying missing equipment facts.
 
 ### Validation blocker
 
@@ -101,9 +87,7 @@ capacity.
 
 The studied ENERGY STAR certification example reports 12,000 Btu/h at 47°F.
 
-Until system count, equipment identity and capacity basis are reconciled, the
-12,000/11,000 Btu/h example must not be applied as an absolute-capacity
-replacement to the real MURB fixture.
+The MURB input explicitly rates its user/model capacity at 47°F, so normalized shape transfer is representable without changing size. Physical installed-system count/configuration remains unresolved; the 12,000/11,000 Btu/h certificate must not be applied as an absolute-capacity replacement. Missing COP/min/max and unspecified 5°F speed prevent a complete matched detailed profile. Synthetic acceptance does not complete that evidence gap.
 
 ### Research layer
 

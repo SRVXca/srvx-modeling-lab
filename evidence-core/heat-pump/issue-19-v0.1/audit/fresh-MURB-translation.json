@@ -1,0 +1,20 @@
+{
+  "converterRerun": true,
+  "cleanPinnedCommit": "0b77fcee8f1c717f0bfd02e4b5924c84244a9b6b",
+  "sourceSha256": "17fa798142296a628c1e686d67869718fb4ff250ae6bac255a2b02a5e243d5d3",
+  "h2kCapacityInternalKW": 14.0334,
+  "h2kCapacityMode": "User-Specified",
+  "h2kRatingTemperatureC": 8.3333,
+  "h2kRatingLabel": "8.3 C (47 F)",
+  "h2kUiUnits": "btu/hr",
+  "h2kDeclaredNumberOfHeads": "2",
+  "h2kAhri": "210448841",
+  "h2kModels": "AR12CSFCMWKX, AR12CSFCMWKN",
+  "hpxmlHeatingCapacityBtuH": 47883.93,
+  "hpxmlCoolingCapacityBtuH": 47883.93,
+  "hpxmlCompressorType": "variable speed",
+  "hpxmlVersion": "5.0",
+  "nominalBasisVerdict": "47F rated heating reference compatible; preserve explicit H2K model capacity. UI-units string does not change stored kW mapping.",
+  "physicalInstalledSizeVerdict": "Unresolved: model 47883.93 differs from matched 12000; two declared heads does not establish an aggregation conversion.",
+  "sourceConditionUnchanged": true
+}

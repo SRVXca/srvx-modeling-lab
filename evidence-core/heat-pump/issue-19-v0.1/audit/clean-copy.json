@@ -1,0 +1,7 @@
+{
+  "method": "git archive of pinned commit, extracted clean copy; original .git/working tree untouched",
+  "commit": "0b77fcee8f1c717f0bfd02e4b5924c84244a9b6b",
+  "archiveSha256": "e19699480b6b5fb444c4c87f2bbd33573fd80a3dee4ac42d4cb00aed58b4435b",
+  "sourceWeatherSha256": "787ad6df5456e8f7a68971db13cd898c2ec53afbd8fafc314329d87d61461e54",
+  "parentBranch": "feat/h2k-hpxml-research-closeout-v0-1"
+}

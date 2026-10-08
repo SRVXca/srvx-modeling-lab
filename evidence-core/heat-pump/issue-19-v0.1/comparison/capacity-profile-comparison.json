@@ -1,0 +1,65 @@
+{
+  "unit": "fraction of source/model nominal 47F capacity",
+  "anchor17Over47": 0.9166666666666666,
+  "anchorStatus": "Explicit common illustrative comparison anchor; not recovered official population or universal retention",
+  "publishedDerived": {
+    "47F": {
+      "minimum": 0.29955947136563876,
+      "nominal": 1.0,
+      "maximum": 1.1013215859030836
+    },
+    "17F": {
+      "minimum": 0.38259893920848637,
+      "nominal": 0.9166666666666666,
+      "maximum": 1.1219910240718074
+    },
+    "5F": {
+      "minimum": 0.3118977968176255,
+      "nominal": 0.959984496124031,
+      "maximum": 0.9716442268461852
+    }
+  },
+  "reconstructionDerived": {
+    "47F": {
+      "minimum": 0.2997528209005998,
+      "nominal": 1.0,
+      "maximum": 1.099448355977837
+    },
+    "17F": {
+      "minimum": 0.3464958821116142,
+      "nominal": 0.9166666666666666,
+      "maximum": 1.0390456497773974
+    },
+    "5F": {
+      "minimum": 0.28788983860385325,
+      "nominal": 0.8700971766941806,
+      "maximum": 0.8944784822073747
+    }
+  },
+  "matchedEquipment": {
+    "47F": {
+      "nominal": 1.0
+    },
+    "17F": {
+      "nominal": 0.9166666666666666
+    },
+    "5F": {
+      "unspecified_operating_level": 0.825,
+      "COP": 2.0
+    }
+  },
+  "legacyH2K": {
+    "47F_direct_multiplier": 1.004770666,
+    "17F_direct_multiplier": 0.563635566,
+    "5F_direct_multiplier": 0.44048964,
+    "17Over47_normalized": 0.560959416,
+    "5Over47_normalized": 0.438398189
+  },
+  "openstudioFallback17Over47": {
+    "singleStage": 0.626,
+    "twoStage": 0.626,
+    "variableSpeed": 0.69
+  },
+  "COPComparison": "Actual Samsung COP only at 5F; published/reconstructed EIR coefficients have different denominators and are not absolute COP. Executed model-default profiles are retained separately.",
+  "notUsedAsUpstreamDefaults": true
+}

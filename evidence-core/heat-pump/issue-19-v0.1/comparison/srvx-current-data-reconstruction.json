@@ -1,0 +1,58 @@
+{
+  "referenceId": "SRVX_A82_RESEARCH_2026_10_08",
+  "evidenceKind": "CALCULATED",
+  "status": "EXPERIMENTAL_CURRENT_DATA_RECONSTRUCTION_NOT_OFFICIAL_ADDENDUM_82",
+  "sourcePath": "/home/o/srvx-modeling-lab/contributions/h2k-hpxml-issue-19/source-study/neep/neep_air_source_heat_pump_2026-10-07.xlsx",
+  "snapshotSha256": "bf2afe6e9570bb47a1354d43eda734e4a585895597dfadd9bc2703c8313e5b85",
+  "sourceRows": 155313,
+  "rawSelectedRows": 261,
+  "fingerprintFieldCount": 56,
+  "population": "Live; variable capacity; Singlezone Non-Ducted, Ceiling Placement; non-cold-climate; rated Q47>=18000; all 15 metrics complete",
+  "outdoorWeighted": {
+    "N": 159,
+    "coefficients": {
+      "Qr47full": 0.909547041989627,
+      "Qr47min": 0.27263929157818695,
+      "Qr17full": 0.882219820527665,
+      "Qr17min": 0.3334751290146363,
+      "Qm5max": 0.86086543204238,
+      "Qr5full": 0.9727424348397667,
+      "Qr5min": 0.3218521678614391,
+      "EIRr47full": 0.9400617694890002,
+      "EIRr47min": 0.6911135490929494,
+      "EIRm17full": 1.306406729504558,
+      "EIRr17full": 0.8741618779731283,
+      "EIRr17min": 0.7580256357966315,
+      "EIRm5max": 1.0916167454167158,
+      "EIRr5full": 1.0170861928022066,
+      "EIRr5min": 0.8377972430058348
+    },
+    "meanRelativeError": 0.027345160837443466,
+    "maxMetricError": 0.07982842169848836
+  },
+  "exactPerformanceCloneCollapse": {
+    "N": 79,
+    "coefficients": {
+      "Qr47full": 0.8875649982425854,
+      "Qr47min": 0.2696816783251733,
+      "Qr17full": 0.8615061775462393,
+      "Qr17min": 0.32970480927518353,
+      "Qm5max": 0.8463549995009106,
+      "Qr5full": 0.9468613561964927,
+      "Qr5min": 0.3291850719517027,
+      "EIRr47full": 0.9285012491062622,
+      "EIRr47min": 0.6646034478173843,
+      "EIRm17full": 1.3481436610782613,
+      "EIRr17full": 0.9046025714879504,
+      "EIRr17min": 0.8102131938136969,
+      "EIRm5max": 1.1189761996388106,
+      "EIRr5full": 1.0333353122137934,
+      "EIRr5min": 0.8431551373875917
+    },
+    "meanRelativeError": 0.02852760382682479,
+    "maxMetricError": 0.08958431805837763
+  },
+  "historicalPopulationRecovered": false,
+  "upstreamDefault": false,
+  "publicationRights": "No raw NEEP records copied; source notice does not establish permission to publish data extracts"
+}

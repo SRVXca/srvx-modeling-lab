@@ -1,0 +1,12 @@
+{
+  "fullSimulationExecuted": true,
+  "profile": "17F-only shape-transfer scenario, 5F performance remains consumer default",
+  "outputDir": "/home/o/srvx-modeling-lab/contributions/h2k-hpxml-issue-19/closeout/work/simulation-samsung-17f/run",
+  "endFile": "EnergyPlus Completed Successfully-- 6 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  9.77sec",
+  "weatherFile": "/home/o/.local/share/OpenStudio-HPXML-v1.12.0/weather/CAN_NB_Moncton.Intl.AP.717050_CWEC2020.epw",
+  "weatherSha256": "67287f4885aec168f7fc0aab3389ea9e7dcf4e29db07c81d8eeb24f250371f34",
+  "newDownloads": false,
+  "equipmentInstalledPerformanceValidated": false,
+  "matchedDetailed5FValidated": false,
+  "interpretation": "Execution smoke test only; no energy-saving or physical-performance conclusion"
+}

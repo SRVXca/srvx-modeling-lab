@@ -1,0 +1,27 @@
+{
+  "referenceId": "RESNET_ADDENDUM_82_PUBLISHED",
+  "evidenceKind": "EXTERNAL_PUBLISHED_REFERENCE",
+  "sourceUrl": "https://www.resnet.us/wp-content/uploads/Addendum-82-HPAC-Modeling.pdf",
+  "approvalDate": "2025-12-17",
+  "section": "C.6.7 variable capacity mean coefficients, pages 6–7",
+  "coefficients": {
+    "Qr47full": 0.908,
+    "Qr47min": 0.272,
+    "Qr17full": 0.817,
+    "Qr17min": 0.341,
+    "Qm5max": 0.866,
+    "Qr5full": 0.988,
+    "Qr5min": 0.321,
+    "EIRr47full": 0.939,
+    "EIRr47min": 0.73,
+    "EIRm17full": 1.351,
+    "EIRr17full": 0.902,
+    "EIRr17min": 0.798,
+    "EIRm5max": 1.164,
+    "EIRr5full": 1.0,
+    "EIRr5min": 0.866
+  },
+  "normalization": "Qr = relative to maximum at same temperature; Qm = maintenance relative to next less extreme temperature",
+  "immutableReference": true,
+  "scopeCaveat": "Published scope excludes multi-splits; applicability to the two-head MURB input is not established"
+}

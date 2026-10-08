@@ -1,0 +1,15 @@
+{
+  "evidenceKind": "CALCULATED_POPULATION_AGGREGATE",
+  "sourceRows": 155313,
+  "liveVariableCapacityCount": 152301,
+  "matchedSamsungAhriCount": 0,
+  "rawRowWeightedRated17Over47": {
+    "N": 152301,
+    "mean": 0.7978361993570644
+  },
+  "rawRowWeightedRated5Over47": {
+    "N": 152251,
+    "mean": 0.7665872465996785
+  },
+  "warning": "Row-weighted population statistics are neither matched-equipment evidence nor fallback recommendations; optional rated 5F completeness changes population"
+}

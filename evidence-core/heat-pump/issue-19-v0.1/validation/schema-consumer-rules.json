@@ -1,0 +1,82 @@
+{
+  "pinnedConsumerVersion": "1.12.0",
+  "pinnedHpXmlVersion": "5.0",
+  "namespace": "http://hpxmlonline.com/2025/12",
+  "schemaPath": "/home/o/.local/share/OpenStudio-HPXML-v1.12.0/HPXMLtoOpenStudio/resources/hpxml_schema/HPXML.xsd",
+  "schemaSha256": "ad2091e9e8d494bbb6686fc7ebf049b4c0634905cc48d2d548e414c2f798c719",
+  "rulesPath": "/home/o/.local/share/OpenStudio-HPXML-v1.12.0/HPXMLtoOpenStudio/resources/hpxml_schematron/EPvalidator.sch",
+  "rulesSha256": "d4a9947f76240414c89c506b4171adaa856dcd36cb563ea057d21b3982cb30a5",
+  "results": {
+    "MURB-baseline": {
+      "xsdPass": true,
+      "xsdErrors": [],
+      "schematronPass": true,
+      "schematronErrors": [],
+      "newSchematronFailures": 0
+    },
+    "MURB-samsung-17f": {
+      "xsdPass": true,
+      "xsdErrors": [],
+      "schematronPass": true,
+      "schematronErrors": [],
+      "newSchematronFailures": 0
+    },
+    "MURB-synthetic-detailed-control": {
+      "xsdPass": true,
+      "xsdErrors": [],
+      "schematronPass": true,
+      "schematronErrors": [],
+      "newSchematronFailures": 0
+    },
+    "MURB-incomplete-detail-NEGATIVE-TEST": {
+      "xsdPass": true,
+      "xsdErrors": [],
+      "schematronPass": false,
+      "schematronErrors": [
+        {
+          "test": "count(h:PerformanceDataPoint[h:OutdoorTemperature=47 and h:CapacityDescription=\"minimum\"]) = 1",
+          "location": "/*[local-name()='HPXML' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Building' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='BuildingDetails' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Systems' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVAC' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVACPlant' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatPump' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatingDetailedPerformanceData' and namespace-uri()='http://hpxmlonline.com/2025/12']",
+          "message": "Expected PerformanceDataPoint[OutdoorTemperature=47 and CapacityDescription=\"minimum\"]"
+        },
+        {
+          "test": "count(h:PerformanceDataPoint[h:OutdoorTemperature=47 and h:CapacityDescription=\"maximum\"]) = 1",
+          "location": "/*[local-name()='HPXML' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Building' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='BuildingDetails' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Systems' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVAC' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVACPlant' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatPump' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatingDetailedPerformanceData' and namespace-uri()='http://hpxmlonline.com/2025/12']",
+          "message": "Expected PerformanceDataPoint[OutdoorTemperature=47 and CapacityDescription=\"maximum\"]"
+        },
+        {
+          "test": "count(h:PerformanceDataPoint[h:OutdoorTemperature=17 and h:CapacityDescription=\"minimum\"]) = 1",
+          "location": "/*[local-name()='HPXML' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Building' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='BuildingDetails' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Systems' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVAC' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVACPlant' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatPump' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatingDetailedPerformanceData' and namespace-uri()='http://hpxmlonline.com/2025/12']",
+          "message": "Expected PerformanceDataPoint[OutdoorTemperature=17 and CapacityDescription=\"minimum\"]"
+        },
+        {
+          "test": "count(h:PerformanceDataPoint[h:OutdoorTemperature=17 and h:CapacityDescription=\"maximum\"]) = 1",
+          "location": "/*[local-name()='HPXML' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Building' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='BuildingDetails' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Systems' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVAC' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVACPlant' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatPump' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatingDetailedPerformanceData' and namespace-uri()='http://hpxmlonline.com/2025/12']",
+          "message": "Expected PerformanceDataPoint[OutdoorTemperature=17 and CapacityDescription=\"maximum\"]"
+        },
+        {
+          "test": "count(h:PerformanceDataPoint[h:OutdoorTemperature=5 and h:CapacityDescription=\"minimum\"]) = 1",
+          "location": "/*[local-name()='HPXML' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Building' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='BuildingDetails' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Systems' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVAC' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVACPlant' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatPump' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatingDetailedPerformanceData' and namespace-uri()='http://hpxmlonline.com/2025/12']",
+          "message": "Expected PerformanceDataPoint[OutdoorTemperature=5 and CapacityDescription=\"minimum\"]"
+        },
+        {
+          "test": "count(h:PerformanceDataPoint[h:OutdoorTemperature=5 and h:CapacityDescription=\"maximum\"]) = 1",
+          "location": "/*[local-name()='HPXML' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Building' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='BuildingDetails' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Systems' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVAC' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVACPlant' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatPump' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatingDetailedPerformanceData' and namespace-uri()='http://hpxmlonline.com/2025/12']",
+          "message": "Expected PerformanceDataPoint[OutdoorTemperature=5 and CapacityDescription=\"maximum\"]"
+        },
+        {
+          "test": "count(h:Efficiency[h:Units=\"COP\"]/h:Value) = 1",
+          "location": "/*[local-name()='HPXML' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Building' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='BuildingDetails' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Systems' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVAC' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVACPlant' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatPump' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatingDetailedPerformanceData' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='PerformanceDataPoint' and namespace-uri()='http://hpxmlonline.com/2025/12'][1]",
+          "message": "Expected Efficiency[Units=\"COP\"]/Value"
+        },
+        {
+          "test": "count(h:Efficiency[h:Units=\"COP\"]/h:Value) = 1",
+          "location": "/*[local-name()='HPXML' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Building' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='BuildingDetails' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Systems' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVAC' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVACPlant' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatPump' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatingDetailedPerformanceData' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='PerformanceDataPoint' and namespace-uri()='http://hpxmlonline.com/2025/12'][2]",
+          "message": "Expected Efficiency[Units=\"COP\"]/Value"
+        }
+      ],
+      "newSchematronFailures": 8
+    }
+  },
+  "matched47_17_5EquipmentProjectionValidated": false,
+  "syntheticCompleteConsumerControlValidated": true
+}

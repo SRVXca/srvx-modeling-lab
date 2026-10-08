@@ -1,0 +1,24 @@
+test_17_only_without_47_reference_blocked (__main__.PerformanceTests.test_17_only_without_47_reference_blocked) ... ok
+test_47_17_5_equipment_fields_do_not_fake_complete_map (__main__.PerformanceTests.test_47_17_5_equipment_fields_do_not_fake_complete_map) ... ok
+test_47_17_ratio_preserves_explicit_h2k_size (__main__.PerformanceTests.test_47_17_ratio_preserves_explicit_h2k_size) ... ok
+test_actual_consumer_acceptance_is_distinct_from_equipment_validity (__main__.PerformanceTests.test_actual_consumer_acceptance_is_distinct_from_equipment_validity) ... ok
+test_autosized_model_uses_fraction_without_replacing_size (__main__.PerformanceTests.test_autosized_model_uses_fraction_without_replacing_size) ... ok
+test_complete_control_exact_diff (__main__.PerformanceTests.test_complete_control_exact_diff) ... ok
+test_conflicting_nominal_basis (__main__.PerformanceTests.test_conflicting_nominal_basis) ... ok
+test_duplicates_and_unverified_levels (__main__.PerformanceTests.test_duplicates_and_unverified_levels) ... ok
+test_explicit_h2k_capacity_not_certificate_capacity (__main__.PerformanceTests.test_explicit_h2k_capacity_not_certificate_capacity) ... ok
+test_fresh_real_baseline_and_size_basis (__main__.PerformanceTests.test_fresh_real_baseline_and_size_basis) ... ok
+test_inconsistent_power_order_blocks (__main__.PerformanceTests.test_inconsistent_power_order_blocks) ... ok
+test_invalid_negative_nonfinite_capacity_and_cop (__main__.PerformanceTests.test_invalid_negative_nonfinite_capacity_and_cop) ... ok
+test_min_nom_max_at_each_temperature_and_cop (__main__.PerformanceTests.test_min_nom_max_at_each_temperature_and_cop) ... ok
+test_missing_cop_blocks (__main__.PerformanceTests.test_missing_cop_blocks) ... ok
+test_no_external_performance_retains_fallback (__main__.PerformanceTests.test_no_external_performance_retains_fallback) ... ok
+test_real_scalar_exact_diff (__main__.PerformanceTests.test_real_scalar_exact_diff) ... ok
+test_single_and_two_stage_completeness (__main__.PerformanceTests.test_single_and_two_stage_completeness) ... ok
+test_unsupported_temperature_and_units (__main__.PerformanceTests.test_unsupported_temperature_and_units) ... ok
+test_xsd_and_schematron_baseline_candidates_negative (__main__.PerformanceTests.test_xsd_and_schematron_baseline_candidates_negative) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.035s
+
+OK

@@ -1,0 +1,365 @@
+{
+  "consumerVersion": "1.12.0",
+  "openstudioVersion": "3.11.0",
+  "profiles": {
+    "legacy-H2K": {
+      "consumerInXmlSha256": "d16bca42faaa48f5e1fa9e586adac0e68d1aa665f2f1e9c09d0f6cf2eb5382c0",
+      "modelNominalBtuH": 47883.93,
+      "points": [
+        {
+          "temperatureF": 47.0,
+          "level": "maximum",
+          "capacityBtuH": 52736.0,
+          "fractionOfModelNominal": 1.1013298198372605,
+          "cop": 3.0241,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 47.0,
+          "level": "nominal",
+          "capacityBtuH": 47884.0,
+          "fractionOfModelNominal": 1.0000014618683137,
+          "cop": 3.2205,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 47.0,
+          "level": "minimum",
+          "capacityBtuH": 14344.0,
+          "fractionOfModelNominal": 0.29955770129978887,
+          "cop": 4.1426,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 17.0,
+          "level": "maximum",
+          "capacityBtuH": 33034.0,
+          "fractionOfModelNominal": 0.6898765410441458,
+          "cop": 2.1502,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 17.0,
+          "level": "nominal",
+          "capacityBtuH": 26989.0,
+          "fractionOfModelNominal": 0.5636337702440046,
+          "cop": 2.3838,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 17.0,
+          "level": "minimum",
+          "capacityBtuH": 11265.0,
+          "fractionOfModelNominal": 0.23525637933227286,
+          "cop": 2.6945,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 5.0,
+          "level": "maximum",
+          "capacityBtuH": 28608.0,
+          "fractionOfModelNominal": 0.5974446959554072,
+          "cop": 1.8473,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 5.0,
+          "level": "nominal",
+          "capacityBtuH": 28264.0,
+          "fractionOfModelNominal": 0.5902606573854736,
+          "cop": 1.8473,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 5.0,
+          "level": "minimum",
+          "capacityBtuH": 9183.0,
+          "fractionOfModelNominal": 0.19177623891773293,
+          "cop": 2.1331,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        }
+      ],
+      "equipmentAccuracyValidated": false,
+      "consumerMeasureExecuted": true
+    },
+    "current-OpenStudio-fallback": {
+      "consumerInXmlSha256": "c68338299a7d4a277fb8f2ae3c79f23107e617cba713969fbe2a5b050c1cf751",
+      "modelNominalBtuH": 47883.93,
+      "points": [
+        {
+          "temperatureF": 47.0,
+          "level": "maximum",
+          "capacityBtuH": 52736.0,
+          "fractionOfModelNominal": 1.1013298198372605,
+          "cop": 2.7986,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 47.0,
+          "level": "nominal",
+          "capacityBtuH": 47884.0,
+          "fractionOfModelNominal": 1.0000014618683137,
+          "cop": 2.9804,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 47.0,
+          "level": "minimum",
+          "capacityBtuH": 14344.0,
+          "fractionOfModelNominal": 0.29955770129978887,
+          "cop": 3.8337,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 17.0,
+          "level": "maximum",
+          "capacityBtuH": 40441.0,
+          "fractionOfModelNominal": 0.8445630924612912,
+          "cop": 1.9899,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 17.0,
+          "level": "nominal",
+          "capacityBtuH": 33040.0,
+          "fractionOfModelNominal": 0.6900018440424585,
+          "cop": 2.2061,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 17.0,
+          "level": "minimum",
+          "capacityBtuH": 13790.0,
+          "fractionOfModelNominal": 0.28798805778890746,
+          "cop": 2.4936,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 5.0,
+          "level": "maximum",
+          "capacityBtuH": 35022.0,
+          "fractionOfModelNominal": 0.7313936011517852,
+          "cop": 1.7095,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 5.0,
+          "level": "nominal",
+          "capacityBtuH": 34601.0,
+          "fractionOfModelNominal": 0.7226015074368374,
+          "cop": 1.7095,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 5.0,
+          "level": "minimum",
+          "capacityBtuH": 11242.0,
+          "fractionOfModelNominal": 0.2347760511720738,
+          "cop": 1.9741,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        }
+      ],
+      "equipmentAccuracyValidated": false,
+      "consumerMeasureExecuted": true
+    },
+    "matched-equipment-17F-shape-plus-defaults": {
+      "consumerInXmlSha256": "a05d2bbf7b6928d6800b04bbd1be94224e78ce53544622899756ead708d46ed0",
+      "modelNominalBtuH": 47883.93,
+      "points": [
+        {
+          "temperatureF": 47.0,
+          "level": "maximum",
+          "capacityBtuH": 52736.0,
+          "fractionOfModelNominal": 1.1013298198372605,
+          "cop": 2.6209,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 47.0,
+          "level": "nominal",
+          "capacityBtuH": 47884.0,
+          "fractionOfModelNominal": 1.0000014618683137,
+          "cop": 2.7912,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 47.0,
+          "level": "minimum",
+          "capacityBtuH": 14344.0,
+          "fractionOfModelNominal": 0.29955770129978887,
+          "cop": 3.5903,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 17.0,
+          "level": "maximum",
+          "capacityBtuH": 53726.0,
+          "fractionOfModelNominal": 1.122004814558872,
+          "cop": 1.8635,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 17.0,
+          "level": "nominal",
+          "capacityBtuH": 43894.0,
+          "fractionOfModelNominal": 0.9166749679903049,
+          "cop": 2.066,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 17.0,
+          "level": "minimum",
+          "capacityBtuH": 18321.0,
+          "fractionOfModelNominal": 0.3826127053481199,
+          "cop": 2.3353,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 5.0,
+          "level": "maximum",
+          "capacityBtuH": 46527.0,
+          "fractionOfModelNominal": 0.9716621004165699,
+          "cop": 1.601,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 5.0,
+          "level": "nominal",
+          "capacityBtuH": 45968.0,
+          "fractionOfModelNominal": 0.9599880377404277,
+          "cop": 1.601,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        },
+        {
+          "temperatureF": 5.0,
+          "level": "minimum",
+          "capacityBtuH": 14935.0,
+          "fractionOfModelNominal": 0.3119000466335992,
+          "cop": 1.8487,
+          "dataSource": "software",
+          "evidenceKind": "MODELING_DEFAULT_OR_CALCULATED_CONSUMER_OUTPUT"
+        }
+      ],
+      "equipmentAccuracyValidated": false,
+      "consumerMeasureExecuted": true
+    },
+    "synthetic-detailed-control": {
+      "consumerInXmlSha256": "c89b0d237c2b9bacaef26c3322a77c735e00e8d51bdaef9c6621a26d75f260ae",
+      "modelNominalBtuH": 47883.93,
+      "points": [
+        {
+          "temperatureF": 47.0,
+          "level": "minimum",
+          "capacityBtuH": 11971.0,
+          "fractionOfModelNominal": 0.25000036546707843,
+          "cop": 4.0,
+          "dataSource": null,
+          "evidenceKind": "SYNTHETIC_TEST_FIXTURE"
+        },
+        {
+          "temperatureF": 47.0,
+          "level": "nominal",
+          "capacityBtuH": 47884.0,
+          "fractionOfModelNominal": 1.0000014618683137,
+          "cop": 3.5,
+          "dataSource": null,
+          "evidenceKind": "SYNTHETIC_TEST_FIXTURE"
+        },
+        {
+          "temperatureF": 47.0,
+          "level": "maximum",
+          "capacityBtuH": 57461.0,
+          "fractionOfModelNominal": 1.2000059310085869,
+          "cop": 3.2,
+          "dataSource": null,
+          "evidenceKind": "SYNTHETIC_TEST_FIXTURE"
+        },
+        {
+          "temperatureF": 17.0,
+          "level": "minimum",
+          "capacityBtuH": 9577.0,
+          "fractionOfModelNominal": 0.20000446914027314,
+          "cop": 3.1,
+          "dataSource": null,
+          "evidenceKind": "SYNTHETIC_TEST_FIXTURE"
+        },
+        {
+          "temperatureF": 17.0,
+          "level": "nominal",
+          "capacityBtuH": 43894.0,
+          "fractionOfModelNominal": 0.9166749679903049,
+          "cop": 2.5,
+          "dataSource": null,
+          "evidenceKind": "SYNTHETIC_TEST_FIXTURE"
+        },
+        {
+          "temperatureF": 17.0,
+          "level": "maximum",
+          "capacityBtuH": 52672.0,
+          "fractionOfModelNominal": 1.0999932545219242,
+          "cop": 2.3,
+          "dataSource": null,
+          "evidenceKind": "SYNTHETIC_TEST_FIXTURE"
+        },
+        {
+          "temperatureF": 5.0,
+          "level": "minimum",
+          "capacityBtuH": 7183.0,
+          "fractionOfModelNominal": 0.1500085728134679,
+          "cop": 2.5,
+          "dataSource": null,
+          "evidenceKind": "SYNTHETIC_TEST_FIXTURE"
+        },
+        {
+          "temperatureF": 5.0,
+          "level": "nominal",
+          "capacityBtuH": 39504.0,
+          "fractionOfModelNominal": 0.8249949408914431,
+          "cop": 2.0,
+          "dataSource": null,
+          "evidenceKind": "SYNTHETIC_TEST_FIXTURE"
+        },
+        {
+          "temperatureF": 5.0,
+          "level": "maximum",
+          "capacityBtuH": 45490.0,
+          "fractionOfModelNominal": 0.9500055655415084,
+          "cop": 1.9,
+          "dataSource": null,
+          "evidenceKind": "SYNTHETIC_TEST_FIXTURE"
+        }
+      ],
+      "equipmentAccuracyValidated": false,
+      "consumerMeasureExecuted": true
+    }
+  },
+  "runMethod": "Actual installed run_simulation.rb --skip-simulation; schema and Schematron enabled",
+  "full47_17_5MatchedSamsungProjectionValidated": false,
+  "syntheticDetailedMapAccepted": true
+}

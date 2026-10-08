@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "allowedChangesOnly": true,
+  "changes": [
+    {
+      "path": "HeatPump[SystemIdentifier/@id=HeatPump1]/extension/HeatingCapacityFraction17F/Fraction",
+      "before": 0.563635566,
+      "after": 0.9166666666666666
+    }
+  ],
+  "HeatingCapacityBefore": 47883.93,
+  "HeatingCapacityAfter": 47883.93,
+  "fiveDegreePerformanceInstalled": false,
+  "physicalInstalledSystemVerified": false
+}

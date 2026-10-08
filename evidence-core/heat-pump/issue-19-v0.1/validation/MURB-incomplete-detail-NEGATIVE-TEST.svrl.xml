@@ -1,0 +1,371 @@
+<svrl:schematron-output xmlns:svrl="http://purl.oclc.org/dsdl/svrl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:schold="http://www.ascc.net/xml/schematron" xmlns:sch="http://www.ascc.net/xml/schematron" xmlns:iso="http://purl.oclc.org/dsdl/schematron" xmlns:h="http://hpxmlonline.com/2025/12" title="HPXML Schematron Validator: EnergyPlus Simulation" schemaVersion="">
+  <!--   
+		   
+		   
+		 -->
+  <svrl:ns-prefix-in-attribute-values uri="http://hpxmlonline.com/2025/12" prefix="h"/>
+  <svrl:active-pattern name="[Root]"/>
+  <svrl:fired-rule context="/h:HPXML"/>
+  <svrl:active-pattern name="[SoftwareInfo]"/>
+  <svrl:fired-rule context="/h:HPXML/h:SoftwareInfo"/>
+  <svrl:active-pattern name="[SimulationControl]"/>
+  <svrl:fired-rule context="/h:HPXML/h:SoftwareInfo/h:extension/h:SimulationControl"/>
+  <svrl:active-pattern name="[SimulationControl=BeginPeriod]"/>
+  <svrl:active-pattern name="[SimulationControl=EndPeriod]"/>
+  <svrl:active-pattern name="[AdvancedResearchFeatures]"/>
+  <svrl:active-pattern name="[OnOffThermostatDeadbandTemperature]"/>
+  <svrl:active-pattern name="[HeatPumpBackupCapacityIncrement]"/>
+  <svrl:active-pattern name="[EmissionsScenario]"/>
+  <svrl:fired-rule context="/h:HPXML/h:SoftwareInfo/h:extension/h:EmissionsScenarios/h:EmissionsScenario"/>
+  <svrl:active-pattern name="[EmissionsFactor=Electricity]"/>
+  <svrl:fired-rule context="/h:HPXML/h:SoftwareInfo/h:extension/h:EmissionsScenarios/h:EmissionsScenario/h:EmissionsFactor[h:FuelType=&quot;electricity&quot;]"/>
+  <svrl:active-pattern name="[EmissionsFactor=ElectricitySchedule]"/>
+  <svrl:active-pattern name="[EmissionsFactor=Fuel]"/>
+  <svrl:fired-rule context="/h:HPXML/h:SoftwareInfo/h:extension/h:EmissionsScenarios/h:EmissionsScenario/h:EmissionsFactor[h:FuelType!=&quot;electricity&quot;]"/>
+  <svrl:fired-rule context="/h:HPXML/h:SoftwareInfo/h:extension/h:EmissionsScenarios/h:EmissionsScenario/h:EmissionsFactor[h:FuelType!=&quot;electricity&quot;]"/>
+  <svrl:fired-rule context="/h:HPXML/h:SoftwareInfo/h:extension/h:EmissionsScenarios/h:EmissionsScenario/h:EmissionsFactor[h:FuelType!=&quot;electricity&quot;]"/>
+  <svrl:fired-rule context="/h:HPXML/h:SoftwareInfo/h:extension/h:EmissionsScenarios/h:EmissionsScenario/h:EmissionsFactor[h:FuelType!=&quot;electricity&quot;]"/>
+  <svrl:fired-rule context="/h:HPXML/h:SoftwareInfo/h:extension/h:EmissionsScenarios/h:EmissionsScenario/h:EmissionsFactor[h:FuelType!=&quot;electricity&quot;]"/>
+  <svrl:active-pattern name="[UtilityBillScenario]"/>
+  <svrl:fired-rule context="/h:HPXML/h:SoftwareInfo/h:extension/h:UtilityBillScenarios/h:UtilityBillScenario"/>
+  <svrl:active-pattern name="[UtilityRate]"/>
+  <svrl:fired-rule context="/h:HPXML/h:SoftwareInfo/h:extension/h:UtilityBillScenarios/h:UtilityBillScenario/h:UtilityRate"/>
+  <svrl:fired-rule context="/h:HPXML/h:SoftwareInfo/h:extension/h:UtilityBillScenarios/h:UtilityBillScenario/h:UtilityRate"/>
+  <svrl:fired-rule context="/h:HPXML/h:SoftwareInfo/h:extension/h:UtilityBillScenarios/h:UtilityBillScenario/h:UtilityRate"/>
+  <svrl:fired-rule context="/h:HPXML/h:SoftwareInfo/h:extension/h:UtilityBillScenarios/h:UtilityBillScenario/h:UtilityRate"/>
+  <svrl:fired-rule context="/h:HPXML/h:SoftwareInfo/h:extension/h:UtilityBillScenarios/h:UtilityBillScenario/h:UtilityRate"/>
+  <svrl:fired-rule context="/h:HPXML/h:SoftwareInfo/h:extension/h:UtilityBillScenarios/h:UtilityBillScenario/h:UtilityRate"/>
+  <svrl:active-pattern name="[UtilityRate=Electricity]"/>
+  <svrl:fired-rule context="/h:HPXML/h:SoftwareInfo/h:extension/h:UtilityBillScenarios/h:UtilityBillScenario/h:UtilityRate[h:FuelType=&quot;electricity&quot;]"/>
+  <svrl:active-pattern name="[PVCompensation]"/>
+  <svrl:active-pattern name="[PVCompensationType=NetMetering]"/>
+  <svrl:active-pattern name="[PVCompensationType=NetMeteringWithUserExcessSellbackRate]"/>
+  <svrl:active-pattern name="[PVCompensationType=FeedInTariff]"/>
+  <svrl:active-pattern name="[UnavailablePeriod]"/>
+  <svrl:active-pattern name="[ElectricPanelLoadCalculations]"/>
+  <svrl:active-pattern name="[Building]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building"/>
+  <svrl:active-pattern name="[DaylightSaving]"/>
+  <svrl:active-pattern name="[BuildingDetails]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails"/>
+  <svrl:active-pattern name="[BuildingSummary]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:BuildingSummary"/>
+  <svrl:active-pattern name="[HVACSizingControl]"/>
+  <svrl:active-pattern name="[ManualJInfiltrationMethod=DefaultInfiltrationTable]"/>
+  <svrl:active-pattern name="[ManualJInfiltrationMethod=BlowerDoor]"/>
+  <svrl:active-pattern name="[ShadingControl]"/>
+  <svrl:active-pattern name="[Site]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:BuildingSummary/h:Site"/>
+  <svrl:active-pattern name="[Soil]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:BuildingSummary/h:Site/h:Soil"/>
+  <svrl:active-pattern name="[Neighbors]"/>
+  <svrl:active-pattern name="[NeighborBuilding]"/>
+  <svrl:active-pattern name="[BuildingOccupancy]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:BuildingSummary/h:BuildingOccupancy"/>
+  <svrl:active-pattern name="[BuildingConstruction]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:BuildingSummary/h:BuildingConstruction"/>
+  <svrl:active-pattern name="[BuildingType=SFAorMF]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:BuildingSummary/h:BuildingConstruction/h:ResidentialFacilityType[text()=&quot;single-family attached&quot; or text()=&quot;apartment unit&quot;]"/>
+  <svrl:active-pattern name="[BuildingType=SFDorMH]"/>
+  <svrl:active-pattern name="[ClimateZoneIECC]"/>
+  <svrl:active-pattern name="[Zone]"/>
+  <svrl:active-pattern name="[HasCondZones=HeatingSystem]"/>
+  <svrl:active-pattern name="[HasCondZones=CoolingSystem]"/>
+  <svrl:active-pattern name="[HasCondZones=HeatPump]"/>
+  <svrl:active-pattern name="[HasCondZones=Surface]"/>
+  <svrl:active-pattern name="[Space=Conditioned]"/>
+  <svrl:active-pattern name="[AirInfiltrationMeasurement=SFAorMultifamily]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails[h:BuildingSummary/h:BuildingConstruction/h:ResidentialFacilityType[text()=&quot;single-family attached&quot; or text()=&quot;apartment unit&quot;]]/h:Enclosure/h:AirInfiltration/h:AirInfiltrationMeasurement[h:BuildingAirLeakage/h:AirLeakage | h:EffectiveLeakageArea | h:SpecificLeakageArea]"/>
+  <svrl:active-pattern name="[AirInfiltrationMeasurement=ACHorCFM]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:AirInfiltration/h:AirInfiltrationMeasurement[h:BuildingAirLeakage/h:UnitofMeasure[text()=&quot;ACH&quot; or text()=&quot;CFM&quot;]]"/>
+  <svrl:active-pattern name="[AirInfiltrationMeasurement=LeakinessDescription]"/>
+  <svrl:active-pattern name="[VentedAttic=VentilationRate]"/>
+  <svrl:active-pattern name="[VentedCrawl=VentilationRate]"/>
+  <svrl:active-pattern name="[SameasSurfaces]"/>
+  <svrl:active-pattern name="[Roof]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Roofs/h:Roof"/>
+  <svrl:active-pattern name="[RimJoist]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:RimJoists/h:RimJoist[not(h:SystemIdentifier/@sameas and /h:HPXML/h:SoftwareInfo/h:extension/h:WholeSFAorMFBuildingSimulation[text()=&quot;true&quot;])]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:RimJoists/h:RimJoist[not(h:SystemIdentifier/@sameas and /h:HPXML/h:SoftwareInfo/h:extension/h:WholeSFAorMFBuildingSimulation[text()=&quot;true&quot;])]"/>
+  <svrl:active-pattern name="[Wall]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Walls/h:Wall[not(h:SystemIdentifier/@sameas and /h:HPXML/h:SoftwareInfo/h:extension/h:WholeSFAorMFBuildingSimulation[text()=&quot;true&quot;])]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Walls/h:Wall[not(h:SystemIdentifier/@sameas and /h:HPXML/h:SoftwareInfo/h:extension/h:WholeSFAorMFBuildingSimulation[text()=&quot;true&quot;])]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Walls/h:Wall[not(h:SystemIdentifier/@sameas and /h:HPXML/h:SoftwareInfo/h:extension/h:WholeSFAorMFBuildingSimulation[text()=&quot;true&quot;])]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Walls/h:Wall[not(h:SystemIdentifier/@sameas and /h:HPXML/h:SoftwareInfo/h:extension/h:WholeSFAorMFBuildingSimulation[text()=&quot;true&quot;])]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Walls/h:Wall[not(h:SystemIdentifier/@sameas and /h:HPXML/h:SoftwareInfo/h:extension/h:WholeSFAorMFBuildingSimulation[text()=&quot;true&quot;])]"/>
+  <svrl:active-pattern name="[FoundationWall]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:FoundationWalls/h:FoundationWall[not(h:SystemIdentifier/@sameas and /h:HPXML/h:SoftwareInfo/h:extension/h:WholeSFAorMFBuildingSimulation[text()=&quot;true&quot;])]"/>
+  <svrl:active-pattern name="[FoundationWallInsulationLayer]"/>
+  <svrl:active-pattern name="[Floor]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Floors/h:Floor[not(h:SystemIdentifier/@sameas and /h:HPXML/h:SoftwareInfo/h:extension/h:WholeSFAorMFBuildingSimulation[text()=&quot;true&quot;])]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Floors/h:Floor[not(h:SystemIdentifier/@sameas and /h:HPXML/h:SoftwareInfo/h:extension/h:WholeSFAorMFBuildingSimulation[text()=&quot;true&quot;])]"/>
+  <svrl:active-pattern name="[FloorType=AdjacentToOther]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Floors/h:Floor[h:ExteriorAdjacentTo[text()=&quot;other housing unit&quot; or text()=&quot;other heated space&quot; or text()=&quot;other multifamily buffer space&quot; or text()=&quot;other non-freezing space&quot;]]"/>
+  <svrl:active-pattern name="[Slab]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Slabs/h:Slab"/>
+  <svrl:active-pattern name="[Window]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Windows/h:Window"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Windows/h:Window"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Windows/h:Window"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Windows/h:Window"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Windows/h:Window"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Windows/h:Window"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Windows/h:Window"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Windows/h:Window"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Windows/h:Window"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Windows/h:Window"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Windows/h:Window"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Windows/h:Window"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Windows/h:Window"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Windows/h:Window"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Windows/h:Window"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Windows/h:Window"/>
+  <svrl:active-pattern name="[Window=PhysicalProperties]"/>
+  <svrl:active-pattern name="[WindowOverhangs]"/>
+  <svrl:active-pattern name="[WindowOverhangs=Present]"/>
+  <svrl:active-pattern name="[Skylight]"/>
+  <svrl:active-pattern name="[Skylight=PhysicalProperties]"/>
+  <svrl:active-pattern name="[SkylightCurb]"/>
+  <svrl:active-pattern name="[SkylightShaft]"/>
+  <svrl:active-pattern name="[Door]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Doors/h:Door"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure/h:Doors/h:Door"/>
+  <svrl:active-pattern name="[PartitionWallMass]"/>
+  <svrl:active-pattern name="[FurnitureMass]"/>
+  <svrl:active-pattern name="[HeatingSystem]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:HVAC/h:HVACPlant/h:HeatingSystem"/>
+  <svrl:active-pattern name="[HeatingSystemType=Resistance]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:HVAC/h:HVACPlant/h:HeatingSystem[h:HeatingSystemType/h:ElectricResistance]"/>
+  <svrl:active-pattern name="[HeatingSystemType=Furnace]"/>
+  <svrl:active-pattern name="[HeatingSystemType=WallFurnace]"/>
+  <svrl:active-pattern name="[HeatingSystemType=FloorFurnace]"/>
+  <svrl:active-pattern name="[HeatingSystemType=InUnitBoiler]"/>
+  <svrl:active-pattern name="[HeatingSystemType=SharedBoiler]"/>
+  <svrl:active-pattern name="[HeatingSystemType=SharedBoilerWthFanCoil]"/>
+  <svrl:active-pattern name="[HeatingSystemType=SharedBoilerWithWLHP]"/>
+  <svrl:active-pattern name="[HeatingSystemType=Stove]"/>
+  <svrl:active-pattern name="[HeatingSystemType=SpaceHeater]"/>
+  <svrl:active-pattern name="[HeatingSystemType=Fireplace]"/>
+  <svrl:active-pattern name="[HeatingSystem=HasPilotLight]"/>
+  <svrl:active-pattern name="[CoolingSystem]"/>
+  <svrl:active-pattern name="[CoolingSystemType=CentralAC]"/>
+  <svrl:active-pattern name="[CoolingSystemType=PTACorRoomAC]"/>
+  <svrl:active-pattern name="[CoolingSystemType=EvapCooler]"/>
+  <svrl:active-pattern name="[CoolingSystemType=MiniSplitAC]"/>
+  <svrl:active-pattern name="[CoolingSystemType=SharedChiller]"/>
+  <svrl:active-pattern name="[CoolingSystemType=SharedChillerWithFanCoil]"/>
+  <svrl:active-pattern name="[CoolingSystemType=SharedChillerWithWLHP]"/>
+  <svrl:active-pattern name="[CoolingSystemType=SharedCoolingTowerWLHP]"/>
+  <svrl:active-pattern name="[CoolingSystem=HasIntegratedHeatingSystem]"/>
+  <svrl:active-pattern name="[HeatPump]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:HVAC/h:HVACPlant/h:HeatPump"/>
+  <svrl:active-pattern name="[HeatPumpType=AirSource]"/>
+  <svrl:active-pattern name="[HeatPumpType=MiniSplit]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:HVAC/h:HVACPlant/h:HeatPump[h:HeatPumpType=&quot;mini-split&quot;]"/>
+  <svrl:active-pattern name="[HeatPumpType=GroundSource]"/>
+  <svrl:active-pattern name="[HeatPumpType=GroundSourceWithSharedLoop]"/>
+  <svrl:active-pattern name="[HeatPumpType=WaterLoop]"/>
+  <svrl:active-pattern name="[HeatPumpType=PTHPorRoomACwithReverseCycle]"/>
+  <svrl:active-pattern name="[HeatPumpBackup]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:HVAC/h:HVACPlant/h:HeatPump[h:BackupType]"/>
+  <svrl:successful-report test="number(h:BackupHeatingLockoutTemperature) &lt; 30" role="WARN" location="/*[local-name()='HPXML' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Building' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='BuildingDetails' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Systems' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVAC' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVACPlant' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatPump' and namespace-uri()='http://hpxmlonline.com/2025/12']">
+    <svrl:text>BackupHeatingLockoutTemperature is below 30 deg-F; this may result in significant unmet hours if the heat pump does not have sufficient capacity.</svrl:text>
+  </svrl:successful-report>
+  <svrl:active-pattern name="[HeatPumpBackup=Integrated]"/>
+  <svrl:active-pattern name="[HeatPumpBackup=Separate]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:HVAC/h:HVACPlant/h:HeatPump[h:BackupType=&quot;separate&quot; or h:BackupSystem]"/>
+  <svrl:active-pattern name="[HeatingDetailedPerformanceData=SingleStage]"/>
+  <svrl:active-pattern name="[HeatingDetailedPerformanceData=TwoStage]"/>
+  <svrl:active-pattern name="[HeatingDetailedPerformanceData=VariableSpeed]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:HVAC/h:HVACPlant/*/h:HeatingDetailedPerformanceData[../h:CompressorType=&quot;variable speed&quot;]"/>
+  <svrl:failed-assert test="count(h:PerformanceDataPoint[h:OutdoorTemperature=47 and h:CapacityDescription=&quot;minimum&quot;]) = 1" role="ERROR" location="/*[local-name()='HPXML' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Building' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='BuildingDetails' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Systems' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVAC' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVACPlant' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatPump' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatingDetailedPerformanceData' and namespace-uri()='http://hpxmlonline.com/2025/12']">
+    <svrl:text>Expected PerformanceDataPoint[OutdoorTemperature=47 and CapacityDescription="minimum"]</svrl:text>
+  </svrl:failed-assert>
+  <svrl:failed-assert test="count(h:PerformanceDataPoint[h:OutdoorTemperature=47 and h:CapacityDescription=&quot;maximum&quot;]) = 1" role="ERROR" location="/*[local-name()='HPXML' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Building' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='BuildingDetails' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Systems' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVAC' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVACPlant' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatPump' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatingDetailedPerformanceData' and namespace-uri()='http://hpxmlonline.com/2025/12']">
+    <svrl:text>Expected PerformanceDataPoint[OutdoorTemperature=47 and CapacityDescription="maximum"]</svrl:text>
+  </svrl:failed-assert>
+  <svrl:failed-assert test="count(h:PerformanceDataPoint[h:OutdoorTemperature=17 and h:CapacityDescription=&quot;minimum&quot;]) = 1" role="ERROR" location="/*[local-name()='HPXML' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Building' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='BuildingDetails' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Systems' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVAC' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVACPlant' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatPump' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatingDetailedPerformanceData' and namespace-uri()='http://hpxmlonline.com/2025/12']">
+    <svrl:text>Expected PerformanceDataPoint[OutdoorTemperature=17 and CapacityDescription="minimum"]</svrl:text>
+  </svrl:failed-assert>
+  <svrl:failed-assert test="count(h:PerformanceDataPoint[h:OutdoorTemperature=17 and h:CapacityDescription=&quot;maximum&quot;]) = 1" role="ERROR" location="/*[local-name()='HPXML' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Building' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='BuildingDetails' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Systems' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVAC' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVACPlant' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatPump' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatingDetailedPerformanceData' and namespace-uri()='http://hpxmlonline.com/2025/12']">
+    <svrl:text>Expected PerformanceDataPoint[OutdoorTemperature=17 and CapacityDescription="maximum"]</svrl:text>
+  </svrl:failed-assert>
+  <svrl:failed-assert test="count(h:PerformanceDataPoint[h:OutdoorTemperature=5 and h:CapacityDescription=&quot;minimum&quot;]) = 1" role="ERROR" location="/*[local-name()='HPXML' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Building' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='BuildingDetails' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Systems' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVAC' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVACPlant' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatPump' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatingDetailedPerformanceData' and namespace-uri()='http://hpxmlonline.com/2025/12']">
+    <svrl:text>Expected PerformanceDataPoint[OutdoorTemperature=5 and CapacityDescription="minimum"]</svrl:text>
+  </svrl:failed-assert>
+  <svrl:failed-assert test="count(h:PerformanceDataPoint[h:OutdoorTemperature=5 and h:CapacityDescription=&quot;maximum&quot;]) = 1" role="ERROR" location="/*[local-name()='HPXML' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Building' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='BuildingDetails' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Systems' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVAC' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVACPlant' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatPump' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatingDetailedPerformanceData' and namespace-uri()='http://hpxmlonline.com/2025/12']">
+    <svrl:text>Expected PerformanceDataPoint[OutdoorTemperature=5 and CapacityDescription="maximum"]</svrl:text>
+  </svrl:failed-assert>
+  <svrl:active-pattern name="[CoolingDetailedPerformanceData=SingleStage]"/>
+  <svrl:active-pattern name="[CoolingDetailedPerformanceData=TwoStage]"/>
+  <svrl:active-pattern name="[CoolingDetailedPerformanceData=VariableSpeed]"/>
+  <svrl:active-pattern name="[PerformanceDataPoint]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:HVAC/h:HVACPlant/*/*/h:PerformanceDataPoint"/>
+  <svrl:failed-assert test="count(h:Efficiency[h:Units=&quot;COP&quot;]/h:Value) = 1" role="ERROR" location="/*[local-name()='HPXML' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Building' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='BuildingDetails' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Systems' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVAC' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVACPlant' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatPump' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatingDetailedPerformanceData' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='PerformanceDataPoint' and namespace-uri()='http://hpxmlonline.com/2025/12'][1]">
+    <svrl:text>Expected Efficiency[Units="COP"]/Value</svrl:text>
+  </svrl:failed-assert>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:HVAC/h:HVACPlant/*/*/h:PerformanceDataPoint"/>
+  <svrl:failed-assert test="count(h:Efficiency[h:Units=&quot;COP&quot;]/h:Value) = 1" role="ERROR" location="/*[local-name()='HPXML' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Building' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='BuildingDetails' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='Systems' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVAC' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HVACPlant' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatPump' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='HeatingDetailedPerformanceData' and namespace-uri()='http://hpxmlonline.com/2025/12']/*[local-name()='PerformanceDataPoint' and namespace-uri()='http://hpxmlonline.com/2025/12'][2]">
+    <svrl:text>Expected Efficiency[Units="COP"]/Value</svrl:text>
+  </svrl:failed-assert>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:HVAC/h:HVACPlant/*/*/h:PerformanceDataPoint"/>
+  <svrl:active-pattern name="[PerformanceDataPoint=HeatingCapacity]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:HVAC/h:HVACPlant/*/h:HeatingDetailedPerformanceData/h:PerformanceDataPoint[number(h:OutdoorTemperature)=47 and h:CapacityDescription=&quot;nominal&quot;]"/>
+  <svrl:active-pattern name="[PerformanceDataPoint=HeatingCapacity17F]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:HVAC/h:HVACPlant/*/h:HeatingDetailedPerformanceData/h:PerformanceDataPoint[number(h:OutdoorTemperature)=17 and h:CapacityDescription=&quot;nominal&quot;]"/>
+  <svrl:active-pattern name="[PerformanceDataPoint=CoolingCapacity]"/>
+  <svrl:active-pattern name="[GeothermalLoop]"/>
+  <svrl:active-pattern name="[AirflowDefectRatio]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:HVAC/h:HVACPlant/*[not(h:DistributionSystem)]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:HVAC/h:HVACPlant/*[not(h:DistributionSystem)]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:HVAC/h:HVACPlant/*[not(h:DistributionSystem)]"/>
+  <svrl:active-pattern name="[HVACControl=Heating]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:HVAC/h:HVACControl[sum(../h:HVACPlant/*/h:FractionHeatLoadServed) &gt; 0]"/>
+  <svrl:active-pattern name="[HVACControl=HeatingSetback]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:HVAC/h:HVACControl[h:SetbackTempHeatingSeason]"/>
+  <svrl:active-pattern name="[HVACControl=HeatingSeason]"/>
+  <svrl:active-pattern name="[HVACControl=Cooling]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:HVAC/h:HVACControl[sum(../h:HVACPlant/*/h:FractionCoolLoadServed) &gt; 0]"/>
+  <svrl:active-pattern name="[HVACControl=CoolingSetup]"/>
+  <svrl:active-pattern name="[HVACControl=CoolingSeason]"/>
+  <svrl:active-pattern name="[HVACDistribution]"/>
+  <svrl:active-pattern name="[HVACDistributionType=Air]"/>
+  <svrl:active-pattern name="[ManualJInputs=DefaultTableDuctLoad]"/>
+  <svrl:active-pattern name="[AirDistributionType=RegularVelocityOrGravity]"/>
+  <svrl:active-pattern name="[AirDistributionType=FanCoil]"/>
+  <svrl:active-pattern name="[DuctLeakage=CFM]"/>
+  <svrl:active-pattern name="[DuctLeakage=Percent]"/>
+  <svrl:active-pattern name="[HVACDistributionType=Hydronic]"/>
+  <svrl:active-pattern name="[HVACDistributionType=DSE]"/>
+  <svrl:active-pattern name="[HVACDuct]"/>
+  <svrl:active-pattern name="[HVACDuct=WithLocation]"/>
+  <svrl:active-pattern name="[HVACDuct=WithoutLocation]"/>
+  <svrl:active-pattern name="[HVACDuct=WithoutSurfaceArea]"/>
+  <svrl:active-pattern name="[VentilationFan]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:MechanicalVentilation/h:VentilationFans/h:VentilationFan"/>
+  <svrl:active-pattern name="[MechanicalVentilation]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:MechanicalVentilation/h:VentilationFans/h:VentilationFan[h:UsedForWholeBuildingVentilation=&quot;true&quot;]"/>
+  <svrl:active-pattern name="[MechanicalVentilationType=ExhaustSupplyOrBalanced]"/>
+  <svrl:active-pattern name="[MechanicalVentilationType=HRV]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:MechanicalVentilation/h:VentilationFans/h:VentilationFan[h:UsedForWholeBuildingVentilation=&quot;true&quot; and h:FanType=&quot;heat recovery ventilator&quot;]"/>
+  <svrl:active-pattern name="[MechanicalVentilationType=ERV]"/>
+  <svrl:active-pattern name="[MechanicalVentilationType=CFIS]"/>
+  <svrl:active-pattern name="[CFISControlType=Timer]"/>
+  <svrl:active-pattern name="[CFISAdditionalRuntimeMode=AirHandlerFan]"/>
+  <svrl:active-pattern name="[CFISAdditionalRuntimeMode=SupplementalFan]"/>
+  <svrl:active-pattern name="[CFISAdditionalRuntimeMode=None]"/>
+  <svrl:active-pattern name="[MechanicalVentilationType=Shared]"/>
+  <svrl:active-pattern name="[MechanicalVentilationType=SharedWithPreHeating]"/>
+  <svrl:active-pattern name="[MechanicalVentilationType=SharedWithPreCooling]"/>
+  <svrl:active-pattern name="[LocalVentilation]"/>
+  <svrl:active-pattern name="[GarageVentilation]"/>
+  <svrl:active-pattern name="[WaterHeatingSystem]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:WaterHeating/h:WaterHeatingSystem"/>
+  <svrl:active-pattern name="[WaterHeatingSystemType=Tank]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:WaterHeating/h:WaterHeatingSystem[h:WaterHeaterType=&quot;storage water heater&quot;]"/>
+  <svrl:active-pattern name="[WaterHeatingSystemType=NonElectricTank]"/>
+  <svrl:active-pattern name="[WaterHeatingSystemType=Tankless]"/>
+  <svrl:active-pattern name="[WaterHeatingSystemType=HPWH]"/>
+  <svrl:active-pattern name="[WaterHeatingSystemType=HPWHInConfinedSpaceWithoutMitigation]"/>
+  <svrl:active-pattern name="[WaterHeatingSystemType=CombiIndirect]"/>
+  <svrl:active-pattern name="[WaterHeatingSystemType=CombiTanklessCoil]"/>
+  <svrl:active-pattern name="[WaterHeatingSystem=Shared]"/>
+  <svrl:active-pattern name="[Desuperheater]"/>
+  <svrl:active-pattern name="[HotWaterDistribution]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:WaterHeating/h:HotWaterDistribution"/>
+  <svrl:active-pattern name="[HotWaterDistributionType=Recirculation]"/>
+  <svrl:active-pattern name="[HotWaterDistributionType=SharedRecirculation]"/>
+  <svrl:active-pattern name="[DrainWaterHeatRecovery]"/>
+  <svrl:active-pattern name="[WaterFixture]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:WaterHeating/h:WaterFixture"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Systems/h:WaterHeating/h:WaterFixture"/>
+  <svrl:active-pattern name="[SolarThermalSystem]"/>
+  <svrl:active-pattern name="[SolarThermalSystemType=Detailed]"/>
+  <svrl:active-pattern name="[PVSystem]"/>
+  <svrl:active-pattern name="[PVSystemType=Shared]"/>
+  <svrl:active-pattern name="[PVSystemWithMultipleInverters]"/>
+  <svrl:active-pattern name="[ElectricPanel]"/>
+  <svrl:active-pattern name="[BranchCircuit]"/>
+  <svrl:active-pattern name="[ServiceFeeder]"/>
+  <svrl:active-pattern name="[ServiceFeeder=AttachedToComponent]"/>
+  <svrl:active-pattern name="[ServiceFeeder=NotAttachedToComponent]"/>
+  <svrl:active-pattern name="[Battery]"/>
+  <svrl:active-pattern name="[BatteryType=Shared]"/>
+  <svrl:active-pattern name="[Vehicles]"/>
+  <svrl:active-pattern name="[Vehicle]"/>
+  <svrl:active-pattern name="[VehicleType=BEV]"/>
+  <svrl:active-pattern name="[Generator]"/>
+  <svrl:active-pattern name="[GeneratorType=Shared]"/>
+  <svrl:active-pattern name="[ClothesWasher]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Appliances/h:ClothesWasher"/>
+  <svrl:active-pattern name="[ClothesWasherType=Detailed]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Appliances/h:ClothesWasher[h:IntegratedModifiedEnergyFactor | h:ModifiedEnergyFactor]"/>
+  <svrl:active-pattern name="[ClothesWasherType=Shared]"/>
+  <svrl:active-pattern name="[ClothesDryer]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Appliances/h:ClothesDryer"/>
+  <svrl:active-pattern name="[ClothesDryerType=Shared]"/>
+  <svrl:active-pattern name="[Dishwasher]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Appliances/h:Dishwasher"/>
+  <svrl:active-pattern name="[DishwasherType=Detailed]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Appliances/h:Dishwasher[h:RatedAnnualkWh | h:EnergyFactor]"/>
+  <svrl:active-pattern name="[DishwasherType=Shared]"/>
+  <svrl:active-pattern name="[Refrigerator]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Appliances/h:Refrigerator"/>
+  <svrl:active-pattern name="[Freezer]"/>
+  <svrl:active-pattern name="[Dehumidifier]"/>
+  <svrl:active-pattern name="[CookingRange]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Appliances/h:CookingRange"/>
+  <svrl:active-pattern name="[Oven]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Appliances/h:Oven"/>
+  <svrl:active-pattern name="[Lighting]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Lighting"/>
+  <svrl:active-pattern name="[LightingGroup=Interior]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Lighting/h:LightingGroup[h:Location=&quot;interior&quot;]"/>
+  <svrl:active-pattern name="[LightingGroup=Exterior]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Lighting/h:LightingGroup[h:Location=&quot;exterior&quot;]"/>
+  <svrl:active-pattern name="[LightingGroup=Garage]"/>
+  <svrl:active-pattern name="[ExteriorHolidayLighting]"/>
+  <svrl:active-pattern name="[ExteriorHolidayLighting=BeginPeriod]"/>
+  <svrl:active-pattern name="[ExteriorHolidayLighting=EndPeriod]"/>
+  <svrl:active-pattern name="[CeilingFan]"/>
+  <svrl:active-pattern name="[Pool]"/>
+  <svrl:active-pattern name="[Pool=Pump]"/>
+  <svrl:active-pattern name="[Pool=Heater]"/>
+  <svrl:active-pattern name="[PermanentSpa]"/>
+  <svrl:active-pattern name="[PermanentSpa=Pump]"/>
+  <svrl:active-pattern name="[PermanentSpa=Heater]"/>
+  <svrl:active-pattern name="[PlugLoad]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:MiscLoads/h:PlugLoad[h:PlugLoadType=&quot;other&quot; or h:PlugLoadType=&quot;TV other&quot; or h:PlugLoadType=&quot;electric vehicle charging&quot; or h:PlugLoadType=&quot;well pump&quot;]"/>
+  <svrl:active-pattern name="[PlugLoad=SensibleLatentFractions]"/>
+  <svrl:active-pattern name="[FuelLoad]"/>
+  <svrl:active-pattern name="[FuelLoad=SensibleLatentFractions]"/>
+  <svrl:active-pattern name="[AdjacentSurfaces=ConditionedSpace]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure[*/*[h:InteriorAdjacentTo=&quot;conditioned space&quot;]]"/>
+  <svrl:active-pattern name="[AdjacentSurfaces=ConditionedBasement]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure[*/*[h:InteriorAdjacentTo=&quot;basement - conditioned&quot; or h:ExteriorAdjacentTo=&quot;basement - conditioned&quot;]]"/>
+  <svrl:active-pattern name="[AdjacentSurfaces=UnconditionedBasement]"/>
+  <svrl:active-pattern name="[AdjacentSurfaces=VentedCrawlspace]"/>
+  <svrl:active-pattern name="[AdjacentSurfaces=UnventedCrawlspace]"/>
+  <svrl:active-pattern name="[AdjacentSurfaces=ConditionedCrawlspace]"/>
+  <svrl:active-pattern name="[AdjacentSurfaces=Garage]"/>
+  <svrl:active-pattern name="[AdjacentSurfaces=VentedAttic]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails/h:Enclosure[*/*[h:InteriorAdjacentTo=&quot;attic - vented&quot; or h:ExteriorAdjacentTo=&quot;attic - vented&quot;]]"/>
+  <svrl:active-pattern name="[AdjacentSurfaces=UnventedAttic]"/>
+  <svrl:active-pattern name="[LocationCheck=ConditionedBasement]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails[h:Appliances/*[h:Location=&quot;basement - conditioned&quot;] | h:Systems/*/*[h:Location=&quot;basement - conditioned&quot;] | h:Systems/*/*/*[h:UnitLocation=&quot;basement - conditioned&quot;] | h:Systems/*/*/*/*/*[h:DuctLocation=&quot;basement - conditioned&quot;]]"/>
+  <svrl:active-pattern name="[LocationCheck=UnconditionedBasement]"/>
+  <svrl:active-pattern name="[LocationCheck=VentedCrawlspace]"/>
+  <svrl:active-pattern name="[LocationCheck=UnventedCrawlspace]"/>
+  <svrl:active-pattern name="[LocationCheck=ConditionedCrawlspace]"/>
+  <svrl:active-pattern name="[LocationCheck=Garage]"/>
+  <svrl:active-pattern name="[LocationCheck=VentedAttic]"/>
+  <svrl:active-pattern name="[LocationCheck=UnventedAttic]"/>
+  <svrl:active-pattern name="[LocationCheck=ManufacturedHomeBelly]"/>
+  <svrl:active-pattern name="[BuildingTypeCheck=OtherHousingUnit]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails[h:Appliances/*[h:Location=&quot;other housing unit&quot;] | h:Systems/*/*[h:Location=&quot;other housing unit&quot;] | h:Systems/*/*/*/*/*[h:DuctLocation=&quot;other housing unit&quot;] | h:Enclosure[*/*[h:InteriorAdjacentTo=&quot;other housing unit&quot; or h:ExteriorAdjacentTo=&quot;other housing unit&quot;]]]"/>
+  <svrl:active-pattern name="[BuildingTypeCheck=OtherHeatedSpace]"/>
+  <svrl:active-pattern name="[BuildingTypeCheck=OtherMultifamilyBufferSpace]"/>
+  <svrl:active-pattern name="[BuildingTypeCheck=OtherNonFreezingSpace]"/>
+  <svrl:fired-rule context="/h:HPXML/h:Building/h:BuildingDetails[h:Appliances/*[h:Location=&quot;other non-freezing space&quot;] | h:Systems/*/*[h:Location=&quot;other non-freezing space&quot;] | h:Systems/*/*/*/*/*[h:DuctLocation=&quot;other non-freezing space&quot;] | h:Enclosure[*/*[h:InteriorAdjacentTo=&quot;other non-freezing space&quot; or h:ExteriorAdjacentTo=&quot;other non-freezing space&quot;]]]"/>
+  <svrl:active-pattern name="[BuildingTypeCheck=ManufacturedHomeBelly]"/>
+</svrl:schematron-output>

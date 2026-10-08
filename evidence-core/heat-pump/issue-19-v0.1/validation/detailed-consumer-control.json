@@ -1,0 +1,145 @@
+{
+  "consumerVersion": "1.12.0",
+  "openstudioVersion": "3.11.0",
+  "input": "/home/o/srvx-modeling-lab/evidence-core/heat-pump/issue-19-v0.1/model/MURB-synthetic-detailed-control.xml",
+  "evidenceKind": "SYNTHETIC_TEST_FIXTURE",
+  "parsedPoints": [
+    {
+      "temperatureF": 47.0,
+      "level": "minimum",
+      "fraction": 0.25,
+      "cop": 4.0,
+      "capacity": null
+    },
+    {
+      "temperatureF": 47.0,
+      "level": "nominal",
+      "fraction": 1.0,
+      "cop": 3.5,
+      "capacity": null
+    },
+    {
+      "temperatureF": 47.0,
+      "level": "maximum",
+      "fraction": 1.2,
+      "cop": 3.2,
+      "capacity": null
+    },
+    {
+      "temperatureF": 17.0,
+      "level": "minimum",
+      "fraction": 0.2,
+      "cop": 3.1,
+      "capacity": null
+    },
+    {
+      "temperatureF": 17.0,
+      "level": "nominal",
+      "fraction": 0.9166666666666666,
+      "cop": 2.5,
+      "capacity": null
+    },
+    {
+      "temperatureF": 17.0,
+      "level": "maximum",
+      "fraction": 1.1,
+      "cop": 2.3,
+      "capacity": null
+    },
+    {
+      "temperatureF": 5.0,
+      "level": "minimum",
+      "fraction": 0.15,
+      "cop": 2.5,
+      "capacity": null
+    },
+    {
+      "temperatureF": 5.0,
+      "level": "nominal",
+      "fraction": 0.825,
+      "cop": 2.0,
+      "capacity": null
+    },
+    {
+      "temperatureF": 5.0,
+      "level": "maximum",
+      "fraction": 0.95,
+      "cop": 1.9,
+      "capacity": null
+    }
+  ],
+  "expandedPoints": [
+    {
+      "temperatureF": 47.0,
+      "level": "minimum",
+      "fraction": 0.25,
+      "cop": 4.0,
+      "capacity": 11971
+    },
+    {
+      "temperatureF": 47.0,
+      "level": "nominal",
+      "fraction": 1.0,
+      "cop": 3.5,
+      "capacity": 47884
+    },
+    {
+      "temperatureF": 47.0,
+      "level": "maximum",
+      "fraction": 1.2,
+      "cop": 3.2,
+      "capacity": 57461
+    },
+    {
+      "temperatureF": 17.0,
+      "level": "minimum",
+      "fraction": 0.2,
+      "cop": 3.1,
+      "capacity": 9577
+    },
+    {
+      "temperatureF": 17.0,
+      "level": "nominal",
+      "fraction": 0.9166666666666666,
+      "cop": 2.5,
+      "capacity": 43894
+    },
+    {
+      "temperatureF": 17.0,
+      "level": "maximum",
+      "fraction": 1.1,
+      "cop": 2.3,
+      "capacity": 52672
+    },
+    {
+      "temperatureF": 5.0,
+      "level": "minimum",
+      "fraction": 0.15,
+      "cop": 2.5,
+      "capacity": 7183
+    },
+    {
+      "temperatureF": 5.0,
+      "level": "nominal",
+      "fraction": 0.825,
+      "cop": 2.0,
+      "capacity": 39504
+    },
+    {
+      "temperatureF": 5.0,
+      "level": "maximum",
+      "fraction": 0.95,
+      "cop": 1.9,
+      "capacity": 45490
+    }
+  ],
+  "heatingCapacityBefore": 47883.93,
+  "heatingCapacityAfter": 47883.93,
+  "defaultedHeatingCapacity17F": 43894,
+  "legacyFractionAbsent": true,
+  "copValuesPreserved": true,
+  "normalizedCapacityAccepted": true,
+  "capacityDescriptionPreserved": true,
+  "matchedEquipmentValidated": false,
+  "fullSimulationExecuted": false
+}

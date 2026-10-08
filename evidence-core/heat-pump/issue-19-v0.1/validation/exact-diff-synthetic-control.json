@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "allowedChangesOnly": true,
+  "removed": [
+    "HeatPump1/extension/HeatingCapacityFraction17F",
+    "empty HeatPump1/extension"
+  ],
+  "added": [
+    "HeatPump1/HeatingDetailedPerformanceData (nine SYNTHETIC_TEST_FIXTURE points)"
+  ],
+  "originalHeatingCapacityPreserved": true,
+  "proof": "Independent allowed-subtree reconstruction plus canonical XML equality",
+  "equipmentEvidence": false
+}

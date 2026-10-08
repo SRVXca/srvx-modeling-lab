@@ -1,0 +1,199 @@
+{
+  "profileId": "ENERGY_STAR_AHRI_210448841",
+  "evidenceKind": "CERTIFICATION_REPORTED",
+  "equipmentIdentity": {
+    "ahriReference": "210448841",
+    "outdoorModel": "AR12CSFCMWKX",
+    "indoorModel": "AR12CSFCMWKN",
+    "matchStatus": "SOURCE_ASSERTED"
+  },
+  "certificationBasis": "ENERGY STAR saved certificate field reporting",
+  "sourceRecordPath": "source-record/energy-star-2469692.json",
+  "nominalReference": {
+    "outdoorTemperatureF": 47,
+    "operatingLevel": "nominal",
+    "capacityBtuH": 12000.0,
+    "unit": "Btu/h"
+  },
+  "points": [
+    {
+      "outdoorTemperatureF": 47,
+      "operatingLevel": "nominal",
+      "capacityBtuH": 12000.0,
+      "inputPowerW": null,
+      "cop": null,
+      "sourceFields": [
+        "heating_capacity_at_47_f_btu_h"
+      ],
+      "evidenceKind": "CERTIFICATION_REPORTED",
+      "ratingBasis": "ENERGY STAR/AHRI rated certificate fields; 5F compressor speed unspecified in saved dictionary"
+    },
+    {
+      "outdoorTemperatureF": 17,
+      "operatingLevel": "nominal",
+      "capacityBtuH": 11000.0,
+      "inputPowerW": null,
+      "cop": null,
+      "sourceFields": [
+        "heating_capacity_at_17_f_btu_h"
+      ],
+      "evidenceKind": "CERTIFICATION_REPORTED",
+      "ratingBasis": "ENERGY STAR/AHRI rated certificate fields; 5F compressor speed unspecified in saved dictionary"
+    },
+    {
+      "outdoorTemperatureF": 5,
+      "operatingLevel": "unspecified",
+      "capacityBtuH": 9900.0,
+      "inputPowerW": null,
+      "cop": 2.0,
+      "sourceFields": [
+        "heating_capacity_at_5_f_btu_h",
+        "cop_at_5_f"
+      ],
+      "evidenceKind": "CERTIFICATION_REPORTED",
+      "ratingBasis": "ENERGY STAR/AHRI rated certificate fields; 5F compressor speed unspecified in saved dictionary"
+    }
+  ],
+  "observations": [
+    {
+      "observationId": "ENERGY_STAR:2469692:heating_capacity_at_47_f_btu_h",
+      "family": "air_source_heat_pump",
+      "contract": "HeatPumpPerformance",
+      "equipmentIdentity": {
+        "ahriReference": "210448841",
+        "outdoorModel": "AR12CSFCMWKX",
+        "indoorModel": "AR12CSFCMWKN",
+        "matchStatus": "SOURCE_ASSERTED"
+      },
+      "metric": "heating_capacity",
+      "value": 12000.0,
+      "unit": "Btu/h",
+      "conditions": {
+        "outdoorTemperatureF": 47,
+        "operatingLevel": "nominal"
+      },
+      "ratingBasis": {
+        "description": "ENERGY STAR/AHRI rated certificate fields; 5F compressor speed unspecified in saved dictionary",
+        "nominalReferenceF": 47
+      },
+      "evidenceKind": "CERTIFICATION_REPORTED",
+      "source": {
+        "datasetId": "83eb-xbyy",
+        "snapshotId": "2026-10-07",
+        "sourceRecordId": "2469692",
+        "sourceField": "heating_capacity_at_47_f_btu_h",
+        "retrievedAt": "2026-10-07"
+      },
+      "warnings": [
+        "Not an installed-system survey; H2K user capacity differs; missing COP/min/max are not filled"
+      ]
+    },
+    {
+      "observationId": "ENERGY_STAR:2469692:heating_capacity_at_17_f_btu_h",
+      "family": "air_source_heat_pump",
+      "contract": "HeatPumpPerformance",
+      "equipmentIdentity": {
+        "ahriReference": "210448841",
+        "outdoorModel": "AR12CSFCMWKX",
+        "indoorModel": "AR12CSFCMWKN",
+        "matchStatus": "SOURCE_ASSERTED"
+      },
+      "metric": "heating_capacity",
+      "value": 11000.0,
+      "unit": "Btu/h",
+      "conditions": {
+        "outdoorTemperatureF": 17,
+        "operatingLevel": "nominal"
+      },
+      "ratingBasis": {
+        "description": "ENERGY STAR/AHRI rated certificate fields; 5F compressor speed unspecified in saved dictionary",
+        "nominalReferenceF": 47
+      },
+      "evidenceKind": "CERTIFICATION_REPORTED",
+      "source": {
+        "datasetId": "83eb-xbyy",
+        "snapshotId": "2026-10-07",
+        "sourceRecordId": "2469692",
+        "sourceField": "heating_capacity_at_17_f_btu_h",
+        "retrievedAt": "2026-10-07"
+      },
+      "warnings": [
+        "Not an installed-system survey; H2K user capacity differs; missing COP/min/max are not filled"
+      ]
+    },
+    {
+      "observationId": "ENERGY_STAR:2469692:heating_capacity_at_5_f_btu_h",
+      "family": "air_source_heat_pump",
+      "contract": "HeatPumpPerformance",
+      "equipmentIdentity": {
+        "ahriReference": "210448841",
+        "outdoorModel": "AR12CSFCMWKX",
+        "indoorModel": "AR12CSFCMWKN",
+        "matchStatus": "SOURCE_ASSERTED"
+      },
+      "metric": "heating_capacity",
+      "value": 9900.0,
+      "unit": "Btu/h",
+      "conditions": {
+        "outdoorTemperatureF": 5,
+        "operatingLevel": "unspecified"
+      },
+      "ratingBasis": {
+        "description": "ENERGY STAR/AHRI rated certificate fields; 5F compressor speed unspecified in saved dictionary",
+        "nominalReferenceF": 47
+      },
+      "evidenceKind": "CERTIFICATION_REPORTED",
+      "source": {
+        "datasetId": "83eb-xbyy",
+        "snapshotId": "2026-10-07",
+        "sourceRecordId": "2469692",
+        "sourceField": "heating_capacity_at_5_f_btu_h",
+        "retrievedAt": "2026-10-07"
+      },
+      "warnings": [
+        "Not an installed-system survey; H2K user capacity differs; missing COP/min/max are not filled"
+      ]
+    },
+    {
+      "observationId": "ENERGY_STAR:2469692:cop_at_5_f",
+      "family": "air_source_heat_pump",
+      "contract": "HeatPumpPerformance",
+      "equipmentIdentity": {
+        "ahriReference": "210448841",
+        "outdoorModel": "AR12CSFCMWKX",
+        "indoorModel": "AR12CSFCMWKN",
+        "matchStatus": "SOURCE_ASSERTED"
+      },
+      "metric": "coefficient_of_performance",
+      "value": 2.0,
+      "unit": "W/W",
+      "conditions": {
+        "outdoorTemperatureF": 5,
+        "operatingLevel": "unspecified"
+      },
+      "ratingBasis": {
+        "description": "ENERGY STAR/AHRI rated certificate fields; 5F compressor speed unspecified in saved dictionary",
+        "nominalReferenceF": 47
+      },
+      "evidenceKind": "CERTIFICATION_REPORTED",
+      "source": {
+        "datasetId": "83eb-xbyy",
+        "snapshotId": "2026-10-07",
+        "sourceRecordId": "2469692",
+        "sourceField": "cop_at_5_f",
+        "retrievedAt": "2026-10-07"
+      },
+      "warnings": [
+        "Not an installed-system survey; H2K user capacity differs; missing COP/min/max are not filled"
+      ]
+    }
+  ],
+  "missing": [
+    "COP at 47F",
+    "COP at 17F",
+    "minimum/maximum curves",
+    "verified operating level at 5F",
+    "input power"
+  ],
+  "sourceRecordIsNotObservation": true
+}

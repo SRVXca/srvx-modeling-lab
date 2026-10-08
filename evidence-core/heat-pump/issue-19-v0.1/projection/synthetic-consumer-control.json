@@ -1,0 +1,124 @@
+{
+  "profileId": "SYNTHETIC_CONSUMER_CONTROL",
+  "evidenceKind": "SYNTHETIC_TEST_FIXTURE",
+  "publicationAllowedAsEquipmentEvidence": false,
+  "equipmentIdentity": {
+    "matchStatus": "UNVERIFIED"
+  },
+  "nominalReference": {
+    "outdoorTemperatureF": 47,
+    "operatingLevel": "nominal",
+    "capacityBtuH": 12000.0,
+    "unit": "Btu/h"
+  },
+  "points": [
+    {
+      "outdoorTemperatureF": 47,
+      "operatingLevel": "minimum",
+      "capacityBtuH": 3000.0,
+      "inputPowerW": null,
+      "cop": 4.0,
+      "sourceFields": [
+        "synthetic_control definition"
+      ],
+      "evidenceKind": "SYNTHETIC_TEST_FIXTURE",
+      "ratingBasis": "NONE; generated regression input"
+    },
+    {
+      "outdoorTemperatureF": 47,
+      "operatingLevel": "nominal",
+      "capacityBtuH": 12000.0,
+      "inputPowerW": null,
+      "cop": 3.5,
+      "sourceFields": [
+        "synthetic_control definition"
+      ],
+      "evidenceKind": "SYNTHETIC_TEST_FIXTURE",
+      "ratingBasis": "NONE; generated regression input"
+    },
+    {
+      "outdoorTemperatureF": 47,
+      "operatingLevel": "maximum",
+      "capacityBtuH": 14400.0,
+      "inputPowerW": null,
+      "cop": 3.2,
+      "sourceFields": [
+        "synthetic_control definition"
+      ],
+      "evidenceKind": "SYNTHETIC_TEST_FIXTURE",
+      "ratingBasis": "NONE; generated regression input"
+    },
+    {
+      "outdoorTemperatureF": 17,
+      "operatingLevel": "minimum",
+      "capacityBtuH": 2400.0,
+      "inputPowerW": null,
+      "cop": 3.1,
+      "sourceFields": [
+        "synthetic_control definition"
+      ],
+      "evidenceKind": "SYNTHETIC_TEST_FIXTURE",
+      "ratingBasis": "NONE; generated regression input"
+    },
+    {
+      "outdoorTemperatureF": 17,
+      "operatingLevel": "nominal",
+      "capacityBtuH": 11000.0,
+      "inputPowerW": null,
+      "cop": 2.5,
+      "sourceFields": [
+        "synthetic_control definition"
+      ],
+      "evidenceKind": "SYNTHETIC_TEST_FIXTURE",
+      "ratingBasis": "NONE; generated regression input"
+    },
+    {
+      "outdoorTemperatureF": 17,
+      "operatingLevel": "maximum",
+      "capacityBtuH": 13200.000000000002,
+      "inputPowerW": null,
+      "cop": 2.3,
+      "sourceFields": [
+        "synthetic_control definition"
+      ],
+      "evidenceKind": "SYNTHETIC_TEST_FIXTURE",
+      "ratingBasis": "NONE; generated regression input"
+    },
+    {
+      "outdoorTemperatureF": 5,
+      "operatingLevel": "minimum",
+      "capacityBtuH": 1800.0,
+      "inputPowerW": null,
+      "cop": 2.5,
+      "sourceFields": [
+        "synthetic_control definition"
+      ],
+      "evidenceKind": "SYNTHETIC_TEST_FIXTURE",
+      "ratingBasis": "NONE; generated regression input"
+    },
+    {
+      "outdoorTemperatureF": 5,
+      "operatingLevel": "nominal",
+      "capacityBtuH": 9900.0,
+      "inputPowerW": null,
+      "cop": 2.0,
+      "sourceFields": [
+        "synthetic_control definition"
+      ],
+      "evidenceKind": "SYNTHETIC_TEST_FIXTURE",
+      "ratingBasis": "NONE; generated regression input"
+    },
+    {
+      "outdoorTemperatureF": 5,
+      "operatingLevel": "maximum",
+      "capacityBtuH": 11400.0,
+      "inputPowerW": null,
+      "cop": 1.9,
+      "sourceFields": [
+        "synthetic_control definition"
+      ],
+      "evidenceKind": "SYNTHETIC_TEST_FIXTURE",
+      "ratingBasis": "NONE; generated regression input"
+    }
+  ]
+}

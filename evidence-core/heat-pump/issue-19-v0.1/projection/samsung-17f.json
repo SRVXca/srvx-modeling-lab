@@ -1,0 +1,11 @@
+{
+  "status": "PARTIAL_17F_PROJECTION",
+  "HeatingCapacityFraction17F": 0.9166666666666666,
+  "modelHeatingCapacityBtuH": 47883.93,
+  "referenceCapacityBtuH": 12000.0,
+  "formula": "source nominal capacity at 17F / source nominal capacity at 47F",
+  "modelSizeChanged": false,
+  "fiveDegreeDataProjected": false,
+  "basis": "47F nominal heating reference matches H2K RatingType and HPXML consumer reference",
+  "physicalInstalledCombinationVerified": false
+}

@@ -1,0 +1,13 @@
+{
+  "status": "BLOCKED_SOURCE_INCOMPLETE",
+  "reason": "Incomplete detailed performance: 47F minimum, 47F maximum, 17F minimum, 17F maximum, 5F minimum, 5F maximum, unverified operating level, COP missing at supplied points",
+  "modelCapacityPreservedBtuH": 47883.93,
+  "shapeFractionsAvailable": {
+    "47F": 1.0,
+    "17F": 0.9166666666666666,
+    "5F_unspecified_speed": 0.825
+  },
+  "basisCompatible": true,
+  "sourceValuesInvented": false,
+  "upstreamPatchAllowed": false
+}

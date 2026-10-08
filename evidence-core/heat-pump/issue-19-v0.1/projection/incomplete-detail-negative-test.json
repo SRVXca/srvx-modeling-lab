@@ -1,0 +1,30 @@
+{
+  "status": "DELIBERATELY_INVALID_CONSUMER_TEST",
+  "equipmentProjection": false,
+  "unsupportedAssumption": "5F speed forced nominal ONLY to exercise consumer rejection; not accepted source interpretation",
+  "expectedFailures": [
+    "missing minimum/maximum points",
+    "missing COP at 47F and 17F"
+  ],
+  "points": [
+    {
+      "OutdoorTemperature": 47,
+      "CapacityFractionOfNominal": 1.0,
+      "CapacityDescription": "nominal"
+    },
+    {
+      "OutdoorTemperature": 17,
+      "CapacityFractionOfNominal": 0.9166666666666666,
+      "CapacityDescription": "nominal"
+    },
+    {
+      "OutdoorTemperature": 5,
+      "CapacityFractionOfNominal": 0.825,
+      "CapacityDescription": "nominal",
+      "Efficiency": {
+        "Units": "COP",
+        "Value": 2.0
+      }
+    }
+  ]
+}

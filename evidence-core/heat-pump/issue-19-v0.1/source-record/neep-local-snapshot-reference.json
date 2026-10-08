@@ -1,0 +1,15 @@
+{
+  "source": "NEEP ccASHP Product List",
+  "snapshotId": "2026-10-07",
+  "sourceRecordShape": "87 fields, source-native vocabulary retained by existing adapter",
+  "localSnapshotPath": "/home/o/srvx-modeling-lab/contributions/h2k-hpxml-issue-19/source-study/neep/neep_air_source_heat_pump_2026-10-07.xlsx",
+  "snapshotSha256": "bf2afe6e9570bb47a1354d43eda734e4a585895597dfadd9bc2703c8313e5b85",
+  "schemaPath": "/home/o/srvx-modeling-lab/contributions/h2k-hpxml-issue-19/source-study/neep/hp-source-schema.json",
+  "schemaSha256": "7794f3f06154f86e7545c2820d861844b81e5ac32675db173788c713d06a6473",
+  "sourceStudyPath": "/home/o/srvx-modeling-lab/contributions/h2k-hpxml-issue-19/source-study/neep/SOURCE-STUDY.md",
+  "sourceAdapterPath": "/home/o/srvx-modeling-lab/contributions/h2k-hpxml-issue-19/source-study/neep/neep_hp_xlsx_adapter.py",
+  "usageNotice": "Downloaded export says not for commercial use; no assumption of permission to redistribute raw data or publish extracts",
+  "payloadIncluded": false,
+  "sourceRecordNormalizedIntoCanonicalTruth": false,
+  "matchedSamsungAhriCount": 0
+}

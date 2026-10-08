@@ -1,0 +1,96 @@
+{
+  "status": "DETAILED_PROJECTION",
+  "points": [
+    {
+      "OutdoorTemperature": 47,
+      "CapacityFractionOfNominal": 0.25,
+      "CapacityDescription": "minimum",
+      "Efficiency": {
+        "Units": "COP",
+        "Value": 4.0
+      }
+    },
+    {
+      "OutdoorTemperature": 47,
+      "CapacityFractionOfNominal": 1.0,
+      "CapacityDescription": "nominal",
+      "Efficiency": {
+        "Units": "COP",
+        "Value": 3.5
+      }
+    },
+    {
+      "OutdoorTemperature": 47,
+      "CapacityFractionOfNominal": 1.2,
+      "CapacityDescription": "maximum",
+      "Efficiency": {
+        "Units": "COP",
+        "Value": 3.2
+      }
+    },
+    {
+      "OutdoorTemperature": 17,
+      "CapacityFractionOfNominal": 0.2,
+      "CapacityDescription": "minimum",
+      "Efficiency": {
+        "Units": "COP",
+        "Value": 3.1
+      }
+    },
+    {
+      "OutdoorTemperature": 17,
+      "CapacityFractionOfNominal": 0.9166666666666666,
+      "CapacityDescription": "nominal",
+      "Efficiency": {
+        "Units": "COP",
+        "Value": 2.5
+      }
+    },
+    {
+      "OutdoorTemperature": 17,
+      "CapacityFractionOfNominal": 1.1,
+      "CapacityDescription": "maximum",
+      "Efficiency": {
+        "Units": "COP",
+        "Value": 2.3
+      }
+    },
+    {
+      "OutdoorTemperature": 5,
+      "CapacityFractionOfNominal": 0.15,
+      "CapacityDescription": "minimum",
+      "Efficiency": {
+        "Units": "COP",
+        "Value": 2.5
+      }
+    },
+    {
+      "OutdoorTemperature": 5,
+      "CapacityFractionOfNominal": 0.825,
+      "CapacityDescription": "nominal",
+      "Efficiency": {
+        "Units": "COP",
+        "Value": 2.0
+      }
+    },
+    {
+      "OutdoorTemperature": 5,
+      "CapacityFractionOfNominal": 0.95,
+      "CapacityDescription": "maximum",
+      "Efficiency": {
+        "Units": "COP",
+        "Value": 1.9
+      }
+    }
+  ],
+  "removeFields": [
+    "HeatingCapacity17F",
+    "extension/HeatingCapacityFraction17F",
+    "extension/HeatingCapacityRetention"
+  ],
+  "referenceCapacityBtuH": 12000.0,
+  "modelHeatingCapacityBtuH": 47883.93,
+  "modelSizeChanged": false,
+  "evidenceKind": "SYNTHETIC_TEST_FIXTURE",
+  "profileId": "SYNTHETIC_CONSUMER_CONTROL"
+}
