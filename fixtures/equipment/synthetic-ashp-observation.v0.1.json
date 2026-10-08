@@ -1,0 +1,36 @@
+{
+  "fixture": true,
+  "synthetic": true,
+  "publicationAllowed": false,
+  "observationId": "synthetic-ashp-17f-nominal",
+  "family": "air_source_heat_pump",
+  "contract": "HeatPumpPerformance",
+  "equipmentIdentity": {
+    "manufacturer": "EXAMPLE_ONLY",
+    "outdoorModel": "SYNTHETIC-OUTDOOR-001",
+    "indoorModels": [
+      "SYNTHETIC-INDOOR-001"
+    ],
+    "matchStatus": "UNVERIFIED"
+  },
+  "metric": "heatingCapacity",
+  "value": 22000,
+  "unit": "Btu/h",
+  "conditions": {
+    "outdoorTempF": 17,
+    "operatingLevel": "NOMINAL",
+    "indoorDryBulbF": null
+  },
+  "ratingBasis": null,
+  "evidenceKind": "SYNTHETIC_TEST_FIXTURE",
+  "source": {
+    "datasetId": "LAB_SYNTHETIC",
+    "snapshotId": "synthetic-snapshot-v1",
+    "sourceRecordId": "synthetic-record-001",
+    "sourceField": "heating_capacity_17f",
+    "retrievedAt": "2026-10-08"
+  },
+  "warnings": [
+    "Values illustrative; no claim of actual product, AHRI certification or modeling completeness"
+  ]
+}
