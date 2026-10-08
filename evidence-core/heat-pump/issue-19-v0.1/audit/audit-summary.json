@@ -1,0 +1,9 @@
+{
+  "status": "LOCAL_DISCOVERY_ONLY",
+  "h2k_candidate_paths": 5351,
+  "translator_keyword_hits": 826,
+  "translator_files_found": 7,
+  "xml_files_scanned": 30,
+  "xml_failures": [],
+  "warning": "No H2K fields verified by this script: a human must compare parser source + actual H2K schema + target converter output."
+}

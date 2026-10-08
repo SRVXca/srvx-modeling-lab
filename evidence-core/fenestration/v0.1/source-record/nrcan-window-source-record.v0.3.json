@@ -1,0 +1,24 @@
+{
+  "datasetId": "NRCAN_SPL_WINDOWS",
+  "sourceRecordId": "NR0003845-7574685-ES5",
+  "sourceUrl": "https://spl-lpi.nrcan-rncan.gc.ca/en-US/details/?id=1632247&product=windows",
+  "captureMethod": "MANUAL_REFERENCE_FIXTURE",
+  "capturedOn": "2026-10-08",
+  "raw": {
+    "Brand Name": "Vaillancourt Inc.",
+    "Model Number": "BTAHYB-SU_TRIPLE60_2ARG_2LOWE_CARR>=1",
+    "U-factor (W/(m²·K))": 0.95,
+    "Solar Heat Gain (SHGC)": 0.19,
+    "Energy Rating": 30,
+    "Visible Transmittance": 0.31,
+    "Frame Material": "Aluminum/Vinyl",
+    "Layers of Glazing": 3,
+    "Style": "Casement (single)",
+    "Air Leakage - Infiltration": 0.03,
+    "Air Leakage - Exfiltration": 0.04,
+    "Energy Efficiency Verification Reference": "1030-011-0178-01",
+    "ENERGY STAR Most Efficient 2020 - 2025": "Yes",
+    "Submission Date": "2025-11-21",
+    "Delisting Date": "2030-08-19"
+  }
+}

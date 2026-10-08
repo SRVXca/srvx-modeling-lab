@@ -1,0 +1,37 @@
+{
+  "status": "LAB_DRAFT",
+  "contractCandidate": "FenestrationPerformance",
+  "sourceRecordId": "NR0003845-7574685-ES5",
+  "sourceUrl": "https://spl-lpi.nrcan-rncan.gc.ca/en-US/details/?id=1632247&product=windows",
+  "ratingStandard": "NOT_SPECIFIED_IN_RECORD",
+  "metrics": [
+    {
+      "name": "wholeAssemblyUFactor",
+      "value": 0.95,
+      "unit": "W/(m²·K)",
+      "sourceField": "U-factor (W/(m²·K))"
+    },
+    {
+      "name": "solarHeatGainCoefficient",
+      "value": 0.19,
+      "unit": "ratio",
+      "sourceField": "Solar Heat Gain (SHGC)"
+    },
+    {
+      "name": "energyRating",
+      "value": 30,
+      "unit": "ER",
+      "sourceField": "Energy Rating"
+    }
+  ],
+  "configuration": {
+    "frameMaterial": "Aluminum/Vinyl",
+    "glazingLayers": 3,
+    "style": "Casement (single)"
+  },
+  "certification": {
+    "verificationReference": "1030-011-0178-01",
+    "mostEfficient2020To2025": true,
+    "subsidyEligibility": "NOT_EVALUATED"
+  }
+}

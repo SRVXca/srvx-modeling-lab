@@ -6,12 +6,12 @@ from collections import Counter
 from pathlib import Path
 from lxml import etree, isoschematron
 
-lab = Path("var/modeling-audit/fenestration-v0.1")
+evidence = Path("evidence-core/fenestration/v0.1")
 golden = Path(
     "repos/canmet-energy/h2k-hpxml/tests/fixtures/"
     "expected_outputs/golden_files/baseline/baseline_WizardHouse.xml"
 )
-candidate = lab / "WizardHouse-NRCan-replacement.v0.4.xml"
+candidate = evidence / "model/WizardHouse-NRCan-replacement.v0.4.xml"
 rules = Path(
     "repos/NatLabRockies/OpenStudio-HPXML/"
     "HPXMLtoOpenStudio/resources/hpxml_schematron/EPvalidator.sch"
@@ -87,7 +87,7 @@ output = {
     "simulationExecuted": False,
 }
 
-dest = lab / "replacement-schematron-validation.v0.6.json"
+dest = evidence / "validation/replacement-schematron-validation.v0.6.json"
 dest.write_text(json.dumps(output, indent=2) + "\n")
 
 print("=== SCHEMATRON VALIDATION ===")

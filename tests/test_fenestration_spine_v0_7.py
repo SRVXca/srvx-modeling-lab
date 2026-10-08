@@ -6,7 +6,7 @@ from pathlib import Path
 from lxml import etree, isoschematron
 
 ROOT = Path(__file__).resolve().parents[1]
-LAB = ROOT / "var/modeling-audit/fenestration-v0.1"
+EVIDENCE = ROOT / "evidence-core/fenestration/v0.1"
 REPO = ROOT / "repos/canmet-energy/h2k-hpxml"
 OS = ROOT / "repos/NatLabRockies/OpenStudio-HPXML"
 
@@ -14,13 +14,13 @@ ORIGINAL = REPO / (
     "tests/fixtures/expected_outputs/golden_files/"
     "baseline/baseline_WizardHouse.xml"
 )
-REPLACEMENT = LAB / "WizardHouse-NRCan-replacement.v0.4.xml"
+REPLACEMENT = EVIDENCE / "model/WizardHouse-NRCan-replacement.v0.4.xml"
 XSD = OS / "HPXMLtoOpenStudio/resources/hpxml_schema/HPXML.xsd"
 SCH = OS / "HPXMLtoOpenStudio/resources/hpxml_schematron/EPvalidator.sch"
 
 
 def load(name):
-    return json.loads((LAB / name).read_text())
+    return json.loads((EVIDENCE / name).read_text())
 
 
 def window(root, label):
@@ -35,9 +35,9 @@ def window(root, label):
 class FenestrationSpineV07(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.source = load("nrcan-window-source-record.v0.3.json")
-        cls.observation = load("nrcan-window-observation.v0.3.json")
-        cls.projection = load("nrcan-window-projection.v0.3.json")
+        cls.source = load("source-record/nrcan-window-source-record.v0.3.json")
+        cls.observation = load("observation/nrcan-window-observation.v0.3.json")
+        cls.projection = load("projection/nrcan-window-projection.v0.3.json")
 
     def test_source_identity(self):
         s, o, p = self.source, self.observation, self.projection

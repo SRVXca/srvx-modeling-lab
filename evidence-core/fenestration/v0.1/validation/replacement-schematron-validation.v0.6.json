@@ -1,0 +1,15 @@
+{
+  "status": "SCHEMATRON_PASS",
+  "validator": "lxml.isoschematron",
+  "rulesSha256": "1284772f3fdd80a683479c2b6b4a51ed71dd36c0c23d265039d21c97cfab2469",
+  "original": {
+    "errors": [],
+    "warnings": []
+  },
+  "replacement": {
+    "errors": [],
+    "warnings": []
+  },
+  "introducedErrors": [],
+  "simulationExecuted": false
+}

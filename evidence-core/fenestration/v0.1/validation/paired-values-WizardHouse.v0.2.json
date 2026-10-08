@@ -1,0 +1,33 @@
+{
+  "status": "PAIRED_FIXTURE_AUDIT",
+  "fixture": "WizardHouse",
+  "checks": {
+    "window_u_factor": {
+      "expected": 0.3013,
+      "actual": 0.3013
+    },
+    "window_shgc": {
+      "expected": 0.54,
+      "actual": 0.54
+    },
+    "window_area_ft2": {
+      "expected": 29.08,
+      "actual": 29.08
+    },
+    "window_azimuth": {
+      "expected": 90,
+      "actual": 90.0
+    },
+    "door_r_value": {
+      "expected": 4.8265,
+      "actual": 4.8265
+    },
+    "door_area_ft2": {
+      "expected": 18.97,
+      "actual": 18.97
+    }
+  },
+  "frameTypePresent": false,
+  "glassLayersPresent": false,
+  "converterRerun": false
+}

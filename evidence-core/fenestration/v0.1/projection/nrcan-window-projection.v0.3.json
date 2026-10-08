@@ -1,0 +1,20 @@
+{
+  "status": "HYPOTHETICAL_REPLACEMENT_NOT_SIMULATED",
+  "productEvidence": "NR0003845-7574685-ES5",
+  "buildingFixture": "WizardHouse",
+  "opening": "East0001",
+  "existingUFactor": 0.3013,
+  "candidateWindow": {
+    "Area": 29.08,
+    "Azimuth": 90,
+    "AttachedToWall": "Wall1",
+    "UFactor": 0.1673,
+    "SHGC": 0.19
+  },
+  "assumptions": [
+    "Hypothetical replacement, not a verified installation",
+    "Opening dimensions retained from building fixture",
+    "Product dimensional compatibility not established",
+    "No simulation or subsidy eligibility asserted"
+  ]
+}

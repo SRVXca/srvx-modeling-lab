@@ -1,0 +1,15 @@
+{
+  "status": "HPXML_DOCUMENT_CREATED_NOT_SIMULATED",
+  "productReference": "NR0003845-7574685-ES5",
+  "opening": "East0001",
+  "changedFields": [
+    "UFactor",
+    "SHGC"
+  ],
+  "sourceSHA256": "62eca9c5a48acbd963a9a013c6255ab1bcb5bdebdbfb63e602dcb0f902eb3e76",
+  "outputSHA256": "dff16e0f916e9b154ae3f3f64db60826cc9201bc8ae926f4579121df26c038d9",
+  "xmlWellFormed": true,
+  "hpxmlSchemaValidated": false,
+  "energySimulationRun": false,
+  "productFitVerified": false
+}

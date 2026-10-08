@@ -1,0 +1,33 @@
+{
+  "status": "PAIRED_FIXTURE_AUDIT",
+  "source": "repos/canmet-energy/h2k-hpxml/src/h2k_hpxml/examples/MURB.h2k",
+  "output": "repos/canmet-energy/h2k-hpxml/src/h2k_hpxml/examples/output/MURB/MURB.xml",
+  "converterCommit": "0b77fcee8f1c717f0bfd02e4b5924c84244a9b6b",
+  "checks": {
+    "HSPF": {
+      "expected": 8.96,
+      "actual": 8.96,
+      "passed": true
+    },
+    "SEER": {
+      "expected": 15.01,
+      "actual": 15.01,
+      "passed": true
+    },
+    "Heating capacity Btu/h": {
+      "expected": 47883.9483925422,
+      "actual": 47883.93,
+      "passed": true
+    },
+    "Cooling capacity Btu/h": {
+      "expected": 47883.9483925422,
+      "actual": 47883.93,
+      "passed": true
+    }
+  },
+  "h2kRestrictedCutoffC": -22.0,
+  "h2kRestrictedCutoffF": -7.600000000000001,
+  "hp17FFractionInOutput": "0.563635566",
+  "measured17FCapacityVerified": false,
+  "converterRerun": false
+}

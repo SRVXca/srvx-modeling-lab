@@ -1,0 +1,51 @@
+{
+  "status": "MANUFACTURER_CROSS_REFERENCE_LAB",
+  "product": {
+    "model": "BTAHYB-SU_TRIPLE60_2ARG_2LOWE_CARR>=1",
+    "manufacturer": "Vaillancourt",
+    "type": "SINGLE_CASEMENT",
+    "reference": "NR0003845-7574685-ES5"
+  },
+  "manufacturerEvidence": {
+    "url": "https://www.vaillancourt.ca/fenetres/fenetres-a-battant",
+    "captureMethod": "MANUALLY_REVIEWED_PUBLISHED_TABLE",
+    "variants": [
+      {
+        "grille": "NONE",
+        "shgc": 0.23,
+        "er": 32,
+        "nrcanReference": "NR0003845-7574683-ES5"
+      },
+      {
+        "grille": "UNDER_25_MM",
+        "shgc": 0.21,
+        "er": 31,
+        "nrcanReference": "NR0003845-7574684-ES5"
+      },
+      {
+        "grille": "AT_LEAST_25_MM",
+        "shgc": 0.19,
+        "er": 30,
+        "nrcanReference": "NR0003845-7574685-ES5"
+      }
+    ],
+    "availableSizeRangeMm": null
+  },
+  "buildingOpening": {
+    "fixture": "WizardHouse",
+    "label": "East0001",
+    "widthMm": 1800.0,
+    "heightMm": 1500.0
+  },
+  "ratingBasis": {
+    "specificTestStandard": null,
+    "certifiedSpecimenDimensionsMm": null,
+    "sizeAdjustedPerformance": null
+  },
+  "decisions": {
+    "manufacturerCanProduceOpeningSize": "UNVERIFIED",
+    "actualInstallationFit": "UNVERIFIED",
+    "certifiedRatingApplicableToActualSize": "UNVERIFIED",
+    "modelingProjection": "VALIDATED_AS_HYPOTHETICAL"
+  }
+}

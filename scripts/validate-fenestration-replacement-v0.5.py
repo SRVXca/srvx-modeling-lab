@@ -10,15 +10,15 @@ try:
 except ImportError:
     sys.exit("Missing lxml. Install it in your lab Python environment.")
 
-lab = Path("var/modeling-audit/fenestration-v0.1")
+evidence = Path("evidence-core/fenestration/v0.1")
 golden = Path(
     "repos/canmet-energy/h2k-hpxml/tests/fixtures/"
     "expected_outputs/golden_files/baseline/"
     "baseline_WizardHouse.xml"
 )
-replacement = lab / "WizardHouse-NRCan-replacement.v0.4.xml"
+replacement = evidence / "model/WizardHouse-NRCan-replacement.v0.4.xml"
 projection = json.loads(
-    (lab / "nrcan-window-projection.v0.3.json").read_text()
+    (evidence / "projection/nrcan-window-projection.v0.3.json").read_text()
 )
 
 schema_path = Path(
@@ -109,7 +109,7 @@ report = {
     "simulationExecuted": False,
 }
 
-dest = lab / "replacement-xsd-validation.v0.5.json"
+dest = evidence / "validation/replacement-xsd-validation.v0.5.json"
 dest.write_text(json.dumps(report, indent=2) + "\n")
 
 print("\nSTATUS:", status)

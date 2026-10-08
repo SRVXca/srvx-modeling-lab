@@ -1,0 +1,10 @@
+dff16e0f916e9b154ae3f3f64db60826cc9201bc8ae926f4579121df26c038d9  ./model/WizardHouse-NRCan-replacement.v0.4.xml
+1854ffcc422929a64603a121c7bfe282bb3ce4c33cae8e3de1ca044dc9fe01cc  ./observation/nrcan-window-observation.v0.3.json
+cb61c0cabe0feeed11edbdfaf2f89f72648e7a5d2c5aae7c53522bec1e5240ce  ./projection/nrcan-window-projection.v0.3.json
+fea3bbebabcdc1fed48e5570fbe77d705aae687dd91d27251fbe90f70f983be4  ./README.md
+f13b0230fad2e8a1cc3b25131f7de220b0f87d051d3788c87d9e7d6c47d74584  ./source-record/nrcan-window-source-record.v0.3.json
+0dbf176355c29e67d4b88bd9193d41b1b917410a3a30e379d52b410d52806ad8  ./validation/manufacturer-size-applicability.v0.8.json
+682569d84dd31baf56d2b4522a8f456fce04648c609b6b8bd320dc0c72e368de  ./validation/paired-values-WizardHouse.v0.2.json
+11ff5d1168a29fb62b2e7ca76c0f56b2072d09b52959b5cbfbe46691690db536  ./validation/replacement-manifest.v0.4.json
+a190af4b0797da000c31c4dabe7165124cd89c076e8cf552e95e3fafef14810c  ./validation/replacement-schematron-validation.v0.6.json
+9a2144717b3a92234d7325776e641f9d55daf996c15b6cb275db5f0a84525c7d  ./validation/replacement-xsd-validation.v0.5.json

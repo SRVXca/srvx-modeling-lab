@@ -1,0 +1,19 @@
+{
+  "status": "XSD_PASS",
+  "documentVersion": "5.0",
+  "schemaVersion": "5.0",
+  "schemaPath": "repos/NatLabRockies/OpenStudio-HPXML/HPXMLtoOpenStudio/resources/hpxml_schema/HPXML.xsd",
+  "onlyTwoFieldsChanged": true,
+  "results": {
+    "original": {
+      "valid": true,
+      "errors": []
+    },
+    "replacement": {
+      "valid": true,
+      "errors": []
+    }
+  },
+  "schematronValidated": false,
+  "simulationExecuted": false
+}
