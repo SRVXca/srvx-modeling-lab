@@ -1,0 +1,357 @@
+{
+  "source": "NEEP ccASHP Product List",
+  "snapshot": "neep_air_source_heat_pump_2026-10-07.xlsx",
+  "sheet": "HP Report",
+  "headerRow": 2,
+  "fieldCount": 87,
+  "fields": [
+    {
+      "column": 1,
+      "sourceHeader": "Date Added to List"
+    },
+    {
+      "column": 2,
+      "sourceHeader": "Status"
+    },
+    {
+      "column": 3,
+      "sourceHeader": "Brand Owner"
+    },
+    {
+      "column": 4,
+      "sourceHeader": "Brand Name"
+    },
+    {
+      "column": 5,
+      "sourceHeader": "Series Name"
+    },
+    {
+      "column": 6,
+      "sourceHeader": "Ducting Configuration"
+    },
+    {
+      "column": 7,
+      "sourceHeader": "AHRI Certified Reference Number⁺"
+    },
+    {
+      "column": 8,
+      "sourceHeader": "Old AHRI Certified Reference Number⁺"
+    },
+    {
+      "column": 9,
+      "sourceHeader": "AHRI Type⁺"
+    },
+    {
+      "column": 10,
+      "sourceHeader": "Outdoor Unit Model Number⁺"
+    },
+    {
+      "column": 11,
+      "sourceHeader": "Indoor Type"
+    },
+    {
+      "column": 12,
+      "sourceHeader": "Indoor Model Number(s)⁺"
+    },
+    {
+      "column": 13,
+      "sourceHeader": "Furnace Model Number (if applicable)⁺"
+    },
+    {
+      "column": 14,
+      "sourceHeader": "EER⁺"
+    },
+    {
+      "column": 15,
+      "sourceHeader": "SEER⁺"
+    },
+    {
+      "column": 16,
+      "sourceHeader": "HSPF (Region IV)⁺"
+    },
+    {
+      "column": 17,
+      "sourceHeader": "EER2⁺"
+    },
+    {
+      "column": 18,
+      "sourceHeader": "SEER2⁺"
+    },
+    {
+      "column": 19,
+      "sourceHeader": "HSPF2 (Region IV)⁺"
+    },
+    {
+      "column": 20,
+      "sourceHeader": "HSPF2 (Region V)"
+    },
+    {
+      "column": 21,
+      "sourceHeader": "ENERGY STAR Certified"
+    },
+    {
+      "column": 22,
+      "sourceHeader": "ENERGY STAR Cold Climate Certified"
+    },
+    {
+      "column": 23,
+      "sourceHeader": "Eligible for Federal Tax Credit - North"
+    },
+    {
+      "column": 24,
+      "sourceHeader": "Eligible for Federal Tax Credit - South"
+    },
+    {
+      "column": 25,
+      "sourceHeader": "CEE Tier 1 Path A (2025)"
+    },
+    {
+      "column": 26,
+      "sourceHeader": "CEE Tier 1 Path B (2025)"
+    },
+    {
+      "column": 27,
+      "sourceHeader": "Capacity Maintenance (Rated 17°F/Rated 47°F)"
+    },
+    {
+      "column": 28,
+      "sourceHeader": "Capacity Maintenance (Rated 5°F/Rated 47°F)"
+    },
+    {
+      "column": 29,
+      "sourceHeader": "Capacity Maintenance (Max 5°F/Rated 47°F)"
+    },
+    {
+      "column": 30,
+      "sourceHeader": "Variable Capacity?"
+    },
+    {
+      "column": 31,
+      "sourceHeader": "Pan Heater: Integrated or Accessory (provide model #)"
+    },
+    {
+      "column": 32,
+      "sourceHeader": "Input Power (W)"
+    },
+    {
+      "column": 33,
+      "sourceHeader": "What determines when heater operates?"
+    },
+    {
+      "column": 34,
+      "sourceHeader": "Integration: Describe any capabilities this ASHP system or its controller(s) have related to integrating other heating systems/third-party thermostats, including “works with,” etc."
+    },
+    {
+      "column": 35,
+      "sourceHeader": "Connectivity: Describe any capabilities this ASHP system or its controller(s) have related to communication with the consumer or utility (e.g. meets ENERGY STAR “Connected” criteria, system/controller have an interface that allows for remote communication with the consumer or utility, wi-fi connected, etc.)"
+    },
+    {
+      "column": 36,
+      "sourceHeader": "Operational diagnostics: Describe any capabilities of this ASHP system to self-report or self-diagnose its operation or the quality of its installation, including whether the system meets any/all of ENERGY STAR’s Installation Capabilities criteria."
+    },
+    {
+      "column": 37,
+      "sourceHeader": "Refrigerant"
+    },
+    {
+      "column": 38,
+      "sourceHeader": "Sold In?"
+    },
+    {
+      "column": 39,
+      "sourceHeader": "Min Capacity 95°F"
+    },
+    {
+      "column": 40,
+      "sourceHeader": "Input Power Min 95°F"
+    },
+    {
+      "column": 41,
+      "sourceHeader": "COP Min 95°F"
+    },
+    {
+      "column": 42,
+      "sourceHeader": "Rated Capacity 95°F⁺"
+    },
+    {
+      "column": 43,
+      "sourceHeader": "Input Power Rated 95°F"
+    },
+    {
+      "column": 44,
+      "sourceHeader": "COP Rated 95°F"
+    },
+    {
+      "column": 45,
+      "sourceHeader": "Max Capacity 95°F"
+    },
+    {
+      "column": 46,
+      "sourceHeader": "Input Power Max 95°F"
+    },
+    {
+      "column": 47,
+      "sourceHeader": "COP Max 95°F"
+    },
+    {
+      "column": 48,
+      "sourceHeader": "Min Capacity 82°F"
+    },
+    {
+      "column": 49,
+      "sourceHeader": "Input Power Min 82°F"
+    },
+    {
+      "column": 50,
+      "sourceHeader": "COP Min 82°F"
+    },
+    {
+      "column": 51,
+      "sourceHeader": "Max Capacity 82°F"
+    },
+    {
+      "column": 52,
+      "sourceHeader": "Input Power Max 82°F"
+    },
+    {
+      "column": 53,
+      "sourceHeader": "COP Max 82°F"
+    },
+    {
+      "column": 54,
+      "sourceHeader": "Min Capacity 47°F"
+    },
+    {
+      "column": 55,
+      "sourceHeader": "Input Power Min 47°F"
+    },
+    {
+      "column": 56,
+      "sourceHeader": "COP Min 47°F"
+    },
+    {
+      "column": 57,
+      "sourceHeader": "Rated Capacity 47°F⁺"
+    },
+    {
+      "column": 58,
+      "sourceHeader": "Input Power Rated 47°F"
+    },
+    {
+      "column": 59,
+      "sourceHeader": "COP Rated 47°F"
+    },
+    {
+      "column": 60,
+      "sourceHeader": "Max Capacity 47°F"
+    },
+    {
+      "column": 61,
+      "sourceHeader": "Input Power Max 47°F"
+    },
+    {
+      "column": 62,
+      "sourceHeader": "COP Max 47°F"
+    },
+    {
+      "column": 63,
+      "sourceHeader": "Min Capacity 17°F"
+    },
+    {
+      "column": 64,
+      "sourceHeader": "Input Power Min 17°F"
+    },
+    {
+      "column": 65,
+      "sourceHeader": "COP Min 17°F"
+    },
+    {
+      "column": 66,
+      "sourceHeader": "Rated Capacity 17°F⁺"
+    },
+    {
+      "column": 67,
+      "sourceHeader": "Input Power Rated 17°F"
+    },
+    {
+      "column": 68,
+      "sourceHeader": "COP Rated 17°F"
+    },
+    {
+      "column": 69,
+      "sourceHeader": "Max Capacity 17°F"
+    },
+    {
+      "column": 70,
+      "sourceHeader": "Input Power Max 17°F"
+    },
+    {
+      "column": 71,
+      "sourceHeader": "COP Max 17°F"
+    },
+    {
+      "column": 72,
+      "sourceHeader": "Min Capacity 5°F"
+    },
+    {
+      "column": 73,
+      "sourceHeader": "Input Power Min 5°F"
+    },
+    {
+      "column": 74,
+      "sourceHeader": "COP Min 5°F"
+    },
+    {
+      "column": 75,
+      "sourceHeader": "Rated Capacity 5°F - Optional⁺"
+    },
+    {
+      "column": 76,
+      "sourceHeader": "Input Power Rated 5°F - Optional"
+    },
+    {
+      "column": 77,
+      "sourceHeader": "COP Rated 5°F - Optional"
+    },
+    {
+      "column": 78,
+      "sourceHeader": "Max Capacity 5°F"
+    },
+    {
+      "column": 79,
+      "sourceHeader": "Input Power Max 5°F"
+    },
+    {
+      "column": 80,
+      "sourceHeader": "COP Max 5°F"
+    },
+    {
+      "column": 81,
+      "sourceHeader": "Lowest Cataloged Temperature (Outdoor Dry Bulb °F)"
+    },
+    {
+      "column": 82,
+      "sourceHeader": "Min Capacity LCT°F"
+    },
+    {
+      "column": 83,
+      "sourceHeader": "Input Power Min LCT°F"
+    },
+    {
+      "column": 84,
+      "sourceHeader": "COP Min LCT°F"
+    },
+    {
+      "column": 85,
+      "sourceHeader": "Max Capacity LCT°F"
+    },
+    {
+      "column": 86,
+      "sourceHeader": "Input Power Max LCT°F"
+    },
+    {
+      "column": 87,
+      "sourceHeader": "COP Max LCT°F"
+    }
+  ]
+}

@@ -1,0 +1,2935 @@
+{
+  "sourceRows": 155313,
+  "baselineRows": 152301,
+  "scoreDefinition": "mean absolute relative difference from Addendum 82 across available metrics",
+  "results": [
+    {
+      "population": {
+        "name": "pre-PDS01-dedupe-outdoor",
+        "cutoff_date": "2024-11-22",
+        "complete_metrics": false,
+        "singlezone_only": false,
+        "central_ducted_only": false,
+        "cold_climate": null,
+        "ahri_type": null,
+        "dedupe": "outdoor"
+      },
+      "rowsBeforeDedupe": 103,
+      "rows": 50,
+      "score": 0.044023727576492394,
+      "metrics": {
+        "Qr47full": {
+          "n": 50,
+          "target": 0.908,
+          "mean": 0.8704977150444548,
+          "delta": -0.037502284955545195,
+          "relativeError": 0.04130207594223039
+        },
+        "Qr47min": {
+          "n": 50,
+          "target": 0.272,
+          "mean": 0.26646556332961957,
+          "delta": -0.005534436670380449,
+          "relativeError": 0.020347193641104593
+        },
+        "Qr17full": {
+          "n": 50,
+          "target": 0.817,
+          "mean": 0.8391452555467934,
+          "delta": 0.022145255546793474,
+          "relativeError": 0.027105575944667656
+        },
+        "Qr17min": {
+          "n": 50,
+          "target": 0.341,
+          "mean": 0.31800138218330115,
+          "delta": -0.022998617816698874,
+          "relativeError": 0.06744462702844244
+        },
+        "Qm5max": {
+          "n": 50,
+          "target": 0.866,
+          "mean": 0.8665445695002569,
+          "delta": 0.0005445695002569417,
+          "relativeError": 0.0006288331411742976
+        },
+        "Qr5full": {
+          "n": 50,
+          "target": 0.988,
+          "mean": 0.9885678480967817,
+          "delta": 0.0005678480967816757,
+          "relativeError": 0.0005747450372284167
+        },
+        "Qr5min": {
+          "n": 50,
+          "target": 0.321,
+          "mean": 0.34860675570568006,
+          "delta": 0.027606755705680053,
+          "relativeError": 0.08600235422330234
+        },
+        "EIRr47full": {
+          "n": 50,
+          "target": 0.939,
+          "mean": 0.847255745187426,
+          "delta": -0.09174425481257398,
+          "relativeError": 0.09770421172798081
+        },
+        "EIRr47min": {
+          "n": 50,
+          "target": 0.73,
+          "mean": 0.7493756560404019,
+          "delta": 0.019375656040401923,
+          "relativeError": 0.026541994575893044
+        },
+        "EIRm17full": {
+          "n": 50,
+          "target": 1.351,
+          "mean": 1.4687836332731332,
+          "delta": 0.11778363327313324,
+          "relativeError": 0.08718255608670114
+        },
+        "EIRr17full": {
+          "n": 50,
+          "target": 0.902,
+          "mean": 0.8938838477008507,
+          "delta": -0.008116152299149304,
+          "relativeError": 0.008997951551163308
+        },
+        "EIRr17min": {
+          "n": 50,
+          "target": 0.798,
+          "mean": 0.7115533439502042,
+          "delta": -0.08644665604979584,
+          "relativeError": 0.10832914291954365
+        },
+        "EIRm5max": {
+          "n": 50,
+          "target": 1.164,
+          "mean": 1.1336960519739345,
+          "delta": -0.030303948026065397,
+          "relativeError": 0.02603431961002182
+        },
+        "EIRr5full": {
+          "n": 50,
+          "target": 1.0,
+          "mean": 1.0136906375720283,
+          "delta": 0.013690637572028264,
+          "relativeError": 0.013690637572028264
+        },
+        "EIRr5min": {
+          "n": 50,
+          "target": 0.866,
+          "mean": 0.8240252444366474,
+          "delta": -0.04197475556335262,
+          "relativeError": 0.04846969464590371
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "pre-PDS01",
+        "cutoff_date": "2024-11-22",
+        "complete_metrics": false,
+        "singlezone_only": false,
+        "central_ducted_only": false,
+        "cold_climate": null,
+        "ahri_type": null,
+        "dedupe": "none"
+      },
+      "rowsBeforeDedupe": 103,
+      "rows": 103,
+      "score": 0.04952750330381731,
+      "metrics": {
+        "Qr47full": {
+          "n": 103,
+          "target": 0.908,
+          "mean": 0.8936927444641957,
+          "delta": -0.014307255535804364,
+          "relativeError": 0.015756889356612735
+        },
+        "Qr47min": {
+          "n": 103,
+          "target": 0.272,
+          "mean": 0.3006416592578699,
+          "delta": 0.028641659257869878,
+          "relativeError": 0.10530021785981572
+        },
+        "Qr17full": {
+          "n": 103,
+          "target": 0.817,
+          "mean": 0.8795681106686216,
+          "delta": 0.06256811066862167,
+          "relativeError": 0.07658275479635455
+        },
+        "Qr17min": {
+          "n": 103,
+          "target": 0.341,
+          "mean": 0.2876946047612909,
+          "delta": -0.05330539523870914,
+          "relativeError": 0.1563208071516397
+        },
+        "Qm5max": {
+          "n": 103,
+          "target": 0.866,
+          "mean": 0.8570903233418532,
+          "delta": -0.008909676658146792,
+          "relativeError": 0.01028831022880692
+        },
+        "Qr5full": {
+          "n": 103,
+          "target": 0.988,
+          "mean": 0.9932504553322438,
+          "delta": 0.005250455332243775,
+          "relativeError": 0.005314226044781149
+        },
+        "Qr5min": {
+          "n": 103,
+          "target": 0.321,
+          "mean": 0.34344053163019467,
+          "delta": 0.02244053163019466,
+          "relativeError": 0.06990819822490549
+        },
+        "EIRr47full": {
+          "n": 103,
+          "target": 0.939,
+          "mean": 0.8909027533508346,
+          "delta": -0.04809724664916537,
+          "relativeError": 0.05122177491923895
+        },
+        "EIRr47min": {
+          "n": 103,
+          "target": 0.73,
+          "mean": 0.7428722156596108,
+          "delta": 0.01287221565961083,
+          "relativeError": 0.01763317213645319
+        },
+        "EIRm17full": {
+          "n": 103,
+          "target": 1.351,
+          "mean": 1.4512407589492646,
+          "delta": 0.10024075894926465,
+          "relativeError": 0.07419745296022551
+        },
+        "EIRr17full": {
+          "n": 103,
+          "target": 0.902,
+          "mean": 0.9184878565319612,
+          "delta": 0.016487856531961165,
+          "relativeError": 0.01827922010195251
+        },
+        "EIRr17min": {
+          "n": 103,
+          "target": 0.798,
+          "mean": 0.7402785766358436,
+          "delta": -0.05772142336415642,
+          "relativeError": 0.07233261073202558
+        },
+        "EIRm5max": {
+          "n": 103,
+          "target": 1.164,
+          "mean": 1.1284913044406515,
+          "delta": -0.035508695559348435,
+          "relativeError": 0.030505752198752952
+        },
+        "EIRr5full": {
+          "n": 103,
+          "target": 1.0,
+          "mean": 1.00665168538425,
+          "delta": 0.0066516853842499835,
+          "relativeError": 0.0066516853842499835
+        },
+        "EIRr5min": {
+          "n": 103,
+          "target": 0.866,
+          "mean": 0.8377515325183889,
+          "delta": -0.02824846748161114,
+          "relativeError": 0.03261947746144473
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "pre-PDS01-complete",
+        "cutoff_date": "2024-11-22",
+        "complete_metrics": true,
+        "singlezone_only": false,
+        "central_ducted_only": false,
+        "cold_climate": null,
+        "ahri_type": null,
+        "dedupe": "none"
+      },
+      "rowsBeforeDedupe": 103,
+      "rows": 103,
+      "score": 0.04952750330381731,
+      "metrics": {
+        "Qr47full": {
+          "n": 103,
+          "target": 0.908,
+          "mean": 0.8936927444641957,
+          "delta": -0.014307255535804364,
+          "relativeError": 0.015756889356612735
+        },
+        "Qr47min": {
+          "n": 103,
+          "target": 0.272,
+          "mean": 0.3006416592578699,
+          "delta": 0.028641659257869878,
+          "relativeError": 0.10530021785981572
+        },
+        "Qr17full": {
+          "n": 103,
+          "target": 0.817,
+          "mean": 0.8795681106686216,
+          "delta": 0.06256811066862167,
+          "relativeError": 0.07658275479635455
+        },
+        "Qr17min": {
+          "n": 103,
+          "target": 0.341,
+          "mean": 0.2876946047612909,
+          "delta": -0.05330539523870914,
+          "relativeError": 0.1563208071516397
+        },
+        "Qm5max": {
+          "n": 103,
+          "target": 0.866,
+          "mean": 0.8570903233418532,
+          "delta": -0.008909676658146792,
+          "relativeError": 0.01028831022880692
+        },
+        "Qr5full": {
+          "n": 103,
+          "target": 0.988,
+          "mean": 0.9932504553322438,
+          "delta": 0.005250455332243775,
+          "relativeError": 0.005314226044781149
+        },
+        "Qr5min": {
+          "n": 103,
+          "target": 0.321,
+          "mean": 0.34344053163019467,
+          "delta": 0.02244053163019466,
+          "relativeError": 0.06990819822490549
+        },
+        "EIRr47full": {
+          "n": 103,
+          "target": 0.939,
+          "mean": 0.8909027533508346,
+          "delta": -0.04809724664916537,
+          "relativeError": 0.05122177491923895
+        },
+        "EIRr47min": {
+          "n": 103,
+          "target": 0.73,
+          "mean": 0.7428722156596108,
+          "delta": 0.01287221565961083,
+          "relativeError": 0.01763317213645319
+        },
+        "EIRm17full": {
+          "n": 103,
+          "target": 1.351,
+          "mean": 1.4512407589492646,
+          "delta": 0.10024075894926465,
+          "relativeError": 0.07419745296022551
+        },
+        "EIRr17full": {
+          "n": 103,
+          "target": 0.902,
+          "mean": 0.9184878565319612,
+          "delta": 0.016487856531961165,
+          "relativeError": 0.01827922010195251
+        },
+        "EIRr17min": {
+          "n": 103,
+          "target": 0.798,
+          "mean": 0.7402785766358436,
+          "delta": -0.05772142336415642,
+          "relativeError": 0.07233261073202558
+        },
+        "EIRm5max": {
+          "n": 103,
+          "target": 1.164,
+          "mean": 1.1284913044406515,
+          "delta": -0.035508695559348435,
+          "relativeError": 0.030505752198752952
+        },
+        "EIRr5full": {
+          "n": 103,
+          "target": 1.0,
+          "mean": 1.00665168538425,
+          "delta": 0.0066516853842499835,
+          "relativeError": 0.0066516853842499835
+        },
+        "EIRr5min": {
+          "n": 103,
+          "target": 0.866,
+          "mean": 0.8377515325183889,
+          "delta": -0.02824846748161114,
+          "relativeError": 0.03261947746144473
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "pre-PDS01-singlezone",
+        "cutoff_date": "2024-11-22",
+        "complete_metrics": false,
+        "singlezone_only": true,
+        "central_ducted_only": false,
+        "cold_climate": null,
+        "ahri_type": null,
+        "dedupe": "none"
+      },
+      "rowsBeforeDedupe": 79,
+      "rows": 79,
+      "score": 0.04982018124263912,
+      "metrics": {
+        "Qr47full": {
+          "n": 79,
+          "target": 0.908,
+          "mean": 0.9039889235977532,
+          "delta": -0.004011076402246849,
+          "relativeError": 0.004417485024500935
+        },
+        "Qr47min": {
+          "n": 79,
+          "target": 0.272,
+          "mean": 0.3153182493946943,
+          "delta": 0.04331824939469431,
+          "relativeError": 0.15925826983343494
+        },
+        "Qr17full": {
+          "n": 79,
+          "target": 0.817,
+          "mean": 0.8858642416422186,
+          "delta": 0.0688642416422186,
+          "relativeError": 0.08428915745681592
+        },
+        "Qr17min": {
+          "n": 79,
+          "target": 0.341,
+          "mean": 0.2656553936101163,
+          "delta": -0.07534460638988372,
+          "relativeError": 0.22095192489701967
+        },
+        "Qm5max": {
+          "n": 79,
+          "target": 0.866,
+          "mean": 0.8562049404709378,
+          "delta": -0.009795059529062233,
+          "relativeError": 0.011310692296838606
+        },
+        "Qr5full": {
+          "n": 79,
+          "target": 0.988,
+          "mean": 0.9911999607496342,
+          "delta": 0.0031999607496342453,
+          "relativeError": 0.0032388266696702886
+        },
+        "Qr5min": {
+          "n": 79,
+          "target": 0.321,
+          "mean": 0.3240756253673949,
+          "delta": 0.0030756253673949185,
+          "relativeError": 0.009581387437367347
+        },
+        "EIRr47full": {
+          "n": 79,
+          "target": 0.939,
+          "mean": 0.9146313461624007,
+          "delta": -0.02436865383759923,
+          "relativeError": 0.025951708027262228
+        },
+        "EIRr47min": {
+          "n": 79,
+          "target": 0.73,
+          "mean": 0.7267385058015768,
+          "delta": -0.0032614941984231427,
+          "relativeError": 0.004467800271812524
+        },
+        "EIRm17full": {
+          "n": 79,
+          "target": 1.351,
+          "mean": 1.4069560679382653,
+          "delta": 0.05595606793826535,
+          "relativeError": 0.04141825902166199
+        },
+        "EIRr17full": {
+          "n": 79,
+          "target": 0.902,
+          "mean": 0.9134649546288188,
+          "delta": 0.011464954628818802,
+          "relativeError": 0.01271059271487672
+        },
+        "EIRr17min": {
+          "n": 79,
+          "target": 0.798,
+          "mean": 0.7367479891750343,
+          "delta": -0.061252010824965786,
+          "relativeError": 0.07675690579569647
+        },
+        "EIRm5max": {
+          "n": 79,
+          "target": 1.164,
+          "mean": 1.1220254338863698,
+          "delta": -0.04197456611363015,
+          "relativeError": 0.036060623808960614
+        },
+        "EIRr5full": {
+          "n": 79,
+          "target": 1.0,
+          "mean": 1.0086724505642752,
+          "delta": 0.008672450564275236,
+          "relativeError": 0.008672450564275236
+        },
+        "EIRr5min": {
+          "n": 79,
+          "target": 0.866,
+          "mean": 0.8242443942464054,
+          "delta": -0.041755605753594605,
+          "relativeError": 0.04821663481939331
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "dedupe-outdoor-indoor",
+        "cutoff_date": null,
+        "complete_metrics": false,
+        "singlezone_only": false,
+        "central_ducted_only": false,
+        "cold_climate": null,
+        "ahri_type": null,
+        "dedupe": "outdoor_indoor"
+      },
+      "rowsBeforeDedupe": 152301,
+      "rows": 34363,
+      "score": 0.053147171174213026,
+      "metrics": {
+        "Qr47full": {
+          "n": 34363,
+          "target": 0.908,
+          "mean": 0.8972361544077704,
+          "delta": -0.010763845592229648,
+          "relativeError": 0.011854455498050273
+        },
+        "Qr47min": {
+          "n": 34363,
+          "target": 0.272,
+          "mean": 0.29205873196321996,
+          "delta": 0.020058731963219945,
+          "relativeError": 0.07374533810007332
+        },
+        "Qr17full": {
+          "n": 34363,
+          "target": 0.817,
+          "mean": 0.8838924895253069,
+          "delta": 0.06689248952530691,
+          "relativeError": 0.08187575217295828
+        },
+        "Qr17min": {
+          "n": 34363,
+          "target": 0.341,
+          "mean": 0.33145840064148846,
+          "delta": -0.009541599358511565,
+          "relativeError": 0.027981229790356495
+        },
+        "Qm5max": {
+          "n": 34351,
+          "target": 0.866,
+          "mean": 0.897675525898706,
+          "delta": 0.031675525898706036,
+          "relativeError": 0.036576819744464244
+        },
+        "Qr5full": {
+          "n": 34313,
+          "target": 0.988,
+          "mean": 0.9928285731129074,
+          "delta": 0.004828573112907408,
+          "relativeError": 0.004887219749906284
+        },
+        "Qr5min": {
+          "n": 34351,
+          "target": 0.321,
+          "mean": 0.3269287318445516,
+          "delta": 0.005928731844551616,
+          "relativeError": 0.018469569609195064
+        },
+        "EIRr47full": {
+          "n": 34363,
+          "target": 0.939,
+          "mean": 0.9366789447642524,
+          "delta": -0.002321055235747549,
+          "relativeError": 0.002471837311765228
+        },
+        "EIRr47min": {
+          "n": 34363,
+          "target": 0.73,
+          "mean": 0.7982831388043782,
+          "delta": 0.0682831388043782,
+          "relativeError": 0.0935385463073674
+        },
+        "EIRm17full": {
+          "n": 34363,
+          "target": 1.351,
+          "mean": 1.3753007198177185,
+          "delta": 0.02430071981771853,
+          "relativeError": 0.017987209339539994
+        },
+        "EIRr17full": {
+          "n": 34363,
+          "target": 0.902,
+          "mean": 0.9287027622555476,
+          "delta": 0.026702762255547574,
+          "relativeError": 0.029603949285529462
+        },
+        "EIRr17min": {
+          "n": 34363,
+          "target": 0.798,
+          "mean": 0.9472730967568087,
+          "delta": 0.14927309675680867,
+          "relativeError": 0.18705901849224144
+        },
+        "EIRm5max": {
+          "n": 34351,
+          "target": 1.164,
+          "mean": 1.1788686221863258,
+          "delta": 0.014868622186325897,
+          "relativeError": 0.012773730400623623
+        },
+        "EIRr5full": {
+          "n": 34313,
+          "target": 1.0,
+          "mean": 1.0000889968809605,
+          "delta": 8.89968809605346e-05,
+          "relativeError": 8.89968809605346e-05
+        },
+        "EIRr5min": {
+          "n": 34351,
+          "target": 0.866,
+          "mean": 1.0377225130095218,
+          "delta": 0.1717225130095218,
+          "relativeError": 0.19829389493016372
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "dedupe-outdoor",
+        "cutoff_date": null,
+        "complete_metrics": false,
+        "singlezone_only": false,
+        "central_ducted_only": false,
+        "cold_climate": null,
+        "ahri_type": null,
+        "dedupe": "outdoor"
+      },
+      "rowsBeforeDedupe": 152301,
+      "rows": 11626,
+      "score": 0.053361064395758794,
+      "metrics": {
+        "Qr47full": {
+          "n": 11626,
+          "target": 0.908,
+          "mean": 0.8627328488072259,
+          "delta": -0.045267151192774135,
+          "relativeError": 0.049853690740940676
+        },
+        "Qr47min": {
+          "n": 11626,
+          "target": 0.272,
+          "mean": 0.2689009053729486,
+          "delta": -0.0030990946270514352,
+          "relativeError": 0.01139373024651263
+        },
+        "Qr17full": {
+          "n": 11626,
+          "target": 0.817,
+          "mean": 0.8814430454135518,
+          "delta": 0.06444304541355184,
+          "relativeError": 0.07887765656493494
+        },
+        "Qr17min": {
+          "n": 11626,
+          "target": 0.341,
+          "mean": 0.29967730088247146,
+          "delta": -0.04132269911752856,
+          "relativeError": 0.1211809358285295
+        },
+        "Qm5max": {
+          "n": 11615,
+          "target": 0.866,
+          "mean": 0.8981673758291088,
+          "delta": 0.03216737582910878,
+          "relativeError": 0.03714477578419028
+        },
+        "Qr5full": {
+          "n": 11588,
+          "target": 0.988,
+          "mean": 0.9843626762659576,
+          "delta": -0.0036373237340423525,
+          "relativeError": 0.0036815017551035958
+        },
+        "Qr5min": {
+          "n": 11615,
+          "target": 0.321,
+          "mean": 0.30093981991831065,
+          "delta": -0.02006018008168936,
+          "relativeError": 0.06249277284015377
+        },
+        "EIRr47full": {
+          "n": 11626,
+          "target": 0.939,
+          "mean": 0.90622467532575,
+          "delta": -0.03277532467424993,
+          "relativeError": 0.034904499120606954
+        },
+        "EIRr47min": {
+          "n": 11626,
+          "target": 0.73,
+          "mean": 0.7499825846360506,
+          "delta": 0.019982584636050627,
+          "relativeError": 0.027373403611028257
+        },
+        "EIRm17full": {
+          "n": 11626,
+          "target": 1.351,
+          "mean": 1.4164995102419746,
+          "delta": 0.06549951024197465,
+          "relativeError": 0.04848224296223142
+        },
+        "EIRr17full": {
+          "n": 11626,
+          "target": 0.902,
+          "mean": 0.9127219054482533,
+          "delta": 0.010721905448253244,
+          "relativeError": 0.011886813135535747
+        },
+        "EIRr17min": {
+          "n": 11626,
+          "target": 0.798,
+          "mean": 0.9012351141036437,
+          "delta": 0.10323511410364361,
+          "relativeError": 0.12936731090682155
+        },
+        "EIRm5max": {
+          "n": 11615,
+          "target": 1.164,
+          "mean": 1.1506670538855777,
+          "delta": -0.013332946114422262,
+          "relativeError": 0.011454421060500226
+        },
+        "EIRr5full": {
+          "n": 11588,
+          "target": 1.0,
+          "mean": 1.0000060552600507,
+          "delta": 6.055260050708e-06,
+          "relativeError": 6.055260050708e-06
+        },
+        "EIRr5min": {
+          "n": 11615,
+          "target": 0.866,
+          "mean": 1.0152257911992633,
+          "delta": 0.14922579119926327,
+          "relativeError": 0.17231615611924164
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "AHRI-HMSV-A-CB-O",
+        "cutoff_date": null,
+        "complete_metrics": false,
+        "singlezone_only": false,
+        "central_ducted_only": false,
+        "cold_climate": null,
+        "ahri_type": "HMSV-A-CB-O",
+        "dedupe": "none"
+      },
+      "rowsBeforeDedupe": 2594,
+      "rows": 2594,
+      "score": 0.06248439135562073,
+      "metrics": {
+        "Qr47full": {
+          "n": 2594,
+          "target": 0.908,
+          "mean": 0.8579046603520623,
+          "delta": -0.050095339647937775,
+          "relativeError": 0.05517107890742046
+        },
+        "Qr47min": {
+          "n": 2594,
+          "target": 0.272,
+          "mean": 0.25023291546531,
+          "delta": -0.021767084534690007,
+          "relativeError": 0.08002604608341914
+        },
+        "Qr17full": {
+          "n": 2594,
+          "target": 0.817,
+          "mean": 0.9094439804755592,
+          "delta": 0.09244398047555924,
+          "relativeError": 0.11315052689786934
+        },
+        "Qr17min": {
+          "n": 2594,
+          "target": 0.341,
+          "mean": 0.27957727787235714,
+          "delta": -0.06142272212764288,
+          "relativeError": 0.1801252848317973
+        },
+        "Qm5max": {
+          "n": 2594,
+          "target": 0.866,
+          "mean": 0.9152293826797923,
+          "delta": 0.049229382679792266,
+          "relativeError": 0.056846862216850196
+        },
+        "Qr5full": {
+          "n": 2594,
+          "target": 0.988,
+          "mean": 0.9956532263882532,
+          "delta": 0.007653226388253165,
+          "relativeError": 0.00774618055491211
+        },
+        "Qr5min": {
+          "n": 2594,
+          "target": 0.321,
+          "mean": 0.2754933406453985,
+          "delta": -0.04550665935460152,
+          "relativeError": 0.1417652939395686
+        },
+        "EIRr47full": {
+          "n": 2594,
+          "target": 0.939,
+          "mean": 0.875001653478858,
+          "delta": -0.06399834652114189,
+          "relativeError": 0.06815585359014047
+        },
+        "EIRr47min": {
+          "n": 2594,
+          "target": 0.73,
+          "mean": 0.7269706954457458,
+          "delta": -0.0030293045542542085,
+          "relativeError": 0.004149732266101655
+        },
+        "EIRm17full": {
+          "n": 2594,
+          "target": 1.351,
+          "mean": 1.5120129945316854,
+          "delta": 0.16101299453168538,
+          "relativeError": 0.11918060291020384
+        },
+        "EIRr17full": {
+          "n": 2594,
+          "target": 0.902,
+          "mean": 0.9342944483827693,
+          "delta": 0.03229444838276929,
+          "relativeError": 0.03580315785229411
+        },
+        "EIRr17min": {
+          "n": 2594,
+          "target": 0.798,
+          "mean": 0.8082591212229007,
+          "delta": 0.010259121222900625,
+          "relativeError": 0.012856041632707548
+        },
+        "EIRm5max": {
+          "n": 2594,
+          "target": 1.164,
+          "mean": 1.164653191942127,
+          "delta": 0.000653191942127096,
+          "relativeError": 0.0005611614623085017
+        },
+        "EIRr5full": {
+          "n": 2594,
+          "target": 1.0,
+          "mean": 0.9994634506668432,
+          "delta": -0.0005365493331568327,
+          "relativeError": 0.0005365493331568327
+        },
+        "EIRr5min": {
+          "n": 2594,
+          "target": 0.866,
+          "mean": 0.9189918371429157,
+          "delta": 0.052991837142915665,
+          "relativeError": 0.061191497855560814
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "pre-PDS01-central-ducted",
+        "cutoff_date": "2024-11-22",
+        "complete_metrics": false,
+        "singlezone_only": false,
+        "central_ducted_only": true,
+        "cold_climate": null,
+        "ahri_type": null,
+        "dedupe": "none"
+      },
+      "rowsBeforeDedupe": 58,
+      "rows": 58,
+      "score": 0.06459597763172446,
+      "metrics": {
+        "Qr47full": {
+          "n": 58,
+          "target": 0.908,
+          "mean": 0.9179718340104095,
+          "delta": 0.009971834010409464,
+          "relativeError": 0.010982196046706458
+        },
+        "Qr47min": {
+          "n": 58,
+          "target": 0.272,
+          "mean": 0.3256983641810275,
+          "delta": 0.05369836418102747,
+          "relativeError": 0.19742045654789508
+        },
+        "Qr17full": {
+          "n": 58,
+          "target": 0.817,
+          "mean": 0.9178238274245324,
+          "delta": 0.10082382742453244,
+          "relativeError": 0.12340737750860764
+        },
+        "Qr17min": {
+          "n": 58,
+          "target": 0.341,
+          "mean": 0.25044964168792305,
+          "delta": -0.09055035831207697,
+          "relativeError": 0.26554357276268903
+        },
+        "Qm5max": {
+          "n": 58,
+          "target": 0.866,
+          "mean": 0.8455156567707082,
+          "delta": -0.020484343229291824,
+          "relativeError": 0.023653976015348528
+        },
+        "Qr5full": {
+          "n": 58,
+          "target": 0.988,
+          "mean": 1.0,
+          "delta": 0.01200000000000001,
+          "relativeError": 0.012145748987854262
+        },
+        "Qr5min": {
+          "n": 58,
+          "target": 0.321,
+          "mean": 0.35608601825427316,
+          "delta": 0.035086018254273155,
+          "relativeError": 0.10930223755225281
+        },
+        "EIRr47full": {
+          "n": 58,
+          "target": 0.939,
+          "mean": 0.9432425043932495,
+          "delta": 0.00424250439324958,
+          "relativeError": 0.004518109044994228
+        },
+        "EIRr47min": {
+          "n": 58,
+          "target": 0.73,
+          "mean": 0.7465779813535326,
+          "delta": 0.01657798135353261,
+          "relativeError": 0.02270956349798988
+        },
+        "EIRm17full": {
+          "n": 58,
+          "target": 1.351,
+          "mean": 1.43796180911059,
+          "delta": 0.08696180911058993,
+          "relativeError": 0.06436847454521831
+        },
+        "EIRr17full": {
+          "n": 58,
+          "target": 0.902,
+          "mean": 0.9352986903936802,
+          "delta": 0.033298690393680164,
+          "relativeError": 0.03691650819698466
+        },
+        "EIRr17min": {
+          "n": 58,
+          "target": 0.798,
+          "mean": 0.7604835407944818,
+          "delta": -0.03751645920551827,
+          "relativeError": 0.04701310677383242
+        },
+        "EIRm5max": {
+          "n": 58,
+          "target": 1.164,
+          "mean": 1.1235300332880904,
+          "delta": -0.0404699667119095,
+          "relativeError": 0.03476801263909751
+        },
+        "EIRr5full": {
+          "n": 58,
+          "target": 1.0,
+          "mean": 1.0,
+          "delta": 0.0,
+          "relativeError": 0.0
+        },
+        "EIRr5min": {
+          "n": 58,
+          "target": 0.866,
+          "mean": 0.8519791791073609,
+          "delta": -0.014020820892639119,
+          "relativeError": 0.01619032435639621
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "pre-PDS01-central-dedupe-outdoor",
+        "cutoff_date": "2024-11-22",
+        "complete_metrics": false,
+        "singlezone_only": false,
+        "central_ducted_only": true,
+        "cold_climate": null,
+        "ahri_type": null,
+        "dedupe": "outdoor"
+      },
+      "rowsBeforeDedupe": 58,
+      "rows": 9,
+      "score": 0.06635840003943302,
+      "metrics": {
+        "Qr47full": {
+          "n": 9,
+          "target": 0.908,
+          "mean": 0.9356309024974693,
+          "delta": 0.027630902497469245,
+          "relativeError": 0.030430509358446305
+        },
+        "Qr47min": {
+          "n": 9,
+          "target": 0.272,
+          "mean": 0.30424036201272586,
+          "delta": 0.03224036201272584,
+          "relativeError": 0.118530742693845
+        },
+        "Qr17full": {
+          "n": 9,
+          "target": 0.817,
+          "mean": 0.8723069247192055,
+          "delta": 0.05530692471920551,
+          "relativeError": 0.06769513429523319
+        },
+        "Qr17min": {
+          "n": 9,
+          "target": 0.341,
+          "mean": 0.2387835329063399,
+          "delta": -0.10221646709366011,
+          "relativeError": 0.2997550354652789
+        },
+        "Qm5max": {
+          "n": 9,
+          "target": 0.866,
+          "mean": 0.8443168105448807,
+          "delta": -0.021683189455119267,
+          "relativeError": 0.025038325005911393
+        },
+        "Qr5full": {
+          "n": 9,
+          "target": 0.988,
+          "mean": 1.0,
+          "delta": 0.01200000000000001,
+          "relativeError": 0.012145748987854262
+        },
+        "Qr5min": {
+          "n": 9,
+          "target": 0.321,
+          "mean": 0.393426429776911,
+          "delta": 0.072426429776911,
+          "relativeError": 0.22562750709318066
+        },
+        "EIRr47full": {
+          "n": 9,
+          "target": 0.939,
+          "mean": 0.9360204881651053,
+          "delta": -0.0029795118348946437,
+          "relativeError": 0.0031730690467461596
+        },
+        "EIRr47min": {
+          "n": 9,
+          "target": 0.73,
+          "mean": 0.755338787766113,
+          "delta": 0.02533878776611298,
+          "relativeError": 0.03471066817275751
+        },
+        "EIRm17full": {
+          "n": 9,
+          "target": 1.351,
+          "mean": 1.404454198102597,
+          "delta": 0.053454198102597106,
+          "relativeError": 0.03956639385832502
+        },
+        "EIRr17full": {
+          "n": 9,
+          "target": 0.902,
+          "mean": 0.8827713332268252,
+          "delta": -0.019228666773174807,
+          "relativeError": 0.021317812387111758
+        },
+        "EIRr17min": {
+          "n": 9,
+          "target": 0.798,
+          "mean": 0.745172397126983,
+          "delta": -0.05282760287301702,
+          "relativeError": 0.06620000360027195
+        },
+        "EIRm5max": {
+          "n": 9,
+          "target": 1.164,
+          "mean": 1.1169529417574466,
+          "delta": -0.047047058242553286,
+          "relativeError": 0.04041843491628289
+        },
+        "EIRr5full": {
+          "n": 9,
+          "target": 1.0,
+          "mean": 1.0,
+          "delta": 0.0,
+          "relativeError": 0.0
+        },
+        "EIRr5min": {
+          "n": 9,
+          "target": 0.866,
+          "mean": 0.8753238892050768,
+          "delta": 0.009323889205076763,
+          "relativeError": 0.010766615710250303
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "AHRI-HRCU-A-CB-O",
+        "cutoff_date": null,
+        "complete_metrics": false,
+        "singlezone_only": false,
+        "central_ducted_only": false,
+        "cold_climate": null,
+        "ahri_type": "HRCU-A-CB-O",
+        "dedupe": "none"
+      },
+      "rowsBeforeDedupe": 9314,
+      "rows": 9314,
+      "score": 0.06719097513273484,
+      "metrics": {
+        "Qr47full": {
+          "n": 9314,
+          "target": 0.908,
+          "mean": 0.8371172014606693,
+          "delta": -0.07088279853933077,
+          "relativeError": 0.07806475610058455
+        },
+        "Qr47min": {
+          "n": 9314,
+          "target": 0.272,
+          "mean": 0.2825991714857868,
+          "delta": 0.010599171485786762,
+          "relativeError": 0.03896754222715721
+        },
+        "Qr17full": {
+          "n": 9314,
+          "target": 0.817,
+          "mean": 0.8578974133583147,
+          "delta": 0.04089741335831476,
+          "relativeError": 0.050058033486309376
+        },
+        "Qr17min": {
+          "n": 9314,
+          "target": 0.341,
+          "mean": 0.28795282672699696,
+          "delta": -0.05304717327300307,
+          "relativeError": 0.15556355798534624
+        },
+        "Qm5max": {
+          "n": 9314,
+          "target": 0.866,
+          "mean": 0.8844083746266854,
+          "delta": 0.01840837462668543,
+          "relativeError": 0.02125678363358595
+        },
+        "Qr5full": {
+          "n": 9276,
+          "target": 0.988,
+          "mean": 0.9904273120867966,
+          "delta": 0.0024273120867965847,
+          "relativeError": 0.002456793610118001
+        },
+        "Qr5min": {
+          "n": 9314,
+          "target": 0.321,
+          "mean": 0.26414235912836426,
+          "delta": -0.05685764087163575,
+          "relativeError": 0.17712660707674688
+        },
+        "EIRr47full": {
+          "n": 9314,
+          "target": 0.939,
+          "mean": 0.9120374673336671,
+          "delta": -0.02696253266633286,
+          "relativeError": 0.028714092296414126
+        },
+        "EIRr47min": {
+          "n": 9314,
+          "target": 0.73,
+          "mean": 0.7251500969206425,
+          "delta": -0.004849903079357509,
+          "relativeError": 0.006643702848434944
+        },
+        "EIRm17full": {
+          "n": 9314,
+          "target": 1.351,
+          "mean": 1.3636987512294356,
+          "delta": 0.012698751229435645,
+          "relativeError": 0.00939951978492646
+        },
+        "EIRr17full": {
+          "n": 9314,
+          "target": 0.902,
+          "mean": 0.8758789815333956,
+          "delta": -0.026121018466604418,
+          "relativeError": 0.028959000517299795
+        },
+        "EIRr17min": {
+          "n": 9314,
+          "target": 0.798,
+          "mean": 0.8988063628684261,
+          "delta": 0.10080636286842604,
+          "relativeError": 0.12632376299301507
+        },
+        "EIRm5max": {
+          "n": 9314,
+          "target": 1.164,
+          "mean": 1.1089240466417518,
+          "delta": -0.05507595335824811,
+          "relativeError": 0.04731611113251556
+        },
+        "EIRr5full": {
+          "n": 9276,
+          "target": 1.0,
+          "mean": 1.0024149838560894,
+          "delta": 0.0024149838560894032,
+          "relativeError": 0.0024149838560894032
+        },
+        "EIRr5min": {
+          "n": 9314,
+          "target": 0.866,
+          "mean": 1.0691630625971869,
+          "delta": 0.20316306259718686,
+          "relativeError": 0.23459937944247905
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "AHRI-HMSV-A-CB",
+        "cutoff_date": null,
+        "complete_metrics": false,
+        "singlezone_only": false,
+        "central_ducted_only": false,
+        "cold_climate": null,
+        "ahri_type": "HMSV-A-CB",
+        "dedupe": "none"
+      },
+      "rowsBeforeDedupe": 3800,
+      "rows": 3800,
+      "score": 0.07143742397028405,
+      "metrics": {
+        "Qr47full": {
+          "n": 3800,
+          "target": 0.908,
+          "mean": 0.8569244935148056,
+          "delta": -0.05107550648519443,
+          "relativeError": 0.05625055780307757
+        },
+        "Qr47min": {
+          "n": 3800,
+          "target": 0.272,
+          "mean": 0.2561051374078791,
+          "delta": -0.015894862592120917,
+          "relativeError": 0.05843699482397396
+        },
+        "Qr17full": {
+          "n": 3800,
+          "target": 0.817,
+          "mean": 0.9268526665234795,
+          "delta": 0.10985266652347958,
+          "relativeError": 0.13445858815603376
+        },
+        "Qr17min": {
+          "n": 3800,
+          "target": 0.341,
+          "mean": 0.2751124397768044,
+          "delta": -0.06588756022319564,
+          "relativeError": 0.1932186516809256
+        },
+        "Qm5max": {
+          "n": 3800,
+          "target": 0.866,
+          "mean": 0.9308561012282169,
+          "delta": 0.06485610122821694,
+          "relativeError": 0.07489157185706345
+        },
+        "Qr5full": {
+          "n": 3800,
+          "target": 0.988,
+          "mean": 0.9925248002224539,
+          "delta": 0.00452480022245394,
+          "relativeError": 0.004579757310176053
+        },
+        "Qr5min": {
+          "n": 3800,
+          "target": 0.321,
+          "mean": 0.26530144389320004,
+          "delta": -0.05569855610679997,
+          "relativeError": 0.17351575111152637
+        },
+        "EIRr47full": {
+          "n": 3800,
+          "target": 0.939,
+          "mean": 0.8949561005719116,
+          "delta": -0.044043899428088396,
+          "relativeError": 0.046905111212021726
+        },
+        "EIRr47min": {
+          "n": 3800,
+          "target": 0.73,
+          "mean": 0.7328230494172109,
+          "delta": 0.002823049417210899,
+          "relativeError": 0.0038671909824806836
+        },
+        "EIRm17full": {
+          "n": 3800,
+          "target": 1.351,
+          "mean": 1.5005147222574176,
+          "delta": 0.14951472225741758,
+          "relativeError": 0.11066966858432094
+        },
+        "EIRr17full": {
+          "n": 3800,
+          "target": 0.902,
+          "mean": 0.9527288561581874,
+          "delta": 0.05072885615818734,
+          "relativeError": 0.05624041702681523
+        },
+        "EIRr17min": {
+          "n": 3800,
+          "target": 0.798,
+          "mean": 0.8440995878638201,
+          "delta": 0.04609958786382007,
+          "relativeError": 0.05776890709751888
+        },
+        "EIRm5max": {
+          "n": 3800,
+          "target": 1.164,
+          "mean": 1.1814434009217822,
+          "delta": 0.017443400921782315,
+          "relativeError": 0.014985739623524327
+        },
+        "EIRr5full": {
+          "n": 3800,
+          "target": 1.0,
+          "mean": 0.9993818699684909,
+          "delta": -0.0006181300315091232,
+          "relativeError": 0.0006181300315091232
+        },
+        "EIRr5min": {
+          "n": 3800,
+          "target": 0.866,
+          "mean": 0.9397436430713518,
+          "delta": 0.07374364307135184,
+          "relativeError": 0.08515432225329311
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "AHRI-HRCU-A-C",
+        "cutoff_date": null,
+        "complete_metrics": false,
+        "singlezone_only": false,
+        "central_ducted_only": false,
+        "cold_climate": null,
+        "ahri_type": "HRCU-A-C",
+        "dedupe": "none"
+      },
+      "rowsBeforeDedupe": 5435,
+      "rows": 5435,
+      "score": 0.07725630032953733,
+      "metrics": {
+        "Qr47full": {
+          "n": 5435,
+          "target": 0.908,
+          "mean": 0.9407046325482885,
+          "delta": 0.03270463254828848,
+          "relativeError": 0.03601831778445868
+        },
+        "Qr47min": {
+          "n": 5435,
+          "target": 0.272,
+          "mean": 0.3019022736207105,
+          "delta": 0.029902273620710462,
+          "relativeError": 0.1099348294879061
+        },
+        "Qr17full": {
+          "n": 5435,
+          "target": 0.817,
+          "mean": 0.9052270112368176,
+          "delta": 0.08822701123681764,
+          "relativeError": 0.10798899784188207
+        },
+        "Qr17min": {
+          "n": 5435,
+          "target": 0.341,
+          "mean": 0.34353780272437606,
+          "delta": 0.002537802724376037,
+          "relativeError": 0.007442236728375475
+        },
+        "Qm5max": {
+          "n": 5435,
+          "target": 0.866,
+          "mean": 0.9230682649380838,
+          "delta": 0.05706826493808381,
+          "relativeError": 0.06589868930494666
+        },
+        "Qr5full": {
+          "n": 5435,
+          "target": 0.988,
+          "mean": 0.9971869988381491,
+          "delta": 0.009186998838149107,
+          "relativeError": 0.009298581819988974
+        },
+        "Qr5min": {
+          "n": 5435,
+          "target": 0.321,
+          "mean": 0.35420026663076504,
+          "delta": 0.03320026663076503,
+          "relativeError": 0.10342762190269479
+        },
+        "EIRr47full": {
+          "n": 5435,
+          "target": 0.939,
+          "mean": 0.9456331861292512,
+          "delta": 0.006633186129251234,
+          "relativeError": 0.007064095984293114
+        },
+        "EIRr47min": {
+          "n": 5435,
+          "target": 0.73,
+          "mean": 0.8476037694683204,
+          "delta": 0.11760376946832041,
+          "relativeError": 0.16110105406619235
+        },
+        "EIRm17full": {
+          "n": 5435,
+          "target": 1.351,
+          "mean": 1.3506658135388947,
+          "delta": -0.00033418646110527916,
+          "relativeError": 0.0002473622954147144
+        },
+        "EIRr17full": {
+          "n": 5435,
+          "target": 0.902,
+          "mean": 0.9524313243869297,
+          "delta": 0.050431324386929655,
+          "relativeError": 0.05591055918728343
+        },
+        "EIRr17min": {
+          "n": 5435,
+          "target": 0.798,
+          "mean": 1.0067650861489994,
+          "delta": 0.20876508614899936,
+          "relativeError": 0.2616103836453626
+        },
+        "EIRm5max": {
+          "n": 5435,
+          "target": 1.164,
+          "mean": 1.2169347740307104,
+          "delta": 0.05293477403071045,
+          "relativeError": 0.045476609992019294
+        },
+        "EIRr5full": {
+          "n": 5435,
+          "target": 1.0,
+          "mean": 1.000685982863064,
+          "delta": 0.0006859828630640941,
+          "relativeError": 0.0006859828630640941
+        },
+        "EIRr5min": {
+          "n": 5435,
+          "target": 0.866,
+          "mean": 1.0277161316459278,
+          "delta": 0.1617161316459278,
+          "relativeError": 0.1867391820391776
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "AHRI-HMSR-A-CB-O",
+        "cutoff_date": null,
+        "complete_metrics": false,
+        "singlezone_only": false,
+        "central_ducted_only": false,
+        "cold_climate": null,
+        "ahri_type": "HMSR-A-CB-O",
+        "dedupe": "none"
+      },
+      "rowsBeforeDedupe": 24,
+      "rows": 24,
+      "score": 0.08839899653249081,
+      "metrics": {
+        "Qr47full": {
+          "n": 24,
+          "target": 0.908,
+          "mean": 0.9656830167288146,
+          "delta": 0.057683016728814596,
+          "relativeError": 0.0635275514634522
+        },
+        "Qr47min": {
+          "n": 24,
+          "target": 0.272,
+          "mean": 0.2199145790580215,
+          "delta": -0.052085420941978516,
+          "relativeError": 0.19149051816903864
+        },
+        "Qr17full": {
+          "n": 24,
+          "target": 0.817,
+          "mean": 0.9872931141395753,
+          "delta": 0.17029311413957537,
+          "relativeError": 0.20843710421000658
+        },
+        "Qr17min": {
+          "n": 24,
+          "target": 0.341,
+          "mean": 0.2898721969672107,
+          "delta": -0.0511278030327893,
+          "relativeError": 0.14993490625451406
+        },
+        "Qm5max": {
+          "n": 24,
+          "target": 0.866,
+          "mean": 0.956915986435941,
+          "delta": 0.09091598643594101,
+          "relativeError": 0.10498381805535914
+        },
+        "Qr5full": {
+          "n": 24,
+          "target": 0.988,
+          "mean": 1.0,
+          "delta": 0.01200000000000001,
+          "relativeError": 0.012145748987854262
+        },
+        "Qr5min": {
+          "n": 24,
+          "target": 0.321,
+          "mean": 0.29495967963801445,
+          "delta": -0.02604032036198556,
+          "relativeError": 0.08112249333951888
+        },
+        "EIRr47full": {
+          "n": 24,
+          "target": 0.939,
+          "mean": 0.8584982675263492,
+          "delta": -0.08050173247365078,
+          "relativeError": 0.08573134448738103
+        },
+        "EIRr47min": {
+          "n": 24,
+          "target": 0.73,
+          "mean": 0.7645003532706802,
+          "delta": 0.03450035327068024,
+          "relativeError": 0.047260757905041424
+        },
+        "EIRm17full": {
+          "n": 24,
+          "target": 1.351,
+          "mean": 1.5385593459617286,
+          "delta": 0.18755934596172863,
+          "relativeError": 0.13883001181475102
+        },
+        "EIRr17full": {
+          "n": 24,
+          "target": 0.902,
+          "mean": 0.8849752764983982,
+          "delta": -0.01702472350160178,
+          "relativeError": 0.018874416298893325
+        },
+        "EIRr17min": {
+          "n": 24,
+          "target": 0.798,
+          "mean": 0.8304828561094812,
+          "delta": 0.032482856109481206,
+          "relativeError": 0.04070533347052783
+        },
+        "EIRm5max": {
+          "n": 24,
+          "target": 1.164,
+          "mean": 1.0418662848929126,
+          "delta": -0.12213371510708737,
+          "relativeError": 0.10492587208512662
+        },
+        "EIRr5full": {
+          "n": 24,
+          "target": 1.0,
+          "mean": 0.999667994687915,
+          "delta": -0.00033200531208499307,
+          "relativeError": 0.00033200531208499307
+        },
+        "EIRr5min": {
+          "n": 24,
+          "target": 0.866,
+          "mean": 0.9332735352718813,
+          "delta": 0.06727353527188129,
+          "relativeError": 0.07768306613381211
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "AHRI-HMSR-A-CB",
+        "cutoff_date": null,
+        "complete_metrics": false,
+        "singlezone_only": false,
+        "central_ducted_only": false,
+        "cold_climate": null,
+        "ahri_type": "HMSR-A-CB",
+        "dedupe": "none"
+      },
+      "rowsBeforeDedupe": 9,
+      "rows": 9,
+      "score": 0.09446246067508893,
+      "metrics": {
+        "Qr47full": {
+          "n": 9,
+          "target": 0.908,
+          "mean": 0.9641237926276365,
+          "delta": 0.05612379262763645,
+          "relativeError": 0.06181034430356437
+        },
+        "Qr47min": {
+          "n": 9,
+          "target": 0.272,
+          "mean": 0.3372749686210785,
+          "delta": 0.06527496862107846,
+          "relativeError": 0.23998150228337667
+        },
+        "Qr17full": {
+          "n": 9,
+          "target": 0.817,
+          "mean": 0.9481411148297171,
+          "delta": 0.13114111482971713,
+          "relativeError": 0.16051544042805035
+        },
+        "Qr17min": {
+          "n": 9,
+          "target": 0.341,
+          "mean": 0.3783766987753764,
+          "delta": 0.03737669877537636,
+          "relativeError": 0.10960908731781922
+        },
+        "Qm5max": {
+          "n": 9,
+          "target": 0.866,
+          "mean": 0.9618416798014685,
+          "delta": 0.09584167980146852,
+          "relativeError": 0.11067168568298905
+        },
+        "Qr5full": {
+          "n": 9,
+          "target": 0.988,
+          "mean": 1.0,
+          "delta": 0.01200000000000001,
+          "relativeError": 0.012145748987854262
+        },
+        "Qr5min": {
+          "n": 9,
+          "target": 0.321,
+          "mean": 0.3889123212760529,
+          "delta": 0.0679123212760529,
+          "relativeError": 0.21156486378832678
+        },
+        "EIRr47full": {
+          "n": 9,
+          "target": 0.939,
+          "mean": 0.9585700943618931,
+          "delta": 0.019570094361893164,
+          "relativeError": 0.020841421045679622
+        },
+        "EIRr47min": {
+          "n": 9,
+          "target": 0.73,
+          "mean": 0.7624578235933969,
+          "delta": 0.032457823593396884,
+          "relativeError": 0.04446277204574916
+        },
+        "EIRm17full": {
+          "n": 9,
+          "target": 1.351,
+          "mean": 1.6071332367097824,
+          "delta": 0.2561332367097824,
+          "relativeError": 0.18958788801612317
+        },
+        "EIRr17full": {
+          "n": 9,
+          "target": 0.902,
+          "mean": 0.9468763254634163,
+          "delta": 0.044876325463416245,
+          "relativeError": 0.049752023795361686
+        },
+        "EIRr17min": {
+          "n": 9,
+          "target": 0.798,
+          "mean": 0.8525832305243818,
+          "delta": 0.05458323052438174,
+          "relativeError": 0.06840003825110494
+        },
+        "EIRm5max": {
+          "n": 9,
+          "target": 1.164,
+          "mean": 1.063086063394514,
+          "delta": -0.10091393660548587,
+          "relativeError": 0.08669582182601879
+        },
+        "EIRr5full": {
+          "n": 9,
+          "target": 1.0,
+          "mean": 0.9938514739091617,
+          "delta": -0.006148526090838269,
+          "relativeError": 0.006148526090838269
+        },
+        "EIRr5min": {
+          "n": 9,
+          "target": 0.866,
+          "mean": 0.9047532802641716,
+          "delta": 0.038753280264171575,
+          "relativeError": 0.044749746263477566
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "AHRI-HSP-A",
+        "cutoff_date": null,
+        "complete_metrics": false,
+        "singlezone_only": false,
+        "central_ducted_only": false,
+        "cold_climate": null,
+        "ahri_type": "HSP-A",
+        "dedupe": "none"
+      },
+      "rowsBeforeDedupe": 456,
+      "rows": 456,
+      "score": 0.09456565873364728,
+      "metrics": {
+        "Qr47full": {
+          "n": 456,
+          "target": 0.908,
+          "mean": 0.7028785983077397,
+          "delta": -0.20512140169226034,
+          "relativeError": 0.22590462741438364
+        },
+        "Qr47min": {
+          "n": 456,
+          "target": 0.272,
+          "mean": 0.27237181647277214,
+          "delta": 0.00037181647277212404,
+          "relativeError": 0.001366972326368103
+        },
+        "Qr17full": {
+          "n": 456,
+          "target": 0.817,
+          "mean": 0.8841203952626799,
+          "delta": 0.06712039526267999,
+          "relativeError": 0.0821547065638678
+        },
+        "Qr17min": {
+          "n": 456,
+          "target": 0.341,
+          "mean": 0.3765197553369138,
+          "delta": 0.03551975533691376,
+          "relativeError": 0.10416350538684387
+        },
+        "Qm5max": {
+          "n": 456,
+          "target": 0.866,
+          "mean": 0.9248471199688879,
+          "delta": 0.05884711996888792,
+          "relativeError": 0.06795279442134863
+        },
+        "Qr5full": {
+          "n": 456,
+          "target": 0.988,
+          "mean": 0.8174989175439926,
+          "delta": -0.17050108245600737,
+          "relativeError": 0.17257194580567548
+        },
+        "Qr5min": {
+          "n": 456,
+          "target": 0.321,
+          "mean": 0.3840996942671829,
+          "delta": 0.06309969426718287,
+          "relativeError": 0.19657225628405878
+        },
+        "EIRr47full": {
+          "n": 456,
+          "target": 0.939,
+          "mean": 0.8509820674831067,
+          "delta": -0.08801793251689327,
+          "relativeError": 0.09373581737688315
+        },
+        "EIRr47min": {
+          "n": 456,
+          "target": 0.73,
+          "mean": 0.8016274064044528,
+          "delta": 0.07162740640445286,
+          "relativeError": 0.09811973480062036
+        },
+        "EIRm17full": {
+          "n": 456,
+          "target": 1.351,
+          "mean": 1.5818439499339094,
+          "delta": 0.23084394993390944,
+          "relativeError": 0.1708689488778012
+        },
+        "EIRr17full": {
+          "n": 456,
+          "target": 0.902,
+          "mean": 0.919865695372421,
+          "delta": 0.017865695372420998,
+          "relativeError": 0.019806757619092015
+        },
+        "EIRr17min": {
+          "n": 456,
+          "target": 0.798,
+          "mean": 0.7698804231902463,
+          "delta": -0.028119576809753744,
+          "relativeError": 0.03523756492450344
+        },
+        "EIRm5max": {
+          "n": 456,
+          "target": 1.164,
+          "mean": 1.198107851606373,
+          "delta": 0.034107851606373085,
+          "relativeError": 0.029302278012348013
+        },
+        "EIRr5full": {
+          "n": 456,
+          "target": 1.0,
+          "mean": 0.981306345324101,
+          "delta": -0.018693654675899007,
+          "relativeError": 0.018693654675899007
+        },
+        "EIRr5min": {
+          "n": 456,
+          "target": 0.866,
+          "mean": 0.7776391478979965,
+          "delta": -0.0883608521020035,
+          "relativeError": 0.1020333165150156
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "cold-climate",
+        "cutoff_date": null,
+        "complete_metrics": false,
+        "singlezone_only": false,
+        "central_ducted_only": false,
+        "cold_climate": true,
+        "ahri_type": null,
+        "dedupe": "none"
+      },
+      "rowsBeforeDedupe": 94655,
+      "rows": 94655,
+      "score": 0.0979180859542778,
+      "metrics": {
+        "Qr47full": {
+          "n": 94655,
+          "target": 0.908,
+          "mean": 0.9393758332506631,
+          "delta": 0.031375833250663065,
+          "relativeError": 0.03455488243465095
+        },
+        "Qr47min": {
+          "n": 94655,
+          "target": 0.272,
+          "mean": 0.2968829862291929,
+          "delta": 0.024882986229192883,
+          "relativeError": 0.09148156701909148
+        },
+        "Qr17full": {
+          "n": 94655,
+          "target": 0.817,
+          "mean": 0.9275841723389702,
+          "delta": 0.11058417233897022,
+          "relativeError": 0.13535394411134666
+        },
+        "Qr17min": {
+          "n": 94655,
+          "target": 0.341,
+          "mean": 0.33347254931193077,
+          "delta": -0.007527450688069259,
+          "relativeError": 0.022074635448883457
+        },
+        "Qm5max": {
+          "n": 94655,
+          "target": 0.866,
+          "mean": 0.9249297146960473,
+          "delta": 0.05892971469604735,
+          "relativeError": 0.06804816939497385
+        },
+        "Qr5full": {
+          "n": 94655,
+          "target": 0.988,
+          "mean": 0.9982076719389625,
+          "delta": 0.010207671938962548,
+          "relativeError": 0.01033165176008355
+        },
+        "Qr5min": {
+          "n": 94655,
+          "target": 0.321,
+          "mean": 0.34054218252303325,
+          "delta": 0.019542182523033247,
+          "relativeError": 0.060879073280477404
+        },
+        "EIRr47full": {
+          "n": 94655,
+          "target": 0.939,
+          "mean": 0.931070456241904,
+          "delta": -0.007929543758095958,
+          "relativeError": 0.008444668538973332
+        },
+        "EIRr47min": {
+          "n": 94655,
+          "target": 0.73,
+          "mean": 0.931179611874227,
+          "delta": 0.20117961187422706,
+          "relativeError": 0.2755885094167494
+        },
+        "EIRm17full": {
+          "n": 94655,
+          "target": 1.351,
+          "mean": 1.3929127839081146,
+          "delta": 0.04191278390811459,
+          "relativeError": 0.031023526208819093
+        },
+        "EIRr17full": {
+          "n": 94655,
+          "target": 0.902,
+          "mean": 0.9681518242843572,
+          "delta": 0.06615182428435717,
+          "relativeError": 0.07333905131303456
+        },
+        "EIRr17min": {
+          "n": 94655,
+          "target": 0.798,
+          "mean": 1.0504094645478073,
+          "delta": 0.2524094645478072,
+          "relativeError": 0.3163025871526406
+        },
+        "EIRm5max": {
+          "n": 94655,
+          "target": 1.164,
+          "mean": 1.249021818599526,
+          "delta": 0.08502181859952618,
+          "relativeError": 0.07304279948412902
+        },
+        "EIRr5full": {
+          "n": 94655,
+          "target": 1.0,
+          "mean": 1.0001949044995317,
+          "delta": 0.00019490449953174505,
+          "relativeError": 0.00019490449953174505
+        },
+        "EIRr5min": {
+          "n": 94655,
+          "target": 0.866,
+          "mean": 1.098184402471177,
+          "delta": 0.2321844024711771,
+          "relativeError": 0.2681113192507819
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "baseline",
+        "cutoff_date": null,
+        "complete_metrics": false,
+        "singlezone_only": false,
+        "central_ducted_only": false,
+        "cold_climate": null,
+        "ahri_type": null,
+        "dedupe": "none"
+      },
+      "rowsBeforeDedupe": 152301,
+      "rows": 152301,
+      "score": 0.09975054989338522,
+      "metrics": {
+        "Qr47full": {
+          "n": 152301,
+          "target": 0.908,
+          "mean": 0.9471836703056914,
+          "delta": 0.039183670305691365,
+          "relativeError": 0.04315382192256758
+        },
+        "Qr47min": {
+          "n": 152301,
+          "target": 0.272,
+          "mean": 0.30687757394026166,
+          "delta": 0.03487757394026164,
+          "relativeError": 0.12822637478037366
+        },
+        "Qr17full": {
+          "n": 152301,
+          "target": 0.817,
+          "mean": 0.9183975209846603,
+          "delta": 0.10139752098466037,
+          "relativeError": 0.12410957280864184
+        },
+        "Qr17min": {
+          "n": 152301,
+          "target": 0.341,
+          "mean": 0.3567199466717503,
+          "delta": 0.01571994667175025,
+          "relativeError": 0.04609955035703885
+        },
+        "Qm5max": {
+          "n": 152289,
+          "target": 0.866,
+          "mean": 0.8814606967385583,
+          "delta": 0.015460696738558322,
+          "relativeError": 0.017852998543369886
+        },
+        "Qr5full": {
+          "n": 152251,
+          "target": 0.988,
+          "mean": 0.998178956501317,
+          "delta": 0.01017895650131706,
+          "relativeError": 0.010302587551940344
+        },
+        "Qr5min": {
+          "n": 152289,
+          "target": 0.321,
+          "mean": 0.36209232604092106,
+          "delta": 0.04109232604092106,
+          "relativeError": 0.12801347676299393
+        },
+        "EIRr47full": {
+          "n": 152301,
+          "target": 0.939,
+          "mean": 0.9238304099196389,
+          "delta": -0.015169590080361006,
+          "relativeError": 0.01615504800890416
+        },
+        "EIRr47min": {
+          "n": 152301,
+          "target": 0.73,
+          "mean": 0.9196703845734833,
+          "delta": 0.18967038457348329,
+          "relativeError": 0.25982244462121
+        },
+        "EIRm17full": {
+          "n": 152301,
+          "target": 1.351,
+          "mean": 1.357289576437864,
+          "delta": 0.006289576437864097,
+          "relativeError": 0.004655496993237674
+        },
+        "EIRr17full": {
+          "n": 152301,
+          "target": 0.902,
+          "mean": 0.968384358377813,
+          "delta": 0.06638435837781298,
+          "relativeError": 0.07359684964280817
+        },
+        "EIRr17min": {
+          "n": 152301,
+          "target": 0.798,
+          "mean": 1.0415271773783126,
+          "delta": 0.24352717737831253,
+          "relativeError": 0.30517190147658213
+        },
+        "EIRm5max": {
+          "n": 152289,
+          "target": 1.164,
+          "mean": 1.2653407793063418,
+          "delta": 0.10134077930634189,
+          "relativeError": 0.08706252517726967
+        },
+        "EIRr5full": {
+          "n": 152251,
+          "target": 1.0,
+          "mean": 0.9997284717274503,
+          "delta": -0.0002715282725497259,
+          "relativeError": 0.0002715282725497259
+        },
+        "EIRr5min": {
+          "n": 152289,
+          "target": 0.866,
+          "mean": 1.0840276859027977,
+          "delta": 0.21802768590279775,
+          "relativeError": 0.2517640714812907
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "dedupe-AHRI",
+        "cutoff_date": null,
+        "complete_metrics": false,
+        "singlezone_only": false,
+        "central_ducted_only": false,
+        "cold_climate": null,
+        "ahri_type": null,
+        "dedupe": "ahri"
+      },
+      "rowsBeforeDedupe": 152301,
+      "rows": 152301,
+      "score": 0.09975054989338522,
+      "metrics": {
+        "Qr47full": {
+          "n": 152301,
+          "target": 0.908,
+          "mean": 0.9471836703056914,
+          "delta": 0.039183670305691365,
+          "relativeError": 0.04315382192256758
+        },
+        "Qr47min": {
+          "n": 152301,
+          "target": 0.272,
+          "mean": 0.30687757394026166,
+          "delta": 0.03487757394026164,
+          "relativeError": 0.12822637478037366
+        },
+        "Qr17full": {
+          "n": 152301,
+          "target": 0.817,
+          "mean": 0.9183975209846603,
+          "delta": 0.10139752098466037,
+          "relativeError": 0.12410957280864184
+        },
+        "Qr17min": {
+          "n": 152301,
+          "target": 0.341,
+          "mean": 0.3567199466717503,
+          "delta": 0.01571994667175025,
+          "relativeError": 0.04609955035703885
+        },
+        "Qm5max": {
+          "n": 152289,
+          "target": 0.866,
+          "mean": 0.8814606967385583,
+          "delta": 0.015460696738558322,
+          "relativeError": 0.017852998543369886
+        },
+        "Qr5full": {
+          "n": 152251,
+          "target": 0.988,
+          "mean": 0.998178956501317,
+          "delta": 0.01017895650131706,
+          "relativeError": 0.010302587551940344
+        },
+        "Qr5min": {
+          "n": 152289,
+          "target": 0.321,
+          "mean": 0.36209232604092106,
+          "delta": 0.04109232604092106,
+          "relativeError": 0.12801347676299393
+        },
+        "EIRr47full": {
+          "n": 152301,
+          "target": 0.939,
+          "mean": 0.9238304099196389,
+          "delta": -0.015169590080361006,
+          "relativeError": 0.01615504800890416
+        },
+        "EIRr47min": {
+          "n": 152301,
+          "target": 0.73,
+          "mean": 0.9196703845734833,
+          "delta": 0.18967038457348329,
+          "relativeError": 0.25982244462121
+        },
+        "EIRm17full": {
+          "n": 152301,
+          "target": 1.351,
+          "mean": 1.357289576437864,
+          "delta": 0.006289576437864097,
+          "relativeError": 0.004655496993237674
+        },
+        "EIRr17full": {
+          "n": 152301,
+          "target": 0.902,
+          "mean": 0.968384358377813,
+          "delta": 0.06638435837781298,
+          "relativeError": 0.07359684964280817
+        },
+        "EIRr17min": {
+          "n": 152301,
+          "target": 0.798,
+          "mean": 1.0415271773783126,
+          "delta": 0.24352717737831253,
+          "relativeError": 0.30517190147658213
+        },
+        "EIRm5max": {
+          "n": 152289,
+          "target": 1.164,
+          "mean": 1.2653407793063418,
+          "delta": 0.10134077930634189,
+          "relativeError": 0.08706252517726967
+        },
+        "EIRr5full": {
+          "n": 152251,
+          "target": 1.0,
+          "mean": 0.9997284717274503,
+          "delta": -0.0002715282725497259,
+          "relativeError": 0.0002715282725497259
+        },
+        "EIRr5min": {
+          "n": 152289,
+          "target": 0.866,
+          "mean": 1.0840276859027977,
+          "delta": 0.21802768590279775,
+          "relativeError": 0.2517640714812907
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "complete-metrics",
+        "cutoff_date": null,
+        "complete_metrics": true,
+        "singlezone_only": false,
+        "central_ducted_only": false,
+        "cold_climate": null,
+        "ahri_type": null,
+        "dedupe": "none"
+      },
+      "rowsBeforeDedupe": 152251,
+      "rows": 152251,
+      "score": 0.09979065435436399,
+      "metrics": {
+        "Qr47full": {
+          "n": 152251,
+          "target": 0.908,
+          "mean": 0.9471858083415867,
+          "delta": 0.03918580834158669,
+          "relativeError": 0.043156176587650544
+        },
+        "Qr47min": {
+          "n": 152251,
+          "target": 0.272,
+          "mean": 0.30688658343911235,
+          "delta": 0.03488658343911233,
+          "relativeError": 0.12825949793791297
+        },
+        "Qr17full": {
+          "n": 152251,
+          "target": 0.817,
+          "mean": 0.918408656941478,
+          "delta": 0.10140865694147805,
+          "relativeError": 0.12412320311074425
+        },
+        "Qr17min": {
+          "n": 152251,
+          "target": 0.341,
+          "mean": 0.3567480216475756,
+          "delta": 0.01574802164757555,
+          "relativeError": 0.046181881664444424
+        },
+        "Qm5max": {
+          "n": 152251,
+          "target": 0.866,
+          "mean": 0.881476647187602,
+          "delta": 0.015476647187602,
+          "relativeError": 0.017871417075752887
+        },
+        "Qr5full": {
+          "n": 152251,
+          "target": 0.988,
+          "mean": 0.998178956501317,
+          "delta": 0.01017895650131706,
+          "relativeError": 0.010302587551940344
+        },
+        "Qr5min": {
+          "n": 152251,
+          "target": 0.321,
+          "mean": 0.362120448352017,
+          "delta": 0.041120448352017,
+          "relativeError": 0.1281010852087757
+        },
+        "EIRr47full": {
+          "n": 152251,
+          "target": 0.939,
+          "mean": 0.9238302839988386,
+          "delta": -0.015169716001161349,
+          "relativeError": 0.01615518210986299
+        },
+        "EIRr47min": {
+          "n": 152251,
+          "target": 0.73,
+          "mean": 0.9197777687480612,
+          "delta": 0.18977776874806118,
+          "relativeError": 0.2599695462302208
+        },
+        "EIRm17full": {
+          "n": 152251,
+          "target": 1.351,
+          "mean": 1.3573080954087822,
+          "delta": 0.006308095408782188,
+          "relativeError": 0.0046692045956937
+        },
+        "EIRr17full": {
+          "n": 152251,
+          "target": 0.902,
+          "mean": 0.9684173859749173,
+          "delta": 0.06641738597491731,
+          "relativeError": 0.07363346560412118
+        },
+        "EIRr17min": {
+          "n": 152251,
+          "target": 0.798,
+          "mean": 1.041595909932192,
+          "delta": 0.24359590993219205,
+          "relativeError": 0.30525803249648126
+        },
+        "EIRm5max": {
+          "n": 152251,
+          "target": 1.164,
+          "mean": 1.2654097016410144,
+          "delta": 0.10140970164101448,
+          "relativeError": 0.08712173680499527
+        },
+        "EIRr5full": {
+          "n": 152251,
+          "target": 1.0,
+          "mean": 0.9997284717274503,
+          "delta": -0.0002715282725497259,
+          "relativeError": 0.0002715282725497259
+        },
+        "EIRr5min": {
+          "n": 152251,
+          "target": 0.866,
+          "mean": 1.0840460438756958,
+          "delta": 0.21804604387569582,
+          "relativeError": 0.2517852700643139
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "singlezone",
+        "cutoff_date": null,
+        "complete_metrics": false,
+        "singlezone_only": true,
+        "central_ducted_only": false,
+        "cold_climate": null,
+        "ahri_type": null,
+        "dedupe": "none"
+      },
+      "rowsBeforeDedupe": 145857,
+      "rows": 145857,
+      "score": 0.10391230492832493,
+      "metrics": {
+        "Qr47full": {
+          "n": 145857,
+          "target": 0.908,
+          "mean": 0.9510825214412615,
+          "delta": 0.04308252144126146,
+          "relativeError": 0.04744771083839367
+        },
+        "Qr47min": {
+          "n": 145857,
+          "target": 0.272,
+          "mean": 0.30918711093128326,
+          "delta": 0.03718711093128324,
+          "relativeError": 0.13671731960030603
+        },
+        "Qr17full": {
+          "n": 145857,
+          "target": 0.817,
+          "mean": 0.9183318085425611,
+          "delta": 0.10133180854256119,
+          "relativeError": 0.12402914142296352
+        },
+        "Qr17min": {
+          "n": 145857,
+          "target": 0.341,
+          "mean": 0.3601614634875266,
+          "delta": 0.019161463487526564,
+          "relativeError": 0.05619197503673479
+        },
+        "Qm5max": {
+          "n": 145845,
+          "target": 0.866,
+          "mean": 0.8794845068442191,
+          "delta": 0.01348450684421909,
+          "relativeError": 0.015571024069537056
+        },
+        "Qr5full": {
+          "n": 145807,
+          "target": 0.988,
+          "mean": 0.9983749878521938,
+          "delta": 0.010374987852193818,
+          "relativeError": 0.010500999850398601
+        },
+        "Qr5min": {
+          "n": 145845,
+          "target": 0.321,
+          "mean": 0.3660905642265797,
+          "delta": 0.0450905642265797,
+          "relativeError": 0.14046904743482772
+        },
+        "EIRr47full": {
+          "n": 145857,
+          "target": 0.939,
+          "mean": 0.9254624164325829,
+          "delta": -0.013537583567417077,
+          "relativeError": 0.014417021903532565
+        },
+        "EIRr47min": {
+          "n": 145857,
+          "target": 0.73,
+          "mean": 0.9279224415094154,
+          "delta": 0.1979224415094154,
+          "relativeError": 0.27112663220467864
+        },
+        "EIRm17full": {
+          "n": 145857,
+          "target": 1.351,
+          "mean": 1.350667720661741,
+          "delta": -0.00033227933825896727,
+          "relativeError": 0.0002459506574825813
+        },
+        "EIRr17full": {
+          "n": 145857,
+          "target": 0.902,
+          "mean": 0.9694080088409152,
+          "delta": 0.06740800884091513,
+          "relativeError": 0.07473171711853119
+        },
+        "EIRr17min": {
+          "n": 145857,
+          "target": 0.798,
+          "mean": 1.050857884365512,
+          "delta": 0.25285788436551204,
+          "relativeError": 0.3168645167487619
+        },
+        "EIRm5max": {
+          "n": 145845,
+          "target": 1.164,
+          "mean": 1.2693940814463884,
+          "delta": 0.10539408144638851,
+          "relativeError": 0.09054474351064305
+        },
+        "EIRr5full": {
+          "n": 145807,
+          "target": 1.0,
+          "mean": 0.999737317970739,
+          "delta": -0.0002626820292610521,
+          "relativeError": 0.0002626820292610521
+        },
+        "EIRr5min": {
+          "n": 145845,
+          "target": 0.866,
+          "mean": 1.0907825032379794,
+          "delta": 0.22478250323797944,
+          "relativeError": 0.25956409149882154
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "AHRI-HRCU-A-CB",
+        "cutoff_date": null,
+        "complete_metrics": false,
+        "singlezone_only": false,
+        "central_ducted_only": false,
+        "cold_climate": null,
+        "ahri_type": "HRCU-A-CB",
+        "dedupe": "none"
+      },
+      "rowsBeforeDedupe": 130663,
+      "rows": 130663,
+      "score": 0.11289655288277547,
+      "metrics": {
+        "Qr47full": {
+          "n": 130663,
+          "target": 0.908,
+          "mean": 0.960541981794766,
+          "delta": 0.05254198179476599,
+          "relativeError": 0.05786561871670263
+        },
+        "Qr47min": {
+          "n": 130663,
+          "target": 0.272,
+          "mean": 0.3115532762501294,
+          "delta": 0.03955327625012939,
+          "relativeError": 0.14541645680194626
+        },
+        "Qr17full": {
+          "n": 130663,
+          "target": 0.817,
+          "mean": 0.9232909890805957,
+          "delta": 0.10629098908059575,
+          "relativeError": 0.13009912984161048
+        },
+        "Qr17min": {
+          "n": 130663,
+          "target": 0.341,
+          "mean": 0.36601379890692637,
+          "delta": 0.025013798906926343,
+          "relativeError": 0.07335424899391889
+        },
+        "Qm5max": {
+          "n": 130651,
+          "target": 0.866,
+          "mean": 0.8772390003069755,
+          "delta": 0.011239000306975555,
+          "relativeError": 0.012978060400664614
+        },
+        "Qr5full": {
+          "n": 130651,
+          "target": 0.988,
+          "mean": 0.9996152421656401,
+          "delta": 0.011615242165640138,
+          "relativeError": 0.011756317981417144
+        },
+        "Qr5min": {
+          "n": 130651,
+          "target": 0.321,
+          "mean": 0.3738676885366733,
+          "delta": 0.052867688536673285,
+          "relativeError": 0.1646968490239043
+        },
+        "EIRr47full": {
+          "n": 130663,
+          "target": 0.939,
+          "mean": 0.9258335989566524,
+          "delta": -0.013166401043347542,
+          "relativeError": 0.014021726350742857
+        },
+        "EIRr47min": {
+          "n": 130663,
+          "target": 0.73,
+          "mean": 0.9462500762487968,
+          "delta": 0.21625007624879677,
+          "relativeError": 0.29623298116273533
+        },
+        "EIRm17full": {
+          "n": 130663,
+          "target": 1.351,
+          "mean": 1.3490292445320653,
+          "delta": -0.0019707554679346817,
+          "relativeError": 0.0014587383182344054
+        },
+        "EIRr17full": {
+          "n": 130663,
+          "target": 0.902,
+          "mean": 0.9769587073624004,
+          "delta": 0.0749587073624004,
+          "relativeError": 0.08310277978093171
+        },
+        "EIRr17min": {
+          "n": 130663,
+          "target": 0.798,
+          "mean": 1.0645263795631297,
+          "delta": 0.26652637956312963,
+          "relativeError": 0.3339929568460271
+        },
+        "EIRm5max": {
+          "n": 130651,
+          "target": 1.164,
+          "mean": 1.283238767783888,
+          "delta": 0.11923876778388798,
+          "relativeError": 0.10243880393804809
+        },
+        "EIRr5full": {
+          "n": 130651,
+          "target": 1.0,
+          "mean": 0.9995779454910461,
+          "delta": -0.0004220545089539396,
+          "relativeError": 0.0004220545089539396
+        },
+        "EIRr5min": {
+          "n": 130651,
+          "target": 0.866,
+          "mean": 1.0960196201186378,
+          "delta": 0.23001962011863786,
+          "relativeError": 0.2656115705757943
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "central-ducted",
+        "cutoff_date": null,
+        "complete_metrics": false,
+        "singlezone_only": false,
+        "central_ducted_only": true,
+        "cold_climate": null,
+        "ahri_type": null,
+        "dedupe": "none"
+      },
+      "rowsBeforeDedupe": 134026,
+      "rows": 134026,
+      "score": 0.11329508090474263,
+      "metrics": {
+        "Qr47full": {
+          "n": 134026,
+          "target": 0.908,
+          "mean": 0.961989001181054,
+          "delta": 0.053989001181053986,
+          "relativeError": 0.059459252402041834
+        },
+        "Qr47min": {
+          "n": 134026,
+          "target": 0.272,
+          "mean": 0.31233916908918335,
+          "delta": 0.040339169089183335,
+          "relativeError": 0.14830576871023285
+        },
+        "Qr17full": {
+          "n": 134026,
+          "target": 0.817,
+          "mean": 0.9235313334051034,
+          "delta": 0.10653133340510346,
+          "relativeError": 0.1303933089413751
+        },
+        "Qr17min": {
+          "n": 134026,
+          "target": 0.341,
+          "mean": 0.36675391647005595,
+          "delta": 0.025753916470055926,
+          "relativeError": 0.07552468173036928
+        },
+        "Qm5max": {
+          "n": 134014,
+          "target": 0.866,
+          "mean": 0.8785401309599762,
+          "delta": 0.012540130959976192,
+          "relativeError": 0.014480520739002531
+        },
+        "Qr5full": {
+          "n": 134014,
+          "target": 0.988,
+          "mean": 0.9995172482258035,
+          "delta": 0.011517248225803467,
+          "relativeError": 0.011657133831784886
+        },
+        "Qr5min": {
+          "n": 134014,
+          "target": 0.321,
+          "mean": 0.3753473259450309,
+          "delta": 0.05434732594503089,
+          "relativeError": 0.1693063113552364
+        },
+        "EIRr47full": {
+          "n": 134026,
+          "target": 0.939,
+          "mean": 0.9263386547609105,
+          "delta": -0.012661345239089461,
+          "relativeError": 0.013483860744504219
+        },
+        "EIRr47min": {
+          "n": 134026,
+          "target": 0.73,
+          "mean": 0.9442211074658929,
+          "delta": 0.21422110746589296,
+          "relativeError": 0.2934535718710862
+        },
+        "EIRm17full": {
+          "n": 134026,
+          "target": 1.351,
+          "mean": 1.3486712559050886,
+          "delta": -0.0023287440949113503,
+          "relativeError": 0.0017237187971216508
+        },
+        "EIRr17full": {
+          "n": 134026,
+          "target": 0.902,
+          "mean": 0.9773461380324834,
+          "delta": 0.07534613803248336,
+          "relativeError": 0.08353230380541392
+        },
+        "EIRr17min": {
+          "n": 134026,
+          "target": 0.798,
+          "mean": 1.0632715072887706,
+          "delta": 0.2652715072887706,
+          "relativeError": 0.3324204351989606
+        },
+        "EIRm5max": {
+          "n": 134014,
+          "target": 1.164,
+          "mean": 1.2831429434889388,
+          "delta": 0.11914294348893884,
+          "relativeError": 0.10235648066060038
+        },
+        "EIRr5full": {
+          "n": 134014,
+          "target": 1.0,
+          "mean": 0.9996111207052653,
+          "delta": -0.00038887929473474525,
+          "relativeError": 0.00038887929473474525
+        },
+        "EIRr5min": {
+          "n": 134014,
+          "target": 0.866,
+          "mean": 1.0937060274331925,
+          "delta": 0.22770602743319246,
+          "relativeError": 0.2629399854886749
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "AHRI-SCP-HSP-A",
+        "cutoff_date": null,
+        "complete_metrics": false,
+        "singlezone_only": false,
+        "central_ducted_only": false,
+        "cold_climate": null,
+        "ahri_type": "SCP-HSP-A",
+        "dedupe": "none"
+      },
+      "rowsBeforeDedupe": 6,
+      "rows": 6,
+      "score": 0.11492435364335334,
+      "metrics": {
+        "Qr47full": {
+          "n": 6,
+          "target": 0.908,
+          "mean": 1.0,
+          "delta": 0.09199999999999997,
+          "relativeError": 0.10132158590308367
+        },
+        "Qr47min": {
+          "n": 6,
+          "target": 0.272,
+          "mean": 0.24823931073931074,
+          "delta": -0.023760689260689277,
+          "relativeError": 0.08735547522312234
+        },
+        "Qr17full": {
+          "n": 6,
+          "target": 0.817,
+          "mean": 1.0,
+          "delta": 0.18300000000000005,
+          "relativeError": 0.22399020807833545
+        },
+        "Qr17min": {
+          "n": 6,
+          "target": 0.341,
+          "mean": 0.41949068895176683,
+          "delta": 0.07849068895176681,
+          "relativeError": 0.2301779734655918
+        },
+        "Qm5max": {
+          "n": 6,
+          "target": 0.866,
+          "mean": 0.9414577438529534,
+          "delta": 0.07545774385295345,
+          "relativeError": 0.08713365340987697
+        },
+        "Qr5full": {
+          "n": 6,
+          "target": 0.988,
+          "mean": 1.0,
+          "delta": 0.01200000000000001,
+          "relativeError": 0.012145748987854262
+        },
+        "Qr5min": {
+          "n": 6,
+          "target": 0.321,
+          "mean": 0.44776119402985076,
+          "delta": 0.12676119402985075,
+          "relativeError": 0.39489468545124845
+        },
+        "EIRr47full": {
+          "n": 6,
+          "target": 0.939,
+          "mean": 1.0,
+          "delta": 0.061000000000000054,
+          "relativeError": 0.0649627263045794
+        },
+        "EIRr47min": {
+          "n": 6,
+          "target": 0.73,
+          "mean": 0.8048733779063847,
+          "delta": 0.07487337790638471,
+          "relativeError": 0.10256627110463659
+        },
+        "EIRm17full": {
+          "n": 6,
+          "target": 1.351,
+          "mean": 1.5274367063869734,
+          "delta": 0.1764367063869734,
+          "relativeError": 0.13059711797703435
+        },
+        "EIRr17full": {
+          "n": 6,
+          "target": 0.902,
+          "mean": 1.0,
+          "delta": 0.09799999999999998,
+          "relativeError": 0.10864745011086471
+        },
+        "EIRr17min": {
+          "n": 6,
+          "target": 0.798,
+          "mean": 0.8827828550050774,
+          "delta": 0.08478285500507732,
+          "relativeError": 0.10624417920435754
+        },
+        "EIRm5max": {
+          "n": 6,
+          "target": 1.164,
+          "mean": 1.1649289385706116,
+          "delta": 0.0009289385706117148,
+          "relativeError": 0.0007980571912471777
+        },
+        "EIRr5full": {
+          "n": 6,
+          "target": 1.0,
+          "mean": 1.0,
+          "delta": 0.0,
+          "relativeError": 0.0
+        },
+        "EIRr5min": {
+          "n": 6,
+          "target": 0.866,
+          "mean": 0.9292441291585127,
+          "delta": 0.06324412915851274,
+          "relativeError": 0.07303017223846738
+        }
+      }
+    },
+    {
+      "population": {
+        "name": "non-cold-climate",
+        "cutoff_date": null,
+        "complete_metrics": false,
+        "singlezone_only": false,
+        "central_ducted_only": false,
+        "cold_climate": false,
+        "ahri_type": null,
+        "dedupe": "none"
+      },
+      "rowsBeforeDedupe": 57646,
+      "rows": 57646,
+      "score": 0.12139883664954398,
+      "metrics": {
+        "Qr47full": {
+          "n": 57646,
+          "target": 0.908,
+          "mean": 0.9600041750491899,
+          "delta": 0.05200417504918986,
+          "relativeError": 0.05727332053875535
+        },
+        "Qr47min": {
+          "n": 57646,
+          "target": 0.272,
+          "mean": 0.3232887334273244,
+          "delta": 0.05128873342732437,
+          "relativeError": 0.18856151995339843
+        },
+        "Qr17full": {
+          "n": 57646,
+          "target": 0.817,
+          "mean": 0.9033129967515443,
+          "delta": 0.08631299675154436,
+          "relativeError": 0.10564626285378748
+        },
+        "Qr17min": {
+          "n": 57646,
+          "target": 0.341,
+          "mean": 0.39489228121523484,
+          "delta": 0.053892281215234816,
+          "relativeError": 0.15804188039658304
+        },
+        "Qm5max": {
+          "n": 57634,
+          "target": 0.866,
+          "mean": 0.8100695058657034,
+          "delta": -0.05593049413429663,
+          "relativeError": 0.06458486620588524
+        },
+        "Qr5full": {
+          "n": 57596,
+          "target": 0.988,
+          "mean": 0.9981317646867756,
+          "delta": 0.010131764686775568,
+          "relativeError": 0.01025482255746515
+        },
+        "Qr5min": {
+          "n": 57634,
+          "target": 0.321,
+          "mean": 0.3974851295021709,
+          "delta": 0.0764851295021709,
+          "relativeError": 0.23827143147093738
+        },
+        "EIRr47full": {
+          "n": 57646,
+          "target": 0.939,
+          "mean": 0.9119422201990339,
+          "delta": -0.02705777980096602,
+          "relativeError": 0.02881552694458575
+        },
+        "EIRr47min": {
+          "n": 57646,
+          "target": 0.73,
+          "mean": 0.9007721798385164,
+          "delta": 0.17077217983851645,
+          "relativeError": 0.2339344929294746
+        },
+        "EIRm17full": {
+          "n": 57646,
+          "target": 1.351,
+          "mean": 1.2987961041571063,
+          "delta": -0.052203895842893644,
+          "relativeError": 0.038640929565428306
+        },
+        "EIRr17full": {
+          "n": 57646,
+          "target": 0.902,
+          "mean": 0.9687661804403337,
+          "delta": 0.06676618044033367,
+          "relativeError": 0.07402015569881781
+        },
+        "EIRr17min": {
+          "n": 57646,
+          "target": 0.798,
+          "mean": 1.0269424205516722,
+          "delta": 0.22894242055167213,
+          "relativeError": 0.28689526384921316
+        },
+        "EIRm5max": {
+          "n": 57634,
+          "target": 1.164,
+          "mean": 1.2921421678218645,
+          "delta": 0.1281421678218646,
+          "relativeError": 0.11008777304283901
+        },
+        "EIRr5full": {
+          "n": 57596,
+          "target": 1.0,
+          "mean": 0.9989619220705058,
+          "delta": -0.0010380779294941744,
+          "relativeError": 0.0010380779294941744
+        },
+        "EIRr5min": {
+          "n": 57634,
+          "target": 0.866,
+          "mean": 1.0607774515484245,
+          "delta": 0.19477745154842452,
+          "relativeError": 0.22491622580649484
+        }
+      }
+    }
+  ]
+}

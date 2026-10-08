@@ -1,0 +1,468 @@
+=== TOP-LEVEL UPSTREAMS ===
+
+============================================================
+repos/canmet-energy/h2k-hpxml
+============================================================
+commit:  0b77fcee8f1c717f0bfd02e4b5924c84244a9b6b
+branch:  main
+origin:  https://github.com/canmet-energy/h2k-hpxml.git
+
+root structure:
+  .claude
+  CLAUDE.md
+  config
+  .devcontainer
+  Dockerfile
+  .dockerignore
+  docs
+  .github
+  .gitignore
+  LICENSE
+  MANIFEST.in
+  .pre-commit-config.yaml
+  pyproject.toml
+  README.md
+  refactor_differences.md
+  src
+  tests
+  tools
+  uv.lock
+  .vscode
+
+dependency/build manifests:
+  - pyproject.toml
+  - uv.lock
+  - .devcontainer/Dockerfile
+  - Dockerfile
+
+nested git dependencies:
+  (none)
+
+============================================================
+repos/canmet-energy/community-energy-orchestrator
+============================================================
+commit:  c763ac98440691f5b06b67f8b40ccbc901e05f3b
+branch:  main
+origin:  https://github.com/canmet-energy/community-energy-orchestrator.git
+
+root structure:
+  backend
+  CLAUDE.md
+  CONTRIBUTING.md
+  data
+  .devcontainer
+  docker-compose.yml
+  Dockerfile
+  .dockerignore
+  docs
+  entrypoint.sh
+  frontend
+  .gitattributes
+  .github
+  .gitignore
+  LICENSE.txt
+  Makefile
+  pyproject.toml
+  README.md
+  tests
+  tools
+  uv.lock
+
+dependency/build manifests:
+  - pyproject.toml
+  - uv.lock
+  - frontend/package.json
+  - frontend/package-lock.json
+  - Makefile
+  - .devcontainer/Dockerfile
+  - Dockerfile
+  - frontend/Dockerfile
+  - .devcontainer/docker-compose.yml
+  - docker-compose.yml
+
+nested git dependencies:
+  (none)
+
+============================================================
+repos/canmet-energy/hpxml-schema-api
+============================================================
+commit:  87ecd7c07cc276ade4224b27508e70923ca03ca4
+branch:  main
+origin:  https://github.com/canmet-energy/hpxml-schema-api.git
+
+root structure:
+  CONTRIBUTING.md
+  .devcontainer
+  docs
+  examples
+  .gitignore
+  LICENSE
+  pyproject.toml
+  README.md
+  scripts
+  .serena
+  src
+  tests
+  uv.lock
+
+dependency/build manifests:
+  - pyproject.toml
+  - uv.lock
+  - .devcontainer/Dockerfile
+
+nested git dependencies:
+  (none)
+
+============================================================
+repos/canmet-energy/housing-archetypes
+============================================================
+commit:  70e8fe245506f72bc6354b5aa37e51ead9bb88f3
+branch:  main
+origin:  https://github.com/canmet-energy/housing-archetypes.git
+
+root structure:
+  analysis
+  data
+  documentation
+  license.md
+  README.md
+
+dependency/build manifests:
+  (none detected)
+
+nested git dependencies:
+  (none)
+
+============================================================
+repos/canmet-energy/tandm
+============================================================
+commit:  dabee3116a96da828ba59f365964713fd68d6d3d
+branch:  main
+origin:  https://github.com/canmet-energy/tandm.git
+
+root structure:
+  csvs
+  docs
+  fme
+  images
+  Kelowna Inventory
+  LICENSE gnu-lgpl-v3.0.md
+  papers
+  python
+  README.md
+  TaNDM_Requirements.md
+
+dependency/build manifests:
+  (none detected)
+
+nested git dependencies:
+  (none)
+
+============================================================
+repos/NatLabRockies/OpenStudio-HPXML
+============================================================
+commit:  b3275619099502257451b199c87a3e2b55e586b1
+branch:  master
+origin:  https://github.com/NatLabRockies/OpenStudio-HPXML.git
+
+root structure:
+  BuildResidentialHPXML
+  BuildResidentialScheduleFile
+  Changelog.md
+  docs
+  .gitattributes
+  .github
+  .gitignore
+  HPXMLtoOpenStudio
+  LICENSE.md
+  README.md
+  .readthedocs.yml
+  ReportSimulationOutput
+  ReportUtilityBills
+  .rubocop.yml
+  tasks.rb
+  weather
+  workflow
+
+dependency/build manifests:
+  - docs/requirements.txt
+  - docs/Makefile
+
+nested git dependencies:
+  (none)
+
+============================================================
+repos/NatLabRockies/EnergyPlus
+============================================================
+commit:  01c3cbadd58544ada10d67376a6e50c9b33bb98a
+branch:  develop
+origin:  https://github.com/NatLabRockies/EnergyPlus.git
+
+root structure:
+  bin
+  cmake
+  .cmake-format.yaml
+  CMakeLists.txt
+  datasets
+  .decent_ci-Linux.yaml
+  .decent_ci-Windows.yaml
+  .decent_ci.yaml
+  design
+  dictionary.dic
+  doc
+  .git-blame-ignore-revs
+  .github
+  .gitignore
+  idd
+  LICENSE.txt
+  performance_tests
+  .pre-commit-config.yaml
+  pyproject.toml
+  README.md
+  .readthedocs.yml
+  release
+  requirements.txt
+  scripts
+  setup.py
+  src
+  testfiles
+  third_party
+  tst
+  weather
+  workflows
+
+dependency/build manifests:
+  - pyproject.toml
+  - cmake/codesign_doc/requirements.txt
+  - doc/readthedocs/requirements.txt
+  - requirements.txt
+  - scripts/pytests/requirements.txt
+  - setup.py
+  - release/package.json
+  - release/package-lock.json
+  - CMakeLists.txt
+  - doc/CMakeLists.txt
+  - doc/engineering-reference/CMakeLists.txt
+  - doc/external-interfaces-application-guide/CMakeLists.txt
+  - doc/getting-started/CMakeLists.txt
+  - doc/input-output-reference/CMakeLists.txt
+  - doc/interface-developer/CMakeLists.txt
+  - doc/module-developer/CMakeLists.txt
+  - doc/output-details-and-examples/CMakeLists.txt
+  - doc/plant-application-guide/CMakeLists.txt
+  - doc/using-energyplus-for-compliance/CMakeLists.txt
+  - idd/CMakeLists.txt
+  - performance_tests/CMakeLists.txt
+  - src/AppGPostProcess/CMakeLists.txt
+  - src/Basement/CMakeLists.txt
+  - src/CalcSoilSurfTemp/CMakeLists.txt
+  - src/ConvertESOMTR/CMakeLists.txt
+  - src/ConvertInputFormat/CMakeLists.txt
+  - src/EnergyPlus/CMakeLists.txt
+  - src/ExpandObjects/CMakeLists.txt
+  - src/HVAC-Diagram/CMakeLists.txt
+  - src/ParametricPreprocessor/CMakeLists.txt
+  - src/ReadVars/CMakeLists.txt
+  - src/Slab/CMakeLists.txt
+  - src/Transition/CMakeLists.txt
+  - testfiles/CMakeLists.txt
+
+nested git dependencies:
+  (none)
+
+============================================================
+repos/open205/toolkit-205
+============================================================
+commit:  e324f9db8e4bc2715ece75f344101750b8e8e90a
+branch:  main
+origin:  https://github.com/open205/toolkit-205.git
+
+root structure:
+  cmake
+  CMakeLists.txt
+  config
+  dodo.py
+  .github
+  .gitignore
+  .gitmodules
+  LICENSE.txt
+  pyproject.toml
+  README.md
+  schema-205
+  test
+  tk205
+  uv.lock
+  web
+
+dependency/build manifests:
+  - pyproject.toml
+  - schema-205/pyproject.toml
+  - schema-205/uv.lock
+  - uv.lock
+  - CMakeLists.txt
+
+nested git dependencies:
+
+============================================================
+repos/IfcOpenShell/IfcOpenShell
+============================================================
+commit:  5ff15fbc9c43becd52e3df64c46a51a6c5369cee
+branch:  v0.9.0
+origin:  https://github.com/IfcOpenShell/IfcOpenShell.git
+
+root structure:
+  AGENTS.md
+  aws
+  .clang-format
+  .clang-tidy
+  cmake
+  conda
+  COPYING
+  COPYING.LESSER
+  docker
+  Dockerfile
+  docs
+  findings.md
+  .gersemirc
+  .gitattributes
+  .git-blame-ignore-revs
+  .github
+  .gitignore
+  .gitmodules
+  nix
+  pixi.lock
+  pixi.toml
+  pyodide
+  pyproject.toml
+  README.md
+  requirements-tools.txt
+  src
+  test
+  VERSION
+  .vscode
+  win
+
+dependency/build manifests:
+  - pyproject.toml
+  - src/bcf/pyproject.toml
+  - src/bonsai/pyproject.toml
+  - src/bsdd/pyproject.toml
+  - src/ifc4d/pyproject.toml
+  - src/ifc5d/pyproject.toml
+  - src/ifccityjson/pyproject.toml
+  - src/ifcclash/pyproject.toml
+  - src/ifccsv/pyproject.toml
+  - src/ifcdiff/pyproject.toml
+  - src/ifcedit/pyproject.toml
+  - src/ifcfm/pyproject.toml
+  - src/ifcmcp/pyproject.toml
+  - src/ifcopenshell-python/pyproject.toml
+  - src/ifcpatch/pyproject.toml
+  - src/ifcquery/pyproject.toml
+  - src/ifcsverchok/pyproject.toml
+  - src/ifctester/pyproject.toml
+  - aws/lambda/requirements.txt
+  - docs/cpp-api/requirements.txt
+  - pyodide/requirements.txt
+  - pyodide/setup.py
+  - src/bcf/setup.py
+  - src/bonsaiviewer-autodesk/Cargo.toml
+  - cmake/CMakeLists.txt
+  - docs/cpp-api/CMakeLists.txt
+  - src/bonsaiviewer/CMakeLists.txt
+  - src/examples/CMakeLists.txt
+  - src/helpers/CMakeLists.txt
+  - src/ifcconvert/CMakeLists.txt
+  - src/ifcfuzz/CMakeLists.txt
+  - src/ifcgeom/CMakeLists.txt
+  - src/ifcgeomserver/CMakeLists.txt
+  - src/ifcmax/CMakeLists.txt
+  - src/ifcparse/CMakeLists.txt
+  - src/ifcviewer/CMakeLists.txt
+  - src/ifcviewer-minimal/CMakeLists.txt
+  - src/ifcviewer-web/CMakeLists.txt
+  - src/ifcwrap/CMakeLists.txt
+  - src/plugin/CMakeLists.txt
+  - src/serializers/CMakeLists.txt
+  - src/svgfill/CMakeLists.txt
+  - src/wrappergen/CMakeLists.txt
+  - src/bcf/Makefile
+  - src/bonsai/Makefile
+  - src/bsdd/Makefile
+  - src/ifc4d/Makefile
+  - src/ifc5d/Makefile
+  - src/ifcblender/Makefile
+  - src/ifccityjson/Makefile
+  - src/ifcclash/Makefile
+  - src/ifccsv/Makefile
+  - src/ifcdiff/Makefile
+  - src/ifcedit/Makefile
+  - src/ifcfm/Makefile
+  - src/ifcmcp/Makefile
+  - src/ifcopenshell-python/Makefile
+  - src/ifcpatch/Makefile
+  - src/ifcquery/Makefile
+  - src/ifcsverchok/Makefile
+  - src/ifctester/Makefile
+  - aws/lambda/Dockerfile
+  - docker/Dockerfile
+  - Dockerfile
+  - src/bonsai/Dockerfile
+  - src/ifc2ca/Dockerfile
+  - src/opencdeserver/docker-compose.yml
+
+nested git dependencies:
+
+============================================================
+repos/cityjson/cjio
+============================================================
+commit:  35728539127f71b1d5ae458169ff84050e5e20ad
+branch:  master
+origin:  https://github.com/cityjson/cjio.git
+
+root structure:
+  CHANGELOG.md
+  cjio
+  docker
+  Dockerfile
+  .dockerignore
+  docs
+  .github
+  .gitignore
+  LICENSE
+  README.rst
+  .readthedocs.yml
+  setup.cfg
+  setup.py
+  tests
+  uid_entrypoint.sh
+
+dependency/build manifests:
+  - setup.py
+  - setup.cfg
+  - docs/Makefile
+  - Dockerfile
+
+nested git dependencies:
+  (none)
+
+============================================================
+ALL SUBMODULES INCLUDING NESTED
+============================================================
+ 5ff15fbc9c43becd52e3df64c46a51a6c5369cee repos/IfcOpenShell/IfcOpenShell (bonsai-0.9.1-alpha2610062336)
+ 83c12fa494b9d6a5a370d8525dc1f76aa5c89d8d repos/IfcOpenShell/IfcOpenShell/src/ifcopenshell-python/ifcopenshell/mvd (83c12fa)
+ 9400d243d880dace57490949d74ab1932ce99a09 repos/IfcOpenShell/IfcOpenShell/src/ifcopenshell-python/ifcopenshell/simple_spf (heads/master)
+ 2daf6c46ed9fc7a17259ef6d4c17c3553ef642cd repos/IfcOpenShell/IfcOpenShell/src/ifcopenshell-python/test/Sample-BIM-Files (2daf6c4)
+ 493204d75db19fe85c0579442c93305e1ac6a491 repos/IfcOpenShell/IfcOpenShell/src/pyodide/demo-app/wheels (493204d)
+ 5f1870aa7b757718ff5f86bdfb55966fa4f217f9 repos/IfcOpenShell/IfcOpenShell/src/svgfill/3rdparty/svgpp (heads/master)
+ 9c2286b8ba8673cab250aaeac85a59c4ae678446 repos/IfcOpenShell/IfcOpenShell/test/input (9c2286b)
+ 01c3cbadd58544ada10d67376a6e50c9b33bb98a repos/NatLabRockies/EnergyPlus (heads/develop)
+ b3275619099502257451b199c87a3e2b55e586b1 repos/NatLabRockies/OpenStudio-HPXML (heads/master)
+ c763ac98440691f5b06b67f8b40ccbc901e05f3b repos/canmet-energy/community-energy-orchestrator (heads/main)
+ 0b77fcee8f1c717f0bfd02e4b5924c84244a9b6b repos/canmet-energy/h2k-hpxml (heads/main)
+ 70e8fe245506f72bc6354b5aa37e51ead9bb88f3 repos/canmet-energy/housing-archetypes (heads/main)
+ 87ecd7c07cc276ade4224b27508e70923ca03ca4 repos/canmet-energy/hpxml-schema-api (heads/main)
+ dabee3116a96da828ba59f365964713fd68d6d3d repos/canmet-energy/tandm (heads/main)
+ 35728539127f71b1d5ae458169ff84050e5e20ad repos/cityjson/cjio (v0.10.1)
+ e324f9db8e4bc2715ece75f344101750b8e8e90a repos/open205/toolkit-205 (v3.0.0)
+ 5c7addf486a326ddd16a8cdb8b35cf31e8b4f077 repos/open205/toolkit-205/schema-205 (5c7addf)

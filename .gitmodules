@@ -1,0 +1,30 @@
+[submodule "repos/canmet-energy/h2k-hpxml"]
+	path = repos/canmet-energy/h2k-hpxml
+	url = https://github.com/canmet-energy/h2k-hpxml.git
+[submodule "repos/canmet-energy/community-energy-orchestrator"]
+	path = repos/canmet-energy/community-energy-orchestrator
+	url = https://github.com/canmet-energy/community-energy-orchestrator.git
+[submodule "repos/canmet-energy/hpxml-schema-api"]
+	path = repos/canmet-energy/hpxml-schema-api
+	url = https://github.com/canmet-energy/hpxml-schema-api.git
+[submodule "repos/canmet-energy/housing-archetypes"]
+	path = repos/canmet-energy/housing-archetypes
+	url = https://github.com/canmet-energy/housing-archetypes.git
+[submodule "repos/canmet-energy/tandm"]
+	path = repos/canmet-energy/tandm
+	url = https://github.com/canmet-energy/tandm.git
+[submodule "repos/NatLabRockies/OpenStudio-HPXML"]
+	path = repos/NatLabRockies/OpenStudio-HPXML
+	url = https://github.com/NatLabRockies/OpenStudio-HPXML.git
+[submodule "repos/NatLabRockies/EnergyPlus"]
+	path = repos/NatLabRockies/EnergyPlus
+	url = https://github.com/NatLabRockies/EnergyPlus.git
+[submodule "repos/open205/toolkit-205"]
+	path = repos/open205/toolkit-205
+	url = https://github.com/open205/toolkit-205.git
+[submodule "repos/IfcOpenShell/IfcOpenShell"]
+	path = repos/IfcOpenShell/IfcOpenShell
+	url = https://github.com/IfcOpenShell/IfcOpenShell.git
+[submodule "repos/cityjson/cjio"]
+	path = repos/cityjson/cjio
+	url = https://github.com/cityjson/cjio.git

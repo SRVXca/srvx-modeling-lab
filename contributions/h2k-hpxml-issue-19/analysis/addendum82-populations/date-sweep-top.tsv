@@ -1,0 +1,450 @@
+rank	anchor	cutoff_exclusive	score	max_error	median_error	rows	min_metric_n	strong	family	ducting	ahri_type	energy_star	cold_climate	complete	dedupe
+1	current	current	0.03665118	0.08385499	0.02680863	403	403	True	ducting-x-ahri	Singlezone Non-Ducted, Ceiling Placement	HRCU-A-CB-O	None	False	True	none
+2	current	current	0.03799847	0.08468760	0.02949853	412	412	True	ducting	Singlezone Non-Ducted, Ceiling Placement	*	None	False	True	none
+3	current	current	0.03967198	0.10234788	0.02435817	258	258	False	ducting-x-ahri	Singlezone Non-Ducted, Ceiling Placement	HRCU-A-CB-O	None	False	True	outdoor
+4	current	current	0.03970926	0.10239296	0.02505983	261	261	False	ducting	Singlezone Non-Ducted, Ceiling Placement	*	None	False	True	outdoor
+5	current	current	0.04067125	0.12975251	0.02936315	2461	2461	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	True	True	outdoor
+6	current	current	0.04107163	0.14887882	0.01806032	6168	6140	False	control	*	*	False	None	False	outdoor
+7	current	current	0.04111868	0.14889897	0.01832558	6140	6140	False	control	*	*	False	None	True	outdoor
+8	pre-PDS01	2024-11-22	0.04123618	0.12561801	0.02688115	68	68	False	control	*	*	None	True	False	outdoor_indoor
+9	pre-PDS01	2024-11-22	0.04123618	0.12561801	0.02688115	68	68	False	control	*	*	None	True	True	outdoor_indoor
+10	current	current	0.04190626	0.14136023	0.03388607	3722	3722	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	None	True	outdoor
+11	current	current	0.04193834	0.13712315	0.02487040	2552	2552	False	ducting	Singlezone Ducted, Centrally Ducted	*	None	True	True	outdoor
+12	pre-PDS01	2024-11-22	0.04281385	0.11462571	0.03148333	44	44	False	control	*	*	None	True	False	outdoor
+13	pre-PDS01	2024-11-22	0.04281385	0.11462571	0.03148333	44	44	False	control	*	*	None	True	True	outdoor
+14	current	current	0.04322157	0.14933948	0.03404254	3934	3934	False	ducting	Singlezone Ducted, Centrally Ducted	*	None	None	True	outdoor
+15	current	current	0.04358373	0.17371632	0.01294608	4324	4296	False	control	*	*	False	False	False	outdoor
+16	current	current	0.04362031	0.17385497	0.01329187	4296	4296	False	control	*	*	False	False	True	outdoor
+17	pre-PDS01	2024-11-22	0.04402373	0.10832914	0.02710558	50	50	False	control	*	*	None	None	False	outdoor
+18	pre-PDS01	2024-11-22	0.04402373	0.10832914	0.02710558	50	50	False	control	*	*	None	None	True	outdoor
+19	current	current	0.04456915	0.13203285	0.03230152	634	634	False	ahri-type	*	HMSV-A-CB	None	False	True	outdoor
+20	pre-PDS01	2024-11-22	0.04478365	0.14535782	0.02463739	85	85	False	control	*	*	None	True	False	none
+21	pre-PDS01	2024-11-22	0.04478365	0.14535782	0.02463739	85	85	False	control	*	*	None	True	True	none
+22	current	current	0.04487662	0.14600268	0.02764376	4825	4825	False	ahri-type	*	HRCU-A-CB	None	None	True	outdoor
+23	current	current	0.04501267	0.12881245	0.03528752	2677	2677	False	control	*	*	False	True	False	outdoor
+24	current	current	0.04501267	0.12881245	0.03528752	2677	2677	False	control	*	*	False	True	True	outdoor
+25	pre-FINAL	2025-12-17	0.04613040	0.12619422	0.04447572	42	42	False	ahri-type	*	HRCU-A-CB-O	None	None	True	none
+26	pre-PDS03	2025-10-29	0.04638949	0.10625235	0.05039040	69	69	False	control	*	*	True	None	False	outdoor
+27	pre-PDS03	2025-10-29	0.04638949	0.10625235	0.05039040	69	69	False	control	*	*	True	None	True	outdoor
+28	pre-PDS02	2025-04-21	0.04688459	0.12831107	0.04622641	41	41	False	ahri-type	*	HRCU-A-CB-O	None	None	True	none
+29	pre-PDS03	2025-10-29	0.04688459	0.12831107	0.04622641	41	41	False	ahri-type	*	HRCU-A-CB-O	None	None	True	none
+30	current	current	0.04703279	0.12987881	0.03781951	598	598	False	ducting-x-ahri	Multizone Mix of Ducted and Non-Ducted	HMSV-A-CB	None	False	True	none
+31	current	current	0.04703279	0.12987881	0.03781951	598	598	False	ducting-x-ahri	Multizone Mix of Ducted and Non-Ducted	HMSV-A-CB	None	False	True	outdoor
+32	current	current	0.04743313	0.12741107	0.03809366	608	608	False	ducting	Multizone Mix of Ducted and Non-Ducted	*	None	False	True	none
+33	current	current	0.04743313	0.12741107	0.03809366	608	608	False	ducting	Multizone Mix of Ducted and Non-Ducted	*	None	False	True	outdoor
+34	pre-PDS01	2024-11-22	0.04767092	0.13715736	0.03385173	32	32	False	control	*	*	True	True	False	outdoor
+35	pre-PDS01	2024-11-22	0.04767092	0.13715736	0.03385173	32	32	False	control	*	*	True	True	True	outdoor
+36	pre-PDS02	2025-04-21	0.04784297	0.11743347	0.04963259	67	67	False	control	*	*	True	None	False	outdoor
+37	pre-PDS02	2025-04-21	0.04784297	0.11743347	0.04963259	67	67	False	control	*	*	True	None	True	outdoor
+38	pre-PDS01	2024-11-22	0.04795396	0.13980734	0.03739143	84	84	False	control	*	*	None	None	False	outdoor_indoor
+39	pre-PDS01	2024-11-22	0.04795396	0.13980734	0.03739143	84	84	False	control	*	*	None	None	True	outdoor_indoor
+40	current	current	0.04799956	0.19262093	0.01363336	5321	5283	False	control	*	*	None	False	False	outdoor
+41	current	current	0.04807277	0.19273540	0.01395521	5283	5283	False	control	*	*	None	False	True	outdoor
+42	current	current	0.04855104	0.12622207	0.02781976	734	734	False	ducting-x-ahri	Multizone All Non-Ducted	HMSV-A-CB-O	None	False	True	none
+43	current	current	0.04855104	0.12622207	0.02781976	734	734	False	ducting-x-ahri	Multizone All Non-Ducted	HMSV-A-CB-O	None	False	True	outdoor
+44	current	current	0.04886562	0.12842165	0.02928730	738	738	False	ahri-type	*	HMSV-A-CB-O	None	False	True	none
+45	current	current	0.04886562	0.12842165	0.02928730	738	738	False	ahri-type	*	HMSV-A-CB-O	None	False	True	outdoor
+46	pre-FINAL	2025-12-17	0.04888499	0.14829834	0.04187202	76	76	False	control	*	*	True	None	False	outdoor
+47	pre-FINAL	2025-12-17	0.04888499	0.14829834	0.04187202	76	76	False	control	*	*	True	None	True	outdoor
+48	pre-PDS03	2025-10-29	0.04889268	0.11430247	0.04252838	66	66	False	control	*	*	True	True	False	outdoor
+49	pre-PDS03	2025-10-29	0.04889268	0.11430247	0.04252838	66	66	False	control	*	*	True	True	True	outdoor
+50	current	current	0.04918385	0.13085821	0.02921333	751	751	False	ducting	Multizone All Non-Ducted	*	None	False	True	none
+51	current	current	0.04918385	0.13085821	0.02921333	751	751	False	ducting	Multizone All Non-Ducted	*	None	False	True	outdoor
+52	current	current	0.04918411	0.14813753	0.03523023	3256	3256	False	ahri-type	*	HRCU-A-CB	None	True	True	outdoor
+53	pre-FINAL	2025-12-17	0.04922512	0.13054186	0.04414645	71	71	False	control	*	*	True	True	False	outdoor
+54	pre-FINAL	2025-12-17	0.04922512	0.13054186	0.04414645	71	71	False	control	*	*	True	True	True	outdoor
+55	current	current	0.04943929	0.21927180	0.02408914	1066	1066	False	ducting	Singlezone Non-Ducted, Ceiling Placement	*	None	None	True	outdoor
+56	current	current	0.04944476	0.20675719	0.03209209	1842	1842	False	ducting	Singlezone Non-Ducted, Ceiling Placement	*	None	None	True	none
+57	pre-PDS01	2024-11-22	0.04952750	0.15632081	0.03261948	103	103	False	control	*	*	None	None	False	none
+58	pre-PDS01	2024-11-22	0.04952750	0.15632081	0.03261948	103	103	False	control	*	*	None	None	True	none
+59	current	current	0.04957530	0.22017582	0.02367686	1064	1064	False	ducting-x-ahri	Singlezone Non-Ducted, Ceiling Placement	HRCU-A-CB-O	None	None	True	outdoor
+60	current	current	0.04972913	0.20809258	0.03104822	1831	1831	False	ducting-x-ahri	Singlezone Non-Ducted, Ceiling Placement	HRCU-A-CB-O	None	None	True	none
+61	pre-PDS01	2024-11-22	0.04993300	0.12604447	0.03655033	35	35	False	control	*	*	True	None	False	outdoor
+62	pre-PDS01	2024-11-22	0.04993300	0.12604447	0.03655033	35	35	False	control	*	*	True	None	True	outdoor
+63	current	current	0.05040558	0.12720644	0.03734414	1025	1025	False	ahri-type	*	HMSV-A-CB	None	False	True	none
+64	pre-PDS02	2025-04-21	0.05049252	0.12778160	0.04394293	64	64	False	control	*	*	True	True	False	outdoor
+65	pre-PDS02	2025-04-21	0.05049252	0.12778160	0.04394293	64	64	False	control	*	*	True	True	True	outdoor
+66	pre-FINAL	2025-12-17	0.05136164	0.12034480	0.04971646	40	40	False	ahri-type	*	HRCU-A-CB-O	None	None	True	outdoor
+67	pre-PDS02	2025-04-21	0.05228863	0.12242022	0.04726089	39	39	False	ahri-type	*	HRCU-A-CB-O	None	None	True	outdoor
+68	pre-PDS03	2025-10-29	0.05228863	0.12242022	0.04726089	39	39	False	ahri-type	*	HRCU-A-CB-O	None	None	True	outdoor
+69	current	current	0.05272963	0.19010183	0.03270708	7029	7029	False	control	*	*	False	True	False	outdoor_indoor
+70	current	current	0.05272963	0.19010183	0.03270708	7029	7029	False	control	*	*	False	True	True	outdoor_indoor
+71	current	current	0.05314717	0.19829389	0.02798123	34363	34313	False	control	*	*	None	None	False	outdoor_indoor
+72	current	current	0.05323009	0.19832874	0.02772386	34313	34313	False	control	*	*	None	None	True	outdoor_indoor
+73	pre-PDS01	2024-11-22	0.05335260	0.14636565	0.04064513	46	46	False	control	*	*	True	True	False	outdoor_indoor
+74	pre-PDS01	2024-11-22	0.05335260	0.14636565	0.04064513	46	46	False	control	*	*	True	True	True	outdoor_indoor
+75	current	current	0.05336106	0.17231616	0.03714478	11626	11588	False	control	*	*	None	None	False	outdoor
+76	current	current	0.05339255	0.17525558	0.02663589	2088	2088	False	ahri-type	*	HRCU-A-CB	None	False	True	outdoor
+77	current	current	0.05343192	0.17232103	0.03735815	11588	11588	False	control	*	*	None	None	True	outdoor
+78	pre-PDS01	2024-11-22	0.05377701	0.14970656	0.04162321	49	49	False	control	*	*	True	None	False	outdoor_indoor
+79	pre-PDS01	2024-11-22	0.05377701	0.14970656	0.04162321	49	49	False	control	*	*	True	None	True	outdoor_indoor
+80	current	current	0.05463079	0.19527091	0.02657670	17624	17588	False	control	*	*	False	None	False	outdoor_indoor
+81	current	current	0.05475696	0.19546879	0.02671975	17588	17588	False	control	*	*	False	None	True	outdoor_indoor
+82	current	current	0.05476261	0.12477060	0.04641929	437	437	False	ducting	Multizone All Ducted	*	None	False	True	none
+83	current	current	0.05476261	0.12477060	0.04641929	437	437	False	ducting	Multizone All Ducted	*	None	False	True	outdoor
+84	pre-PDS03	2025-10-29	0.05482324	0.31064106	0.03234939	37	37	False	control	*	*	None	False	False	none
+85	pre-PDS03	2025-10-29	0.05482324	0.31064106	0.03234939	37	37	False	control	*	*	None	False	True	none
+86	pre-PDS01	2024-11-22	0.05487221	0.25313613	0.02723150	48	48	False	ducting	Singlezone Ducted, Centrally Ducted	*	None	True	True	none
+87	current	current	0.05559674	0.19778431	0.02188411	853	853	False	ahri-type	*	HRCU-A-C	None	True	True	outdoor
+88	current	current	0.05559674	0.19778431	0.02188411	853	853	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-C	None	True	True	outdoor
+89	pre-FINAL	2025-12-17	0.05564163	0.35280830	0.03167462	111	111	False	control	*	*	None	None	False	outdoor
+90	pre-FINAL	2025-12-17	0.05564163	0.35280830	0.03167462	111	111	False	control	*	*	None	None	True	outdoor
+91	pre-PDS03	2025-10-29	0.05600620	0.33649257	0.03423906	104	104	False	control	*	*	None	None	False	outdoor
+92	pre-PDS03	2025-10-29	0.05600620	0.33649257	0.03423906	104	104	False	control	*	*	None	None	True	outdoor
+93	current	current	0.05612542	0.12703865	0.04797413	427	427	False	ducting-x-ahri	Multizone All Ducted	HMSV-A-CB	None	False	True	none
+94	current	current	0.05612542	0.12703865	0.04797413	427	427	False	ducting-x-ahri	Multizone All Ducted	HMSV-A-CB	None	False	True	outdoor
+95	pre-PDS01	2024-11-22	0.05632307	0.27852896	0.03080574	39	39	False	control	*	*	False	None	False	none
+96	pre-PDS01	2024-11-22	0.05632307	0.27852896	0.03080574	39	39	False	control	*	*	False	None	True	none
+97	current	current	0.05709474	0.21491112	0.02627295	1605	1605	False	ahri-type	*	HRCU-A-C	None	None	True	outdoor
+98	current	current	0.05709474	0.21491112	0.02627295	1605	1605	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-C	None	None	True	outdoor
+99	current	current	0.05717786	0.15680415	0.06124420	7642	7642	False	control	*	*	None	True	False	outdoor
+100	current	current	0.05717786	0.15680415	0.06124420	7642	7642	False	control	*	*	None	True	True	outdoor
+101	pre-FINAL	2025-12-17	0.05761099	0.20683362	0.03864166	30	30	False	ducting	Multizone All Non-Ducted	*	None	None	True	none
+102	pre-FINAL	2025-12-17	0.05761099	0.20683362	0.03864166	30	30	False	ducting	Multizone All Non-Ducted	*	None	None	True	outdoor
+103	pre-FINAL	2025-12-17	0.05761099	0.20683362	0.03864166	30	30	False	ducting	Multizone All Non-Ducted	*	None	True	True	none
+104	pre-FINAL	2025-12-17	0.05761099	0.20683362	0.03864166	30	30	False	ducting	Multizone All Non-Ducted	*	None	True	True	outdoor
+105	pre-FINAL	2025-12-17	0.05761099	0.20683362	0.03864166	30	30	False	ahri-type	*	HMSV-A-CB-O	None	None	True	outdoor
+106	pre-FINAL	2025-12-17	0.05761099	0.20683362	0.03864166	30	30	False	ahri-type	*	HMSV-A-CB-O	None	True	True	outdoor
+107	pre-FINAL	2025-12-17	0.05761099	0.20683362	0.03864166	30	30	False	ducting-x-ahri	Multizone All Non-Ducted	HMSV-A-CB-O	None	None	True	none
+108	pre-FINAL	2025-12-17	0.05761099	0.20683362	0.03864166	30	30	False	ducting-x-ahri	Multizone All Non-Ducted	HMSV-A-CB-O	None	None	True	outdoor
+109	pre-FINAL	2025-12-17	0.05761099	0.20683362	0.03864166	30	30	False	ducting-x-ahri	Multizone All Non-Ducted	HMSV-A-CB-O	None	True	True	none
+110	pre-FINAL	2025-12-17	0.05761099	0.20683362	0.03864166	30	30	False	ducting-x-ahri	Multizone All Non-Ducted	HMSV-A-CB-O	None	True	True	outdoor
+111	pre-PDS02	2025-04-21	0.05786975	0.34930673	0.03185022	102	102	False	control	*	*	None	None	False	outdoor
+112	pre-PDS02	2025-04-21	0.05786975	0.34930673	0.03185022	102	102	False	control	*	*	None	None	True	outdoor
+113	pre-PDS02	2025-04-21	0.05790191	0.41739035	0.02889645	30	30	False	control	*	*	None	False	False	none
+114	pre-PDS02	2025-04-21	0.05790191	0.41739035	0.02889645	30	30	False	control	*	*	None	False	True	none
+115	pre-FINAL	2025-12-17	0.05800727	0.13016203	0.05056792	36	36	False	ducting	Singlezone Non-Ducted, Wall Placement	*	None	None	True	none
+116	pre-FINAL	2025-12-17	0.05800727	0.13016203	0.05056792	36	36	False	ducting	Singlezone Non-Ducted, Wall Placement	*	None	None	True	outdoor
+117	pre-FINAL	2025-12-17	0.05800727	0.13016203	0.05056792	36	36	False	ducting-x-ahri	Singlezone Non-Ducted, Wall Placement	HRCU-A-CB-O	None	None	True	none
+118	pre-FINAL	2025-12-17	0.05800727	0.13016203	0.05056792	36	36	False	ducting-x-ahri	Singlezone Non-Ducted, Wall Placement	HRCU-A-CB-O	None	None	True	outdoor
+119	pre-FINAL	2025-12-17	0.05805981	0.35987673	0.03306897	95	95	False	control	*	*	None	True	False	outdoor
+120	pre-FINAL	2025-12-17	0.05805981	0.35987673	0.03306897	95	95	False	control	*	*	None	True	True	outdoor
+121	pre-PDS01	2024-11-22	0.05807839	0.24038126	0.02710572	43	43	False	ahri-type	*	HRCU-A-CB	None	None	True	none
+122	pre-PDS01	2024-11-22	0.05817482	0.15999531	0.04316878	59	59	False	control	*	*	True	True	False	none
+123	pre-PDS01	2024-11-22	0.05817482	0.15999531	0.04316878	59	59	False	control	*	*	True	True	True	none
+124	pre-PDS03	2025-10-29	0.05821025	0.35926642	0.02857567	90	90	False	control	*	*	None	True	False	outdoor
+125	pre-PDS03	2025-10-29	0.05821025	0.35926642	0.02857567	90	90	False	control	*	*	None	True	True	outdoor
+126	current	current	0.05825437	0.25644774	0.02681253	818	818	False	ducting	Singlezone Non-Ducted, Ceiling Placement	*	None	True	True	outdoor
+127	current	current	0.05825437	0.25644774	0.02681253	818	818	False	ducting-x-ahri	Singlezone Non-Ducted, Ceiling Placement	HRCU-A-CB-O	None	True	True	outdoor
+128	pre-PDS01	2024-11-22	0.05828107	0.16541190	0.04128107	64	64	False	control	*	*	True	None	False	none
+129	pre-PDS01	2024-11-22	0.05828107	0.16541190	0.04128107	64	64	False	control	*	*	True	None	True	none
+130	pre-PDS01	2024-11-22	0.05900278	0.33388648	0.03146671	35	35	False	control	*	*	False	None	False	outdoor_indoor
+131	pre-PDS01	2024-11-22	0.05900278	0.33388648	0.03146671	35	35	False	control	*	*	False	None	True	outdoor_indoor
+132	current	current	0.05901399	0.25322519	0.03307778	1430	1430	False	ducting	Singlezone Non-Ducted, Ceiling Placement	*	None	True	True	none
+133	current	current	0.05906575	0.25421541	0.03300848	1428	1428	False	ducting-x-ahri	Singlezone Non-Ducted, Ceiling Placement	HRCU-A-CB-O	None	True	True	none
+134	pre-PDS02	2025-04-21	0.05923008	0.13400392	0.04646543	35	35	False	ducting	Singlezone Non-Ducted, Wall Placement	*	None	None	True	none
+135	pre-PDS02	2025-04-21	0.05923008	0.13400392	0.04646543	35	35	False	ducting	Singlezone Non-Ducted, Wall Placement	*	None	None	True	outdoor
+136	pre-PDS02	2025-04-21	0.05923008	0.13400392	0.04646543	35	35	False	ducting-x-ahri	Singlezone Non-Ducted, Wall Placement	HRCU-A-CB-O	None	None	True	none
+137	pre-PDS02	2025-04-21	0.05923008	0.13400392	0.04646543	35	35	False	ducting-x-ahri	Singlezone Non-Ducted, Wall Placement	HRCU-A-CB-O	None	None	True	outdoor
+138	pre-PDS03	2025-10-29	0.05923008	0.13400392	0.04646543	35	35	False	ducting	Singlezone Non-Ducted, Wall Placement	*	None	None	True	none
+139	pre-PDS03	2025-10-29	0.05923008	0.13400392	0.04646543	35	35	False	ducting	Singlezone Non-Ducted, Wall Placement	*	None	None	True	outdoor
+140	pre-PDS03	2025-10-29	0.05923008	0.13400392	0.04646543	35	35	False	ducting-x-ahri	Singlezone Non-Ducted, Wall Placement	HRCU-A-CB-O	None	None	True	none
+141	pre-PDS03	2025-10-29	0.05923008	0.13400392	0.04646543	35	35	False	ducting-x-ahri	Singlezone Non-Ducted, Wall Placement	HRCU-A-CB-O	None	None	True	outdoor
+142	pre-PDS01	2024-11-22	0.06032956	0.26077631	0.03706167	41	41	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	None	True	none
+143	pre-PDS02	2025-04-21	0.06042036	0.37463678	0.02975797	88	88	False	control	*	*	None	True	False	outdoor
+144	pre-PDS02	2025-04-21	0.06042036	0.37463678	0.02975797	88	88	False	control	*	*	None	True	True	outdoor
+145	current	current	0.06097398	0.23088100	0.03252082	18413	18399	False	control	*	*	True	None	False	outdoor_indoor
+146	current	current	0.06102150	0.23088106	0.03256901	18399	18399	False	control	*	*	True	None	True	outdoor_indoor
+147	pre-PDS01	2024-11-22	0.06122745	0.26020492	0.04118263	39	39	False	ahri-type	*	HRCU-A-CB	None	True	True	none
+148	pre-PDS01	2024-11-22	0.06122745	0.26020492	0.04118263	39	39	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	True	True	none
+149	current	current	0.06154352	0.20943719	0.04210547	2228	2228	False	ducting	Singlezone Ducted, Centrally Ducted	*	None	False	True	outdoor
+150	current	current	0.06156485	0.18649611	0.05022027	6696	6686	False	control	*	*	True	None	False	outdoor
+151	current	current	0.06160626	0.18643642	0.05021376	6686	6686	False	control	*	*	True	None	True	outdoor
+152	pre-PDS03	2025-10-29	0.06203291	0.24414188	0.02580116	31	31	False	ahri-type	*	HRCU-A-C	None	None	True	none
+153	pre-PDS03	2025-10-29	0.06203291	0.24414188	0.02580116	31	31	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-C	None	None	True	none
+154	current	current	0.06221081	0.21017241	0.05231444	22283	22283	False	control	*	*	None	True	False	outdoor_indoor
+155	current	current	0.06221081	0.21017241	0.05231444	22283	22283	False	control	*	*	None	True	True	outdoor_indoor
+156	current	current	0.06230018	0.23566982	0.02812438	3013	3013	False	ahri-type	*	HRCU-A-CB-O	None	False	True	none
+157	current	current	0.06248439	0.18012528	0.05684686	2594	2594	False	ahri-type	*	HMSV-A-CB-O	None	None	True	none
+158	current	current	0.06343987	0.16798684	0.05933471	5684	5684	False	control	*	*	True	True	False	outdoor
+159	current	current	0.06343987	0.16798684	0.05933471	5684	5684	False	control	*	*	True	True	True	outdoor
+160	current	current	0.06370200	0.20107082	0.03915226	1746	1746	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	False	True	outdoor
+161	current	current	0.06414736	0.18666859	0.05231305	2480	2480	False	ducting	Multizone All Non-Ducted	*	None	None	True	outdoor
+162	current	current	0.06418525	0.18697905	0.05238294	2482	2482	False	ducting	Multizone All Non-Ducted	*	None	None	True	none
+163	current	current	0.06422224	0.18702755	0.05331075	2456	2456	False	ducting-x-ahri	Multizone All Non-Ducted	HMSV-A-CB-O	None	None	True	none
+164	current	current	0.06422224	0.18702755	0.05331075	2456	2456	False	ducting-x-ahri	Multizone All Non-Ducted	HMSV-A-CB-O	None	None	True	outdoor
+165	pre-FINAL	2025-12-17	0.06426377	0.21706961	0.03220778	34	34	False	ahri-type	*	HMSV-A-CB-O	None	None	True	none
+166	pre-FINAL	2025-12-17	0.06426377	0.21706961	0.03220778	34	34	False	ahri-type	*	HMSV-A-CB-O	None	True	True	none
+167	current	current	0.06439120	0.18405002	0.05599113	2527	2527	False	ahri-type	*	HMSV-A-CB-O	None	None	True	outdoor
+168	pre-PDS01	2024-11-22	0.06459598	0.26554357	0.03476801	58	58	False	ducting	Singlezone Ducted, Centrally Ducted	*	None	None	True	none
+169	current	current	0.06605874	0.20727427	0.03518528	11714	11678	False	control	*	*	False	False	False	outdoor_indoor
+170	current	current	0.06625832	0.20760930	0.03560708	11678	11678	False	control	*	*	False	False	True	outdoor_indoor
+171	current	current	0.06689263	0.26734183	0.02268172	2330	2330	False	ahri-type	*	HRCU-A-CB-O	None	False	True	outdoor
+172	current	current	0.06716024	0.23487700	0.03887468	9276	9276	False	ahri-type	*	HRCU-A-CB-O	None	None	True	none
+173	current	current	0.06748483	0.21928255	0.03727962	68	68	False	ducting-x-ahri	Singlezone Non-Ducted, Wall Placement	HMSV-A-CB-O	None	None	True	none
+174	current	current	0.06748483	0.21928255	0.03727962	68	68	False	ducting-x-ahri	Singlezone Non-Ducted, Wall Placement	HMSV-A-CB-O	None	None	True	outdoor
+175	current	current	0.06748483	0.21928255	0.03727962	68	68	False	ducting-x-ahri	Singlezone Non-Ducted, Wall Placement	HMSV-A-CB-O	None	True	True	none
+176	current	current	0.06748483	0.21928255	0.03727962	68	68	False	ducting-x-ahri	Singlezone Non-Ducted, Wall Placement	HMSV-A-CB-O	None	True	True	outdoor
+177	pre-PDS03	2025-10-29	0.06787212	0.23462957	0.02936335	33	33	False	ahri-type	*	HMSV-A-CB-O	None	None	True	none
+178	pre-PDS03	2025-10-29	0.06787212	0.23462957	0.02936335	33	33	False	ahri-type	*	HMSV-A-CB-O	None	True	True	none
+179	current	current	0.06857354	0.17083632	0.05951884	1959	1959	False	ducting	Multizone All Ducted	*	None	None	True	none
+180	current	current	0.06860296	0.18760251	0.05578417	1997	1997	False	ducting	Multizone Mix of Ducted and Non-Ducted	*	None	None	True	outdoor
+181	current	current	0.06860627	0.17049337	0.05929236	1955	1955	False	ducting	Multizone All Ducted	*	None	None	True	outdoor
+182	current	current	0.06865306	0.20068417	0.06364113	1856	1856	False	ahri-type	*	HMSV-A-CB-O	None	True	True	none
+183	current	current	0.06870370	0.17923914	0.05587546	2069	2069	False	ahri-type	*	HMSV-A-CB	None	None	True	outdoor
+184	current	current	0.06916673	0.25246020	0.04834683	999	999	False	ahri-type	*	HRCU-A-C	None	False	True	outdoor
+185	current	current	0.06916673	0.25246020	0.04834683	999	999	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-C	None	False	True	outdoor
+186	current	current	0.06982643	0.29102969	0.04160991	1305	1295	False	control	*	*	True	False	False	outdoor
+187	current	current	0.07003498	0.23138614	0.05517181	15908	15908	False	control	*	*	True	True	False	outdoor_indoor
+188	current	current	0.07003498	0.23138614	0.05517181	15908	15908	False	control	*	*	True	True	True	outdoor_indoor
+189	current	current	0.07060459	0.29427936	0.04379927	1295	1295	False	control	*	*	True	False	True	outdoor
+190	current	current	0.07087751	0.21091011	0.06156407	1729	1729	False	ducting	Multizone All Non-Ducted	*	None	True	True	outdoor
+191	current	current	0.07094027	0.21132727	0.06174701	1731	1731	False	ducting	Multizone All Non-Ducted	*	None	True	True	none
+192	current	current	0.07109187	0.20744176	0.06042599	1794	1794	False	ahri-type	*	HMSV-A-CB-O	None	True	True	outdoor
+193	current	current	0.07111889	0.21294580	0.06201283	1722	1722	False	ducting-x-ahri	Multizone All Non-Ducted	HMSV-A-CB-O	None	True	True	none
+194	current	current	0.07111889	0.21294580	0.06201283	1722	1722	False	ducting-x-ahri	Multizone All Non-Ducted	HMSV-A-CB-O	None	True	True	outdoor
+195	current	current	0.07117730	0.28450546	0.04368827	5260	5260	False	ahri-type	*	HRCU-A-CB-O	None	None	True	outdoor
+196	current	current	0.07125036	0.19278797	0.05417982	1924	1924	False	ducting-x-ahri	Multizone Mix of Ducted and Non-Ducted	HMSV-A-CB	None	None	True	outdoor
+197	current	current	0.07130462	0.30132145	0.02508383	2085	2085	False	ducting	Singlezone Non-Ducted, Wall Placement	*	None	False	True	outdoor
+198	current	current	0.07135803	0.30161453	0.02461023	2080	2080	False	ducting-x-ahri	Singlezone Non-Ducted, Wall Placement	HRCU-A-CB-O	None	False	True	outdoor
+199	current	current	0.07143742	0.19321865	0.05776891	3800	3800	False	ahri-type	*	HMSV-A-CB	None	None	True	none
+200	current	current	0.07170624	0.18783571	0.05888542	2003	2003	False	ducting	Multizone Mix of Ducted and Non-Ducted	*	None	None	True	none
+201	current	current	0.07179986	0.19286305	0.05678656	1927	1927	False	ducting-x-ahri	Multizone Mix of Ducted and Non-Ducted	HMSV-A-CB	None	None	True	none
+202	current	current	0.07194426	0.19358451	0.06044683	1873	1873	False	ducting-x-ahri	Multizone All Ducted	HMSV-A-CB	None	None	True	none
+203	current	current	0.07194426	0.19358451	0.06044683	1873	1873	False	ducting-x-ahri	Multizone All Ducted	HMSV-A-CB	None	None	True	outdoor
+204	pre-FINAL	2025-12-17	0.07196407	0.22117558	0.05950667	31	31	False	ahri-type	*	HRCU-A-C	None	True	True	none
+205	pre-FINAL	2025-12-17	0.07196407	0.22117558	0.05950667	31	31	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-C	None	True	True	none
+206	pre-PDS02	2025-04-21	0.07196935	0.25320049	0.04534677	32	32	False	ahri-type	*	HMSV-A-CB-O	None	None	True	none
+207	pre-PDS02	2025-04-21	0.07196935	0.25320049	0.04534677	32	32	False	ahri-type	*	HMSV-A-CB-O	None	True	True	none
+208	current	current	0.07199390	0.29566494	0.02631327	2456	2456	False	ducting	Singlezone Non-Ducted, Wall Placement	*	None	False	True	none
+209	current	current	0.07230649	0.29803702	0.02534011	2444	2444	False	ducting-x-ahri	Singlezone Non-Ducted, Wall Placement	HRCU-A-CB-O	None	False	True	none
+210	current	current	0.07240531	0.28511320	0.04338085	6971	6971	False	ducting	Singlezone Non-Ducted, Wall Placement	*	None	None	True	none
+211	current	current	0.07247599	0.29841024	0.04199901	5100	5100	False	ducting	Singlezone Non-Ducted, Wall Placement	*	None	None	True	outdoor
+212	current	current	0.07255657	0.21344493	0.04663502	13973	13923	False	control	*	*	None	False	False	outdoor_indoor
+213	current	current	0.07259956	0.18442818	0.06414946	1522	1522	False	ducting	Multizone All Ducted	*	None	True	True	none
+214	current	current	0.07265233	0.18402231	0.06450854	1518	1518	False	ducting	Multizone All Ducted	*	None	True	True	outdoor
+215	current	current	0.07287419	0.21405739	0.04693860	13923	13923	False	control	*	*	None	False	True	outdoor_indoor
+216	current	current	0.07384307	0.26708232	0.03936228	2515	2515	False	ahri-type	*	HRCU-A-C	None	True	True	none
+217	current	current	0.07384307	0.26708232	0.03936228	2515	2515	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-C	None	True	True	none
+218	current	current	0.07415826	0.23449560	0.04107682	6263	6263	False	ahri-type	*	HRCU-A-CB-O	None	True	True	none
+219	current	current	0.07464340	0.29464008	0.04522420	6756	6756	False	ducting-x-ahri	Singlezone Non-Ducted, Wall Placement	HRCU-A-CB-O	None	None	True	none
+220	current	current	0.07482653	0.30698487	0.05463982	637	637	False	ducting	Singlezone Non-Ducted, Floor Placement	*	None	None	True	outdoor
+221	current	current	0.07494039	0.28688812	0.05004919	3184	3184	False	ducting	Singlezone Non-Ducted, Wall Placement	*	None	True	True	outdoor
+222	current	current	0.07520209	0.31114844	0.04456706	4895	4895	False	ducting-x-ahri	Singlezone Non-Ducted, Wall Placement	HRCU-A-CB-O	None	None	True	outdoor
+223	current	current	0.07620179	0.31761113	0.05482834	688	688	False	ducting	Singlezone Non-Ducted, Floor Placement	*	None	None	True	none
+224	current	current	0.07669051	0.21323532	0.06817412	1446	1446	False	ducting-x-ahri	Multizone All Ducted	HMSV-A-CB	None	True	True	none
+225	current	current	0.07669051	0.21323532	0.06817412	1446	1446	False	ducting-x-ahri	Multizone All Ducted	HMSV-A-CB	None	True	True	outdoor
+226	current	current	0.07698687	0.28060155	0.04698143	3187	3187	False	ahri-type	*	HRCU-A-CB-O	None	True	True	outdoor
+227	current	current	0.07707548	0.22368176	0.02821577	538	538	False	ducting	Singlezone Ducted, Compact Ducted	*	None	False	True	none
+228	current	current	0.07725630	0.26161038	0.05591056	5435	5435	False	ahri-type	*	HRCU-A-C	None	None	True	none
+229	current	current	0.07725630	0.26161038	0.05591056	5435	5435	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-C	None	None	True	none
+230	current	current	0.07726804	0.27937343	0.04540409	4515	4515	False	ducting	Singlezone Non-Ducted, Wall Placement	*	None	True	True	none
+231	current	current	0.07787292	0.25305448	0.03899820	29805	29805	False	control	*	*	False	True	False	none
+232	current	current	0.07787292	0.25305448	0.03899820	29805	29805	False	control	*	*	False	True	True	none
+233	current	current	0.07798282	0.26524385	0.06188480	162	162	False	ducting	Singlezone Non-Ducted, Floor Placement	*	None	False	True	none
+234	current	current	0.07798282	0.26524385	0.06188480	162	162	False	ducting-x-ahri	Singlezone Non-Ducted, Floor Placement	HRCU-A-CB-O	None	False	True	none
+235	current	current	0.07802582	0.21557429	0.06988795	1511	1511	False	ahri-type	*	HMSV-A-CB	None	True	True	outdoor
+236	current	current	0.07809753	0.23011185	0.02809175	528	528	False	ducting-x-ahri	Singlezone Ducted, Compact Ducted	HRCU-A-CB	None	False	True	none
+237	current	current	0.07848436	0.21876976	0.06659671	1389	1389	False	ducting	Multizone Mix of Ducted and Non-Ducted	*	None	True	True	outdoor
+238	current	current	0.07884131	0.23316637	0.02796944	473	473	False	ducting	Singlezone Ducted, Compact Ducted	*	None	False	True	outdoor
+239	pre-FINAL	2025-12-17	0.07916617	0.58172791	0.04264450	143	143	False	control	*	*	True	True	False	outdoor_indoor
+240	pre-FINAL	2025-12-17	0.07916617	0.58172791	0.04264450	143	143	False	control	*	*	True	True	True	outdoor_indoor
+241	current	current	0.07975570	0.30651293	0.04896591	2984	2984	False	ducting-x-ahri	Singlezone Non-Ducted, Wall Placement	HRCU-A-CB-O	None	True	True	outdoor
+242	current	current	0.07979185	0.22097020	0.06809741	2775	2775	False	ahri-type	*	HMSV-A-CB	None	True	True	none
+243	current	current	0.07988823	0.26078936	0.06674475	150	150	False	ducting	Singlezone Non-Ducted, Floor Placement	*	None	False	True	outdoor
+244	current	current	0.07988823	0.26078936	0.06674475	150	150	False	ducting-x-ahri	Singlezone Non-Ducted, Floor Placement	HRCU-A-CB-O	None	False	True	outdoor
+245	current	current	0.07996425	0.32194180	0.05815757	488	488	False	ducting	Singlezone Non-Ducted, Floor Placement	*	None	True	True	outdoor
+246	current	current	0.08004499	0.24070403	0.02782269	463	463	False	ducting-x-ahri	Singlezone Ducted, Compact Ducted	HRCU-A-CB	None	False	True	outdoor
+247	current	current	0.08053090	0.33383795	0.06197846	613	613	False	ducting-x-ahri	Singlezone Non-Ducted, Floor Placement	HRCU-A-CB-O	None	None	True	outdoor
+248	pre-PDS03	2025-10-29	0.08053891	0.57594270	0.03299582	137	137	False	control	*	*	True	None	False	outdoor_indoor
+249	pre-PDS03	2025-10-29	0.08053891	0.57594270	0.03299582	137	137	False	control	*	*	True	None	True	outdoor_indoor
+250	current	current	0.08065277	0.34278578	0.06157133	664	664	False	ducting-x-ahri	Singlezone Non-Ducted, Floor Placement	HRCU-A-CB-O	None	None	True	none
+251	current	current	0.08067812	0.33373946	0.05862455	526	526	False	ducting	Singlezone Non-Ducted, Floor Placement	*	None	True	True	none
+252	current	current	0.08120227	0.29271474	0.04446359	4312	4312	False	ducting-x-ahri	Singlezone Non-Ducted, Wall Placement	HRCU-A-CB-O	None	True	True	none
+253	current	current	0.08241836	0.22935974	0.06505653	1326	1326	False	ducting-x-ahri	Multizone Mix of Ducted and Non-Ducted	HMSV-A-CB	None	True	True	outdoor
+254	current	current	0.08326672	0.22938604	0.06468096	1329	1329	False	ducting-x-ahri	Multizone Mix of Ducted and Non-Ducted	HMSV-A-CB	None	True	True	none
+255	current	current	0.08356253	0.21897053	0.06625431	1395	1395	False	ducting	Multizone Mix of Ducted and Non-Ducted	*	None	True	True	none
+256	pre-FINAL	2025-12-17	0.08365435	0.24522050	0.07033815	39	39	False	ahri-type	*	HRCU-A-C	None	None	True	none
+257	pre-FINAL	2025-12-17	0.08365435	0.24522050	0.07033815	39	39	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-C	None	None	True	none
+258	pre-FINAL	2025-12-17	0.08376843	0.59215219	0.03519018	154	154	False	control	*	*	True	None	False	outdoor_indoor
+259	pre-FINAL	2025-12-17	0.08376843	0.59215219	0.03519018	154	154	False	control	*	*	True	None	True	outdoor_indoor
+260	pre-PDS03	2025-10-29	0.08461207	0.59653887	0.03856016	133	133	False	control	*	*	True	True	False	outdoor_indoor
+261	pre-PDS03	2025-10-29	0.08461207	0.59653887	0.03856016	133	133	False	control	*	*	True	True	True	outdoor_indoor
+262	pre-PDS02	2025-04-21	0.08696296	0.63315303	0.03618327	127	127	False	control	*	*	True	None	False	outdoor_indoor
+263	pre-PDS02	2025-04-21	0.08696296	0.63315303	0.03618327	127	127	False	control	*	*	True	None	True	outdoor_indoor
+264	current	current	0.08740617	0.26614597	0.06292075	76607	76571	False	control	*	*	False	None	False	none
+265	current	current	0.08744616	0.26622475	0.06293408	76571	76571	False	control	*	*	False	None	True	none
+266	current	current	0.08791790	0.35819161	0.06098360	464	464	False	ducting-x-ahri	Singlezone Non-Ducted, Floor Placement	HRCU-A-CB-O	None	True	True	outdoor
+267	current	current	0.08792453	0.25689739	0.06546554	2920	2920	False	ahri-type	*	HRCU-A-C	None	False	True	none
+268	current	current	0.08792453	0.25689739	0.06546554	2920	2920	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-C	None	False	True	none
+269	current	current	0.08818642	0.36780928	0.06162389	502	502	False	ducting-x-ahri	Singlezone Non-Ducted, Floor Placement	HRCU-A-CB-O	None	True	True	none
+270	current	current	0.08902296	0.45008243	0.05130089	30	30	False	ducting-x-ahri	Multizone All Ducted	HRCU-A-CB	None	True	True	outdoor
+271	current	current	0.08913819	0.46672006	0.05434884	40	40	False	ducting-x-ahri	Multizone All Ducted	HRCU-A-CB	None	None	True	outdoor
+272	pre-FINAL	2025-12-17	0.08986974	0.70116298	0.02633999	50	50	False	control	*	*	False	None	False	outdoor
+273	pre-FINAL	2025-12-17	0.08986974	0.70116298	0.02633999	50	50	False	control	*	*	False	None	True	outdoor
+274	pre-PDS02	2025-04-21	0.09078846	0.65097109	0.04329352	124	124	False	control	*	*	True	True	False	outdoor_indoor
+275	pre-PDS02	2025-04-21	0.09078846	0.65097109	0.04329352	124	124	False	control	*	*	True	True	True	outdoor_indoor
+276	current	current	0.09207782	0.47718742	0.05882493	44	44	False	ducting-x-ahri	Multizone All Ducted	HRCU-A-CB	None	None	True	none
+277	pre-PDS03	2025-10-29	0.09325883	0.69487545	0.02786377	44	44	False	control	*	*	False	None	False	outdoor
+278	pre-PDS03	2025-10-29	0.09325883	0.69487545	0.02786377	44	44	False	control	*	*	False	None	True	outdoor
+279	current	current	0.09456566	0.22590463	0.09373582	456	456	False	ahri-type	*	HSP-A	None	None	True	none
+280	current	current	0.09456566	0.22590463	0.09373582	456	456	False	ahri-type	*	HSP-A	None	None	True	outdoor
+281	current	current	0.09470270	0.26252553	0.06415404	1788	1788	False	ducting	Singlezone Ducted, Compact Ducted	*	None	None	True	outdoor
+282	current	current	0.09538224	0.46558580	0.06904356	34	34	False	ducting-x-ahri	Multizone All Ducted	HRCU-A-CB	None	True	True	none
+283	pre-PDS03	2025-10-29	0.09573323	0.75220200	0.02677481	36	36	False	ducting	Singlezone Ducted, Centrally Ducted	*	None	None	True	outdoor
+284	pre-PDS03	2025-10-29	0.09573323	0.75220200	0.02677481	36	36	False	ducting	Singlezone Ducted, Centrally Ducted	*	None	True	True	outdoor
+285	pre-PDS02	2025-04-21	0.09589540	0.71525821	0.02939556	43	43	False	control	*	*	False	None	False	outdoor
+286	pre-PDS02	2025-04-21	0.09589540	0.71525821	0.02939556	43	43	False	control	*	*	False	None	True	outdoor
+287	pre-FINAL	2025-12-17	0.09656317	0.73239982	0.03819070	40	40	False	ducting	Singlezone Ducted, Centrally Ducted	*	None	True	True	outdoor
+288	current	current	0.09791809	0.31630259	0.06804817	94655	94655	False	control	*	*	None	True	False	none
+289	current	current	0.09791809	0.31630259	0.06804817	94655	94655	False	control	*	*	None	True	True	none
+290	pre-PDS02	2025-04-21	0.09912608	0.78153404	0.02827665	35	35	False	ducting	Singlezone Ducted, Centrally Ducted	*	None	None	True	outdoor
+291	pre-PDS02	2025-04-21	0.09912608	0.78153404	0.02827665	35	35	False	ducting	Singlezone Ducted, Centrally Ducted	*	None	True	True	outdoor
+292	current	current	0.09946012	0.23501798	0.09537533	439	439	False	ahri-type	*	HSP-A	None	True	True	none
+293	current	current	0.09946012	0.23501798	0.09537533	439	439	False	ahri-type	*	HSP-A	None	True	True	outdoor
+294	current	current	0.09975055	0.30517190	0.07359685	152301	152251	False	control	*	*	None	None	False	none
+295	current	current	0.09979065	0.30525803	0.07363347	152251	152251	False	control	*	*	None	None	True	none
+296	current	current	0.10026307	0.27130528	0.05917363	2292	2292	False	ducting	Singlezone Ducted, Compact Ducted	*	None	None	True	none
+297	pre-PDS02	2025-04-21	0.10167693	0.78504188	0.03878043	35	35	False	ahri-type	*	HRCU-A-CB	None	None	True	outdoor
+298	pre-PDS03	2025-10-29	0.10167693	0.78504188	0.03878043	35	35	False	ahri-type	*	HRCU-A-CB	None	None	True	outdoor
+299	current	current	0.10234771	0.27506619	0.07020390	1335	1335	False	ducting	Singlezone Ducted, Compact Ducted	*	None	True	True	outdoor
+300	current	current	0.10247343	0.30453636	0.05863476	1556	1556	False	ducting-x-ahri	Singlezone Ducted, Compact Ducted	HRCU-A-CB	None	None	True	outdoor
+301	pre-FINAL	2025-12-17	0.10293021	0.81963114	0.03844479	37	37	False	ahri-type	*	HRCU-A-CB	None	True	True	outdoor
+302	pre-FINAL	2025-12-17	0.10293021	0.81963114	0.03844479	37	37	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	True	True	outdoor
+303	current	current	0.10293367	0.27448305	0.06959728	46802	46766	False	control	*	*	False	False	False	none
+304	current	current	0.10300964	0.27461845	0.06962425	46766	46766	False	control	*	*	False	False	True	none
+305	pre-FINAL	2025-12-17	0.10416303	0.75257560	0.04242416	42	42	False	ducting	Singlezone Ducted, Centrally Ducted	*	None	None	True	outdoor
+306	pre-FINAL	2025-12-17	0.10580826	0.78742810	0.03816871	41	41	False	ahri-type	*	HRCU-A-CB	None	None	True	outdoor
+307	pre-FINAL	2025-12-17	0.10622463	0.67697495	0.02511228	31	31	False	control	*	*	False	False	False	outdoor_indoor
+308	pre-FINAL	2025-12-17	0.10622463	0.67697495	0.02511228	31	31	False	control	*	*	False	False	True	outdoor_indoor
+309	pre-PDS02	2025-04-21	0.10677065	0.84334692	0.03431512	33	33	False	ahri-type	*	HRCU-A-CB	None	True	True	outdoor
+310	pre-PDS02	2025-04-21	0.10677065	0.84334692	0.03431512	33	33	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	None	True	outdoor
+311	pre-PDS02	2025-04-21	0.10677065	0.84334692	0.03431512	33	33	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	True	True	outdoor
+312	pre-PDS03	2025-10-29	0.10677065	0.84334692	0.03431512	33	33	False	ahri-type	*	HRCU-A-CB	None	True	True	outdoor
+313	pre-PDS03	2025-10-29	0.10677065	0.84334692	0.03431512	33	33	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	None	True	outdoor
+314	pre-PDS03	2025-10-29	0.10677065	0.84334692	0.03431512	33	33	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	True	True	outdoor
+315	current	current	0.10794447	0.30542656	0.05730894	2056	2056	False	ducting-x-ahri	Singlezone Ducted, Compact Ducted	HRCU-A-CB	None	None	True	none
+316	current	current	0.10917484	0.28591273	0.06777157	1754	1754	False	ducting	Singlezone Ducted, Compact Ducted	*	None	True	True	none
+317	current	current	0.10939595	0.35278193	0.08434841	80797	80797	False	ahri-type	*	HRCU-A-CB	None	True	True	none
+318	current	current	0.10953601	0.34537136	0.07971154	64850	64850	False	control	*	*	True	True	False	none
+319	current	current	0.10953601	0.34537136	0.07971154	64850	64850	False	control	*	*	True	True	True	none
+320	pre-FINAL	2025-12-17	0.10959337	0.86069399	0.03294658	35	35	False	control	*	*	False	True	False	outdoor
+321	pre-FINAL	2025-12-17	0.10959337	0.86069399	0.03294658	35	35	False	control	*	*	False	True	True	outdoor
+322	current	current	0.11015307	0.35109705	0.08497877	81782	81782	False	ducting	Singlezone Ducted, Centrally Ducted	*	None	True	True	none
+323	pre-FINAL	2025-12-17	0.11027914	0.83688550	0.04099280	39	39	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	None	True	outdoor
+324	current	current	0.11158614	0.35379379	0.08644322	79230	79230	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	True	True	none
+325	current	current	0.11280114	0.33290029	0.07873627	1113	1113	False	ducting-x-ahri	Singlezone Ducted, Compact Ducted	HRCU-A-CB	None	True	True	outdoor
+326	current	current	0.11290420	0.33402575	0.08312013	130651	130651	False	ahri-type	*	HRCU-A-CB	None	None	True	none
+327	current	current	0.11330255	0.33245227	0.08354926	134014	134014	False	ducting	Singlezone Ducted, Centrally Ducted	*	None	None	True	none
+328	current	current	0.11490724	0.33543833	0.08472518	128529	128529	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	None	True	none
+329	current	current	0.11573101	0.30588094	0.09241483	216	216	False	ducting-x-ahri	Singlezone Ducted, Compact Ducted	HSP-A	None	None	True	none
+330	current	current	0.11573101	0.30588094	0.09241483	216	216	False	ducting-x-ahri	Singlezone Ducted, Compact Ducted	HSP-A	None	None	True	outdoor
+331	current	current	0.11573101	0.30588094	0.09241483	216	216	False	ducting-x-ahri	Singlezone Ducted, Compact Ducted	HSP-A	None	True	True	none
+332	current	current	0.11573101	0.30588094	0.09241483	216	216	False	ducting-x-ahri	Singlezone Ducted, Compact Ducted	HSP-A	None	True	True	outdoor
+333	pre-PDS03	2025-10-29	0.11604176	0.90021743	0.02154863	31	31	False	control	*	*	False	True	False	outdoor
+334	pre-PDS03	2025-10-29	0.11604176	0.90021743	0.02154863	31	31	False	control	*	*	False	True	True	outdoor
+335	current	current	0.11859626	0.33145154	0.07400538	1528	1528	False	ducting-x-ahri	Singlezone Ducted, Compact Ducted	HRCU-A-CB	None	True	True	none
+336	current	current	0.11887717	0.46841596	0.06304049	132	132	False	ducting-x-ahri	Singlezone Non-Ducted, Wall Placement	HSP-A	None	True	True	none
+337	current	current	0.11887717	0.46841596	0.06304049	132	132	False	ducting-x-ahri	Singlezone Non-Ducted, Wall Placement	HSP-A	None	True	True	outdoor
+338	current	current	0.11940623	0.46977934	0.07343935	136	136	False	ducting-x-ahri	Singlezone Non-Ducted, Wall Placement	HSP-A	None	None	True	none
+339	current	current	0.11940623	0.46977934	0.07343935	136	136	False	ducting-x-ahri	Singlezone Non-Ducted, Wall Placement	HSP-A	None	None	True	outdoor
+340	current	current	0.11967416	0.34466855	0.07919955	75694	75680	False	control	*	*	True	None	False	none
+341	current	current	0.11970600	0.34475087	0.07926181	75680	75680	False	control	*	*	True	None	True	none
+342	pre-PDS02	2025-04-21	0.12042104	0.93627744	0.02213168	30	30	False	control	*	*	False	True	False	outdoor
+343	pre-PDS02	2025-04-21	0.12042104	0.93627744	0.02213168	30	30	False	control	*	*	False	True	True	outdoor
+344	pre-FINAL	2025-12-17	0.12089855	0.67164291	0.02883706	43	43	False	control	*	*	None	False	False	outdoor_indoor
+345	pre-FINAL	2025-12-17	0.12089855	0.67164291	0.02883706	43	43	False	control	*	*	None	False	True	outdoor_indoor
+346	current	current	0.12139884	0.28689526	0.10564626	57646	57596	False	control	*	*	None	False	False	none
+347	current	current	0.12151226	0.28710708	0.10566627	57596	57596	False	control	*	*	None	False	True	none
+348	current	current	0.12604375	0.46290440	0.06201366	2818	2804	False	control	*	*	True	False	False	outdoor_indoor
+349	current	current	0.12696259	0.46568004	0.06344286	2804	2804	False	control	*	*	True	False	True	outdoor_indoor
+350	current	current	0.13241293	0.36516829	0.09537835	41	41	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HSP-A	None	None	True	none
+351	current	current	0.13241293	0.36516829	0.09537835	41	41	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HSP-A	None	None	True	outdoor
+352	current	current	0.13309425	0.30325930	0.10546124	52232	52232	False	ducting	Singlezone Ducted, Centrally Ducted	*	None	False	True	none
+353	pre-FINAL	2025-12-17	0.13315213	0.67342442	0.02365821	63	63	False	control	*	*	None	False	False	none
+354	pre-FINAL	2025-12-17	0.13315213	0.67342442	0.02365821	63	63	False	control	*	*	None	False	True	none
+355	current	current	0.13437215	0.30362815	0.10547605	49854	49854	False	ahri-type	*	HRCU-A-CB	None	False	True	none
+356	pre-FINAL	2025-12-17	0.13582224	1.04737565	0.04102575	347	347	False	control	*	*	True	None	False	none
+357	pre-FINAL	2025-12-17	0.13582224	1.04737565	0.04102575	347	347	False	control	*	*	True	None	True	none
+358	current	current	0.13603355	0.30593869	0.10556744	49299	49299	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	False	True	none
+359	pre-PDS03	2025-10-29	0.13677478	1.06200291	0.05253593	327	327	False	control	*	*	True	None	False	none
+360	pre-PDS03	2025-10-29	0.13677478	1.06200291	0.05253593	327	327	False	control	*	*	True	None	True	none
+361	pre-FINAL	2025-12-17	0.13960227	1.08834965	0.04373658	324	324	False	control	*	*	True	True	False	none
+362	pre-FINAL	2025-12-17	0.13960227	1.08834965	0.04373658	324	324	False	control	*	*	True	True	True	none
+363	pre-PDS03	2025-10-29	0.14367219	1.11075754	0.05195938	314	314	False	control	*	*	True	True	False	none
+364	pre-PDS03	2025-10-29	0.14367219	1.11075754	0.05195938	314	314	False	control	*	*	True	True	True	none
+365	pre-FINAL	2025-12-17	0.14389301	0.79029193	0.01723235	40	40	False	control	*	*	False	False	False	none
+366	pre-FINAL	2025-12-17	0.14389301	0.79029193	0.01723235	40	40	False	control	*	*	False	False	True	none
+367	current	current	0.14459641	0.58753968	0.10471752	70	70	False	ducting-x-ahri	Multizone Mix of Ducted and Non-Ducted	HMSV-A-CB-O	None	None	True	none
+368	current	current	0.14459641	0.58753968	0.10471752	70	70	False	ducting-x-ahri	Multizone Mix of Ducted and Non-Ducted	HMSV-A-CB-O	None	None	True	outdoor
+369	current	current	0.14712117	0.63295040	0.11304621	66	66	False	ducting-x-ahri	Multizone Mix of Ducted and Non-Ducted	HMSV-A-CB-O	None	True	True	none
+370	current	current	0.14712117	0.63295040	0.11304621	66	66	False	ducting-x-ahri	Multizone Mix of Ducted and Non-Ducted	HMSV-A-CB-O	None	True	True	outdoor
+371	pre-PDS02	2025-04-21	0.15665822	1.23098478	0.02995535	286	286	False	control	*	*	True	None	False	none
+372	pre-PDS02	2025-04-21	0.15665822	1.23098478	0.02995535	286	286	False	control	*	*	True	None	True	none
+373	pre-PDS02	2025-04-21	0.16169157	1.26455672	0.03159041	279	279	False	control	*	*	True	True	False	none
+374	pre-PDS02	2025-04-21	0.16169157	1.26455672	0.03159041	279	279	False	control	*	*	True	True	True	none
+375	pre-FINAL	2025-12-17	0.16839326	0.85250933	0.02297313	47	47	False	ducting	Singlezone Ducted, Centrally Ducted	*	None	False	True	none
+376	pre-FINAL	2025-12-17	0.17346627	1.33413000	0.04009462	457	457	False	control	*	*	None	None	False	outdoor_indoor
+377	pre-FINAL	2025-12-17	0.17346627	1.33413000	0.04009462	457	457	False	control	*	*	None	None	True	outdoor_indoor
+378	pre-PDS03	2025-10-29	0.18498404	1.37659816	0.06601479	425	425	False	control	*	*	None	None	False	outdoor_indoor
+379	pre-PDS03	2025-10-29	0.18498404	1.37659816	0.06601479	425	425	False	control	*	*	None	None	True	outdoor_indoor
+380	pre-FINAL	2025-12-17	0.18581406	0.93280515	0.01972087	41	41	False	ahri-type	*	HRCU-A-CB	None	False	True	none
+381	pre-FINAL	2025-12-17	0.18749737	1.39871439	0.06970320	418	418	False	control	*	*	None	True	False	outdoor_indoor
+382	pre-FINAL	2025-12-17	0.18749737	1.39871439	0.06970320	418	418	False	control	*	*	None	True	True	outdoor_indoor
+383	pre-FINAL	2025-12-17	0.19238542	0.95946024	0.02415367	39	39	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	False	True	none
+384	pre-PDS02	2025-04-21	0.19239948	1.42853443	0.06679940	411	411	False	control	*	*	None	None	False	outdoor_indoor
+385	pre-PDS02	2025-04-21	0.19239948	1.42853443	0.06679940	411	411	False	control	*	*	None	None	True	outdoor_indoor
+386	pre-PDS03	2025-10-29	0.19626624	1.44112220	0.07040778	400	400	False	control	*	*	None	True	False	outdoor_indoor
+387	pre-PDS03	2025-10-29	0.19626624	1.44112220	0.07040778	400	400	False	control	*	*	None	True	True	outdoor_indoor
+388	current	current	0.19634115	0.70373355	0.07765416	39	39	False	ducting-x-ahri	Multizone All Ducted	HSP-A	None	None	True	none
+389	current	current	0.19634115	0.70373355	0.07765416	39	39	False	ducting-x-ahri	Multizone All Ducted	HSP-A	None	None	True	outdoor
+390	current	current	0.19634115	0.70373355	0.07765416	39	39	False	ducting-x-ahri	Multizone All Ducted	HSP-A	None	True	True	none
+391	current	current	0.19634115	0.70373355	0.07765416	39	39	False	ducting-x-ahri	Multizone All Ducted	HSP-A	None	True	True	outdoor
+392	current	current	0.20118656	0.79912371	0.10807463	10844	10830	False	control	*	*	True	False	False	none
+393	current	current	0.20150010	0.80018385	0.10805171	10830	10830	False	control	*	*	True	False	True	none
+394	pre-PDS02	2025-04-21	0.20398595	1.49456530	0.07126369	387	387	False	control	*	*	None	True	False	outdoor_indoor
+395	pre-PDS02	2025-04-21	0.20398595	1.49456530	0.07126369	387	387	False	control	*	*	None	True	True	outdoor_indoor
+396	pre-FINAL	2025-12-17	0.22803671	1.67505258	0.07382351	314	314	False	control	*	*	False	None	False	outdoor_indoor
+397	pre-FINAL	2025-12-17	0.22803671	1.67505258	0.07382351	314	314	False	control	*	*	False	None	True	outdoor_indoor
+398	pre-PDS03	2025-10-29	0.23804503	1.71776122	0.08038730	299	299	False	control	*	*	False	None	False	outdoor_indoor
+399	pre-PDS03	2025-10-29	0.23804503	1.71776122	0.08038730	299	299	False	control	*	*	False	None	True	outdoor_indoor
+400	pre-FINAL	2025-12-17	0.23837041	1.74173593	0.07801927	1484	1484	False	control	*	*	None	None	False	none
+401	pre-FINAL	2025-12-17	0.23837041	1.74173593	0.07801927	1484	1484	False	control	*	*	None	None	True	none
+402	pre-PDS02	2025-04-21	0.24438840	1.76339089	0.08297910	292	292	False	control	*	*	False	None	False	outdoor_indoor
+403	pre-PDS02	2025-04-21	0.24438840	1.76339089	0.08297910	292	292	False	control	*	*	False	None	True	outdoor_indoor
+404	pre-PDS03	2025-10-29	0.24470696	1.76777108	0.08096138	1440	1440	False	control	*	*	None	None	False	none
+405	pre-PDS03	2025-10-29	0.24470696	1.76777108	0.08096138	1440	1440	False	control	*	*	None	None	True	none
+406	pre-FINAL	2025-12-17	0.24754841	1.78909949	0.08226242	1421	1421	False	control	*	*	None	True	False	none
+407	pre-FINAL	2025-12-17	0.24754841	1.78909949	0.08226242	1421	1421	False	control	*	*	None	True	True	none
+408	pre-FINAL	2025-12-17	0.24864463	1.78670462	0.08460064	285	285	False	control	*	*	False	True	False	outdoor_indoor
+409	pre-FINAL	2025-12-17	0.24864463	1.78670462	0.08460064	285	285	False	control	*	*	False	True	True	outdoor_indoor
+410	pre-PDS03	2025-10-29	0.25081888	1.80619860	0.08398208	1403	1403	False	control	*	*	None	True	False	none
+411	pre-PDS03	2025-10-29	0.25081888	1.80619860	0.08398208	1403	1403	False	control	*	*	None	True	True	none
+412	pre-FINAL	2025-12-17	0.25338970	1.83716714	0.08757694	1402	1402	False	ducting	Singlezone Ducted, Centrally Ducted	*	None	None	True	none
+413	pre-PDS02	2025-04-21	0.25569713	1.84331131	0.08675361	1385	1385	False	control	*	*	None	None	False	none
+414	pre-PDS02	2025-04-21	0.25569713	1.84331131	0.08675361	1385	1385	False	control	*	*	None	None	True	none
+415	pre-PDS03	2025-10-29	0.25585192	1.82254332	0.09028302	277	277	False	control	*	*	False	True	False	outdoor_indoor
+416	pre-PDS03	2025-10-29	0.25585192	1.82254332	0.09028302	277	277	False	control	*	*	False	True	True	outdoor_indoor
+417	pre-PDS03	2025-10-29	0.26004332	1.86482405	0.09073377	1360	1360	False	ducting	Singlezone Ducted, Centrally Ducted	*	None	None	True	none
+418	pre-FINAL	2025-12-17	0.26066387	1.87132132	0.09141151	1355	1355	False	ducting	Singlezone Ducted, Centrally Ducted	*	None	True	True	none
+419	pre-PDS02	2025-04-21	0.26088285	1.87488152	0.08931413	1355	1355	False	control	*	*	None	True	False	none
+420	pre-PDS02	2025-04-21	0.26088285	1.87488152	0.08931413	1355	1355	False	control	*	*	None	True	True	none
+421	pre-FINAL	2025-12-17	0.26097019	1.88463116	0.09254955	1363	1363	False	ahri-type	*	HRCU-A-CB	None	None	True	none
+422	pre-FINAL	2025-12-17	0.26141876	1.88766073	0.09259467	1361	1361	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	None	True	none
+423	pre-PDS02	2025-04-21	0.26207832	1.86667632	0.09272016	271	271	False	control	*	*	False	True	False	outdoor_indoor
+424	pre-PDS02	2025-04-21	0.26207832	1.86667632	0.09272016	271	271	False	control	*	*	False	True	True	outdoor_indoor
+425	pre-PDS03	2025-10-29	0.26372969	1.88724779	0.09305888	1339	1339	False	ducting	Singlezone Ducted, Centrally Ducted	*	None	True	True	none
+426	pre-PDS03	2025-10-29	0.26637486	1.90610415	0.09437224	1329	1329	False	ahri-type	*	HRCU-A-CB	None	None	True	none
+427	pre-PDS03	2025-10-29	0.26684306	1.90924371	0.09442126	1327	1327	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	None	True	none
+428	pre-FINAL	2025-12-17	0.26771366	1.91786035	0.09553213	1322	1322	False	ahri-type	*	HRCU-A-CB	None	True	True	none
+429	pre-FINAL	2025-12-17	0.26771366	1.91786035	0.09553213	1322	1322	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	True	True	none
+430	pre-PDS03	2025-10-29	0.26922012	1.92603011	0.09566005	1314	1314	False	ahri-type	*	HRCU-A-CB	None	True	True	none
+431	pre-PDS03	2025-10-29	0.26922012	1.92603011	0.09566005	1314	1314	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	True	True	none
+432	pre-PDS02	2025-04-21	0.27208538	1.94731767	0.09723060	1306	1306	False	ducting	Singlezone Ducted, Centrally Ducted	*	None	None	True	none
+433	pre-FINAL	2025-12-17	0.27357089	1.95364711	0.09900398	1137	1137	False	control	*	*	False	None	False	none
+434	pre-FINAL	2025-12-17	0.27357089	1.95364711	0.09900398	1137	1137	False	control	*	*	False	None	True	none
+435	pre-PDS02	2025-04-21	0.27449964	1.96055183	0.09892840	1292	1292	False	ducting	Singlezone Ducted, Centrally Ducted	*	None	True	True	none
+436	pre-PDS02	2025-04-21	0.27660300	1.97564371	0.10008166	1285	1285	False	ahri-type	*	HRCU-A-CB	None	None	True	none
+437	pre-PDS02	2025-04-21	0.27710321	1.97899934	0.10014126	1283	1283	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	None	True	none
+438	pre-PDS02	2025-04-21	0.27800531	1.98532915	0.10063114	1277	1277	False	ahri-type	*	HRCU-A-CB	None	True	True	none
+439	pre-PDS02	2025-04-21	0.27800531	1.98532915	0.10063114	1277	1277	False	ducting-x-ahri	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	True	True	none
+440	pre-PDS03	2025-10-29	0.27862945	1.97512615	0.10164734	1113	1113	False	control	*	*	False	None	False	none
+441	pre-PDS03	2025-10-29	0.27862945	1.97512615	0.10164734	1113	1113	False	control	*	*	False	None	True	none
+442	pre-FINAL	2025-12-17	0.28187145	1.99606662	0.10303868	1097	1097	False	control	*	*	False	True	False	none
+443	pre-FINAL	2025-12-17	0.28187145	1.99606662	0.10303868	1097	1097	False	control	*	*	False	True	True	none
+444	pre-PDS02	2025-04-21	0.28254326	2.00266108	0.10350533	1099	1099	False	control	*	*	False	None	False	none
+445	pre-PDS02	2025-04-21	0.28254326	2.00266108	0.10350533	1099	1099	False	control	*	*	False	None	True	none
+446	pre-PDS03	2025-10-29	0.28394880	2.00672063	0.10461951	1089	1089	False	control	*	*	False	True	False	none
+447	pre-PDS03	2025-10-29	0.28394880	2.00672063	0.10461951	1089	1089	False	control	*	*	False	True	True	none
+448	pre-PDS02	2025-04-21	0.28772026	2.03313488	0.10638864	1076	1076	False	control	*	*	False	True	False	none
+449	pre-PDS02	2025-04-21	0.28772026	2.03313488	0.10638864	1076	1076	False	control	*	*	False	True	True	none

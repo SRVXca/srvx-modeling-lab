@@ -1,0 +1,46 @@
+{
+  "source": "NEEP ccASHP Product List",
+  "publisher": "Northeast Energy Efficiency Partnerships",
+  "studiedAt": "2026-10-07",
+  "primarySnapshot": {
+    "file": "neep_air_source_heat_pump_2026-10-07.xlsx",
+    "url": "https://ashp.neep.org/api/products/bulk_export/",
+    "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "sizeBytes": 49641979,
+    "sha256": "bf2afe6e9570bb47a1354d43eda734e4a585895597dfadd9bc2703c8313e5b85"
+  },
+  "companionVocabulary": {
+    "file": "ahri-choices.json",
+    "url": "https://ashp.neep.org/api/ahri_choices/"
+  },
+  "api": {
+    "productsUrl": "https://ashp.neep.org/api/products/",
+    "observedTotal": 160848,
+    "maxPageSize": 300,
+    "systemTypeCounts": {
+      "1": 160822,
+      "2": 9,
+      "3": 17,
+      "4": 0,
+      "5": 0
+    }
+  },
+  "xlsx": {
+    "sheets": {
+      "HP Report": 155313,
+      "VRF Report": 9,
+      "PTHP Report": 19,
+      "SPVHP Report": 7
+    },
+    "totalProductRows": 155348
+  },
+  "usage": {
+    "scope": "isolated upstream/research contribution",
+    "commercialReuseApproved": false,
+    "note": "The NEEP XLSX states that the Product List download is not for commercial use."
+  },
+  "populationDifference": {
+    "apiMinusXlsx": 5500,
+    "status": "unresolved-non-blocking"
+  }
+}

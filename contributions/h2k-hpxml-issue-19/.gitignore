@@ -1,3 +1,17 @@
 __pycache__/
 *.pyc
 source-study/neep/bulk-export.body
+
+source-study/neep/*.xlsx
+
+# Locally captured NEEP web application/source payloads.
+# Keep our adapters/manifests/docs, not redistributed website assets.
+source-study/neep/js/
+source-study/neep/index.html
+source-study/neep/page-*.json
+source-study/neep/*.headers.txt
+source-study/neep/samsung.json
+
+# Large generated population sweeps; compact summaries are committed.
+analysis/addendum82-populations/sweep-results.json
+analysis/addendum82-populations/date-sweep-results.json

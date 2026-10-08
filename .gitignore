@@ -1,0 +1,29 @@
+# Local lab state
+var/*
+!var/.gitkeep
+
+# Databases
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+
+# Generated / cached experiments
+.cache/
+tmp/
+outputs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS/editor
+.DS_Store
+
+# External/local datasets; preserve manifests separately when needed
+datasets/
+
+# Nested experiment working directories / caches
+experiments/**/work/
+experiments/**/output/

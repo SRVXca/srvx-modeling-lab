@@ -1,0 +1,251 @@
+rank	score	rows	pre_dedupe	min_metric_n	family	vintage	ducting	ahri_type	energy_star	cold_climate	complete	dedupe
+1	0.03665118	403	403	403	ducting-x-ahri	all	Singlezone Non-Ducted, Ceiling Placement	HRCU-A-CB-O	None	False	True	none
+2	0.03799847	412	412	412	ducting	all	Singlezone Non-Ducted, Ceiling Placement	*	None	False	True	none
+3	0.03967198	258	403	258	ducting-x-ahri	all	Singlezone Non-Ducted, Ceiling Placement	HRCU-A-CB-O	None	False	True	outdoor
+4	0.03970926	261	412	261	ducting	all	Singlezone Non-Ducted, Ceiling Placement	*	None	False	True	outdoor
+5	0.04067125	2461	79230	2461	ducting-x-ahri	all	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	True	True	outdoor
+6	0.04107163	6168	76607	6140	control	all	*	*	False	None	False	outdoor
+7	0.04111868	6140	76571	6140	control	all	*	*	False	None	True	outdoor
+8	0.04123618	68	85	68	control	pre-PDS01	*	*	None	True	False	outdoor_indoor
+9	0.04123618	68	85	68	control	pre-PDS01	*	*	None	True	True	outdoor_indoor
+10	0.04190626	3722	128529	3722	ducting-x-ahri	all	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	None	True	outdoor
+11	0.04193834	2552	81782	2552	ducting	all	Singlezone Ducted, Centrally Ducted	*	None	True	True	outdoor
+12	0.04281385	44	85	44	control	pre-PDS01	*	*	None	True	False	outdoor
+13	0.04281385	44	85	44	control	pre-PDS01	*	*	None	True	True	outdoor
+14	0.04322157	3934	134014	3934	ducting	all	Singlezone Ducted, Centrally Ducted	*	None	None	True	outdoor
+15	0.04358373	4324	46802	4296	control	all	*	*	False	False	False	outdoor
+16	0.04362031	4296	46766	4296	control	all	*	*	False	False	True	outdoor
+17	0.04402373	50	103	50	control	pre-PDS01	*	*	None	None	False	outdoor
+18	0.04402373	50	103	50	control	pre-PDS01	*	*	None	None	True	outdoor
+19	0.04456915	634	1025	634	ahri-type	all	*	HMSV-A-CB	None	False	True	outdoor
+20	0.04478365	85	85	85	control	pre-PDS01	*	*	None	True	False	none
+21	0.04478365	85	85	85	control	pre-PDS01	*	*	None	True	True	none
+22	0.04487662	4825	130651	4825	ahri-type	all	*	HRCU-A-CB	None	None	True	outdoor
+23	0.04501267	2677	29805	2677	control	all	*	*	False	True	False	outdoor
+24	0.04501267	2677	29805	2677	control	all	*	*	False	True	True	outdoor
+25	0.04703279	598	598	598	ducting-x-ahri	all	Multizone Mix of Ducted and Non-Ducted	HMSV-A-CB	None	False	True	none
+26	0.04703279	598	598	598	ducting-x-ahri	all	Multizone Mix of Ducted and Non-Ducted	HMSV-A-CB	None	False	True	outdoor
+27	0.04743313	608	608	608	ducting	all	Multizone Mix of Ducted and Non-Ducted	*	None	False	True	none
+28	0.04743313	608	608	608	ducting	all	Multizone Mix of Ducted and Non-Ducted	*	None	False	True	outdoor
+29	0.04767092	32	59	32	control	pre-PDS01	*	*	True	True	False	outdoor
+30	0.04767092	32	59	32	control	pre-PDS01	*	*	True	True	True	outdoor
+31	0.04795396	84	103	84	control	pre-PDS01	*	*	None	None	False	outdoor_indoor
+32	0.04795396	84	103	84	control	pre-PDS01	*	*	None	None	True	outdoor_indoor
+33	0.04799956	5321	57646	5283	control	all	*	*	None	False	False	outdoor
+34	0.04807277	5283	57596	5283	control	all	*	*	None	False	True	outdoor
+35	0.04855104	734	734	734	ducting-x-ahri	all	Multizone All Non-Ducted	HMSV-A-CB-O	None	False	True	none
+36	0.04855104	734	734	734	ducting-x-ahri	all	Multizone All Non-Ducted	HMSV-A-CB-O	None	False	True	outdoor
+37	0.04886562	738	738	738	ahri-type	all	*	HMSV-A-CB-O	None	False	True	none
+38	0.04886562	738	738	738	ahri-type	all	*	HMSV-A-CB-O	None	False	True	outdoor
+39	0.04918385	751	751	751	ducting	all	Multizone All Non-Ducted	*	None	False	True	none
+40	0.04918385	751	751	751	ducting	all	Multizone All Non-Ducted	*	None	False	True	outdoor
+41	0.04918411	3256	80797	3256	ahri-type	all	*	HRCU-A-CB	None	True	True	outdoor
+42	0.04943929	1066	1842	1066	ducting	all	Singlezone Non-Ducted, Ceiling Placement	*	None	None	True	outdoor
+43	0.04944476	1842	1842	1842	ducting	all	Singlezone Non-Ducted, Ceiling Placement	*	None	None	True	none
+44	0.04952750	103	103	103	control	pre-PDS01	*	*	None	None	False	none
+45	0.04952750	103	103	103	control	pre-PDS01	*	*	None	None	True	none
+46	0.04957530	1064	1831	1064	ducting-x-ahri	all	Singlezone Non-Ducted, Ceiling Placement	HRCU-A-CB-O	None	None	True	outdoor
+47	0.04972913	1831	1831	1831	ducting-x-ahri	all	Singlezone Non-Ducted, Ceiling Placement	HRCU-A-CB-O	None	None	True	none
+48	0.04993300	35	64	35	control	pre-PDS01	*	*	True	None	False	outdoor
+49	0.04993300	35	64	35	control	pre-PDS01	*	*	True	None	True	outdoor
+50	0.05040558	1025	1025	1025	ahri-type	all	*	HMSV-A-CB	None	False	True	none
+51	0.05272963	7029	29805	7029	control	all	*	*	False	True	False	outdoor_indoor
+52	0.05272963	7029	29805	7029	control	all	*	*	False	True	True	outdoor_indoor
+53	0.05314717	34363	152301	34313	control	all	*	*	None	None	False	outdoor_indoor
+54	0.05323009	34313	152251	34313	control	all	*	*	None	None	True	outdoor_indoor
+55	0.05335260	46	59	46	control	pre-PDS01	*	*	True	True	False	outdoor_indoor
+56	0.05335260	46	59	46	control	pre-PDS01	*	*	True	True	True	outdoor_indoor
+57	0.05336106	11626	152301	11588	control	all	*	*	None	None	False	outdoor
+58	0.05339255	2088	49854	2088	ahri-type	all	*	HRCU-A-CB	None	False	True	outdoor
+59	0.05343192	11588	152251	11588	control	all	*	*	None	None	True	outdoor
+60	0.05377701	49	64	49	control	pre-PDS01	*	*	True	None	False	outdoor_indoor
+61	0.05377701	49	64	49	control	pre-PDS01	*	*	True	None	True	outdoor_indoor
+62	0.05463079	17624	76607	17588	control	all	*	*	False	None	False	outdoor_indoor
+63	0.05475696	17588	76571	17588	control	all	*	*	False	None	True	outdoor_indoor
+64	0.05476261	437	437	437	ducting	all	Multizone All Ducted	*	None	False	True	none
+65	0.05476261	437	437	437	ducting	all	Multizone All Ducted	*	None	False	True	outdoor
+66	0.05487221	48	48	48	ducting	pre-PDS01	Singlezone Ducted, Centrally Ducted	*	None	True	True	none
+67	0.05559674	853	2515	853	ahri-type	all	*	HRCU-A-C	None	True	True	outdoor
+68	0.05559674	853	2515	853	ducting-x-ahri	all	Singlezone Ducted, Centrally Ducted	HRCU-A-C	None	True	True	outdoor
+69	0.05612542	427	427	427	ducting-x-ahri	all	Multizone All Ducted	HMSV-A-CB	None	False	True	none
+70	0.05612542	427	427	427	ducting-x-ahri	all	Multizone All Ducted	HMSV-A-CB	None	False	True	outdoor
+71	0.05632307	39	39	39	control	pre-PDS01	*	*	False	None	False	none
+72	0.05632307	39	39	39	control	pre-PDS01	*	*	False	None	True	none
+73	0.05709474	1605	5435	1605	ahri-type	all	*	HRCU-A-C	None	None	True	outdoor
+74	0.05709474	1605	5435	1605	ducting-x-ahri	all	Singlezone Ducted, Centrally Ducted	HRCU-A-C	None	None	True	outdoor
+75	0.05717786	7642	94655	7642	control	all	*	*	None	True	False	outdoor
+76	0.05717786	7642	94655	7642	control	all	*	*	None	True	True	outdoor
+77	0.05807839	43	43	43	ahri-type	pre-PDS01	*	HRCU-A-CB	None	None	True	none
+78	0.05817482	59	59	59	control	pre-PDS01	*	*	True	True	False	none
+79	0.05817482	59	59	59	control	pre-PDS01	*	*	True	True	True	none
+80	0.05825437	818	1430	818	ducting	all	Singlezone Non-Ducted, Ceiling Placement	*	None	True	True	outdoor
+81	0.05825437	818	1428	818	ducting-x-ahri	all	Singlezone Non-Ducted, Ceiling Placement	HRCU-A-CB-O	None	True	True	outdoor
+82	0.05828107	64	64	64	control	pre-PDS01	*	*	True	None	False	none
+83	0.05828107	64	64	64	control	pre-PDS01	*	*	True	None	True	none
+84	0.05900278	35	39	35	control	pre-PDS01	*	*	False	None	False	outdoor_indoor
+85	0.05900278	35	39	35	control	pre-PDS01	*	*	False	None	True	outdoor_indoor
+86	0.05901399	1430	1430	1430	ducting	all	Singlezone Non-Ducted, Ceiling Placement	*	None	True	True	none
+87	0.05906575	1428	1428	1428	ducting-x-ahri	all	Singlezone Non-Ducted, Ceiling Placement	HRCU-A-CB-O	None	True	True	none
+88	0.06032956	41	41	41	ducting-x-ahri	pre-PDS01	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	None	True	none
+89	0.06097398	18413	75694	18399	control	all	*	*	True	None	False	outdoor_indoor
+90	0.06102150	18399	75680	18399	control	all	*	*	True	None	True	outdoor_indoor
+91	0.06122745	39	39	39	ahri-type	pre-PDS01	*	HRCU-A-CB	None	True	True	none
+92	0.06122745	39	39	39	ducting-x-ahri	pre-PDS01	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	True	True	none
+93	0.06154352	2228	52232	2228	ducting	all	Singlezone Ducted, Centrally Ducted	*	None	False	True	outdoor
+94	0.06156485	6696	75694	6686	control	all	*	*	True	None	False	outdoor
+95	0.06160626	6686	75680	6686	control	all	*	*	True	None	True	outdoor
+96	0.06221081	22283	94655	22283	control	all	*	*	None	True	False	outdoor_indoor
+97	0.06221081	22283	94655	22283	control	all	*	*	None	True	True	outdoor_indoor
+98	0.06230018	3013	3013	3013	ahri-type	all	*	HRCU-A-CB-O	None	False	True	none
+99	0.06248439	2594	2594	2594	ahri-type	all	*	HMSV-A-CB-O	None	None	True	none
+100	0.06343987	5684	64850	5684	control	all	*	*	True	True	False	outdoor
+101	0.06343987	5684	64850	5684	control	all	*	*	True	True	True	outdoor
+102	0.06370200	1746	49299	1746	ducting-x-ahri	all	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	False	True	outdoor
+103	0.06414736	2480	2482	2480	ducting	all	Multizone All Non-Ducted	*	None	None	True	outdoor
+104	0.06418525	2482	2482	2482	ducting	all	Multizone All Non-Ducted	*	None	None	True	none
+105	0.06422224	2456	2456	2456	ducting-x-ahri	all	Multizone All Non-Ducted	HMSV-A-CB-O	None	None	True	none
+106	0.06422224	2456	2456	2456	ducting-x-ahri	all	Multizone All Non-Ducted	HMSV-A-CB-O	None	None	True	outdoor
+107	0.06439120	2527	2594	2527	ahri-type	all	*	HMSV-A-CB-O	None	None	True	outdoor
+108	0.06459598	58	58	58	ducting	pre-PDS01	Singlezone Ducted, Centrally Ducted	*	None	None	True	none
+109	0.06605874	11714	46802	11678	control	all	*	*	False	False	False	outdoor_indoor
+110	0.06625832	11678	46766	11678	control	all	*	*	False	False	True	outdoor_indoor
+111	0.06689263	2330	3013	2330	ahri-type	all	*	HRCU-A-CB-O	None	False	True	outdoor
+112	0.06716024	9276	9276	9276	ahri-type	all	*	HRCU-A-CB-O	None	None	True	none
+113	0.06748483	68	68	68	ducting-x-ahri	all	Singlezone Non-Ducted, Wall Placement	HMSV-A-CB-O	None	None	True	none
+114	0.06748483	68	68	68	ducting-x-ahri	all	Singlezone Non-Ducted, Wall Placement	HMSV-A-CB-O	None	None	True	outdoor
+115	0.06748483	68	68	68	ducting-x-ahri	all	Singlezone Non-Ducted, Wall Placement	HMSV-A-CB-O	None	True	True	none
+116	0.06748483	68	68	68	ducting-x-ahri	all	Singlezone Non-Ducted, Wall Placement	HMSV-A-CB-O	None	True	True	outdoor
+117	0.06857354	1959	1959	1959	ducting	all	Multizone All Ducted	*	None	None	True	none
+118	0.06860296	1997	2003	1997	ducting	all	Multizone Mix of Ducted and Non-Ducted	*	None	None	True	outdoor
+119	0.06860627	1955	1959	1955	ducting	all	Multizone All Ducted	*	None	None	True	outdoor
+120	0.06865306	1856	1856	1856	ahri-type	all	*	HMSV-A-CB-O	None	True	True	none
+121	0.06870370	2069	3800	2069	ahri-type	all	*	HMSV-A-CB	None	None	True	outdoor
+122	0.06916673	999	2920	999	ahri-type	all	*	HRCU-A-C	None	False	True	outdoor
+123	0.06916673	999	2920	999	ducting-x-ahri	all	Singlezone Ducted, Centrally Ducted	HRCU-A-C	None	False	True	outdoor
+124	0.06982643	1305	10844	1295	control	all	*	*	True	False	False	outdoor
+125	0.07003498	15908	64850	15908	control	all	*	*	True	True	False	outdoor_indoor
+126	0.07003498	15908	64850	15908	control	all	*	*	True	True	True	outdoor_indoor
+127	0.07060459	1295	10830	1295	control	all	*	*	True	False	True	outdoor
+128	0.07087751	1729	1731	1729	ducting	all	Multizone All Non-Ducted	*	None	True	True	outdoor
+129	0.07094027	1731	1731	1731	ducting	all	Multizone All Non-Ducted	*	None	True	True	none
+130	0.07109187	1794	1856	1794	ahri-type	all	*	HMSV-A-CB-O	None	True	True	outdoor
+131	0.07111889	1722	1722	1722	ducting-x-ahri	all	Multizone All Non-Ducted	HMSV-A-CB-O	None	True	True	none
+132	0.07111889	1722	1722	1722	ducting-x-ahri	all	Multizone All Non-Ducted	HMSV-A-CB-O	None	True	True	outdoor
+133	0.07117730	5260	9276	5260	ahri-type	all	*	HRCU-A-CB-O	None	None	True	outdoor
+134	0.07125036	1924	1927	1924	ducting-x-ahri	all	Multizone Mix of Ducted and Non-Ducted	HMSV-A-CB	None	None	True	outdoor
+135	0.07130462	2085	2456	2085	ducting	all	Singlezone Non-Ducted, Wall Placement	*	None	False	True	outdoor
+136	0.07135803	2080	2444	2080	ducting-x-ahri	all	Singlezone Non-Ducted, Wall Placement	HRCU-A-CB-O	None	False	True	outdoor
+137	0.07143742	3800	3800	3800	ahri-type	all	*	HMSV-A-CB	None	None	True	none
+138	0.07170624	2003	2003	2003	ducting	all	Multizone Mix of Ducted and Non-Ducted	*	None	None	True	none
+139	0.07179986	1927	1927	1927	ducting-x-ahri	all	Multizone Mix of Ducted and Non-Ducted	HMSV-A-CB	None	None	True	none
+140	0.07194426	1873	1873	1873	ducting-x-ahri	all	Multizone All Ducted	HMSV-A-CB	None	None	True	none
+141	0.07194426	1873	1873	1873	ducting-x-ahri	all	Multizone All Ducted	HMSV-A-CB	None	None	True	outdoor
+142	0.07199390	2456	2456	2456	ducting	all	Singlezone Non-Ducted, Wall Placement	*	None	False	True	none
+143	0.07230649	2444	2444	2444	ducting-x-ahri	all	Singlezone Non-Ducted, Wall Placement	HRCU-A-CB-O	None	False	True	none
+144	0.07240531	6971	6971	6971	ducting	all	Singlezone Non-Ducted, Wall Placement	*	None	None	True	none
+145	0.07247599	5100	6971	5100	ducting	all	Singlezone Non-Ducted, Wall Placement	*	None	None	True	outdoor
+146	0.07255657	13973	57646	13923	control	all	*	*	None	False	False	outdoor_indoor
+147	0.07259956	1522	1522	1522	ducting	all	Multizone All Ducted	*	None	True	True	none
+148	0.07265233	1518	1522	1518	ducting	all	Multizone All Ducted	*	None	True	True	outdoor
+149	0.07287419	13923	57596	13923	control	all	*	*	None	False	True	outdoor_indoor
+150	0.07384307	2515	2515	2515	ahri-type	all	*	HRCU-A-C	None	True	True	none
+151	0.07384307	2515	2515	2515	ducting-x-ahri	all	Singlezone Ducted, Centrally Ducted	HRCU-A-C	None	True	True	none
+152	0.07415826	6263	6263	6263	ahri-type	all	*	HRCU-A-CB-O	None	True	True	none
+153	0.07464340	6756	6756	6756	ducting-x-ahri	all	Singlezone Non-Ducted, Wall Placement	HRCU-A-CB-O	None	None	True	none
+154	0.07482653	637	688	637	ducting	all	Singlezone Non-Ducted, Floor Placement	*	None	None	True	outdoor
+155	0.07494039	3184	4515	3184	ducting	all	Singlezone Non-Ducted, Wall Placement	*	None	True	True	outdoor
+156	0.07520209	4895	6756	4895	ducting-x-ahri	all	Singlezone Non-Ducted, Wall Placement	HRCU-A-CB-O	None	None	True	outdoor
+157	0.07620179	688	688	688	ducting	all	Singlezone Non-Ducted, Floor Placement	*	None	None	True	none
+158	0.07669051	1446	1446	1446	ducting-x-ahri	all	Multizone All Ducted	HMSV-A-CB	None	True	True	none
+159	0.07669051	1446	1446	1446	ducting-x-ahri	all	Multizone All Ducted	HMSV-A-CB	None	True	True	outdoor
+160	0.07698687	3187	6263	3187	ahri-type	all	*	HRCU-A-CB-O	None	True	True	outdoor
+161	0.07707548	538	538	538	ducting	all	Singlezone Ducted, Compact Ducted	*	None	False	True	none
+162	0.07725630	5435	5435	5435	ahri-type	all	*	HRCU-A-C	None	None	True	none
+163	0.07725630	5435	5435	5435	ducting-x-ahri	all	Singlezone Ducted, Centrally Ducted	HRCU-A-C	None	None	True	none
+164	0.07726804	4515	4515	4515	ducting	all	Singlezone Non-Ducted, Wall Placement	*	None	True	True	none
+165	0.07787292	29805	29805	29805	control	all	*	*	False	True	False	none
+166	0.07787292	29805	29805	29805	control	all	*	*	False	True	True	none
+167	0.07798282	162	162	162	ducting	all	Singlezone Non-Ducted, Floor Placement	*	None	False	True	none
+168	0.07798282	162	162	162	ducting-x-ahri	all	Singlezone Non-Ducted, Floor Placement	HRCU-A-CB-O	None	False	True	none
+169	0.07802582	1511	2775	1511	ahri-type	all	*	HMSV-A-CB	None	True	True	outdoor
+170	0.07809753	528	528	528	ducting-x-ahri	all	Singlezone Ducted, Compact Ducted	HRCU-A-CB	None	False	True	none
+171	0.07848436	1389	1395	1389	ducting	all	Multizone Mix of Ducted and Non-Ducted	*	None	True	True	outdoor
+172	0.07884131	473	538	473	ducting	all	Singlezone Ducted, Compact Ducted	*	None	False	True	outdoor
+173	0.07975570	2984	4312	2984	ducting-x-ahri	all	Singlezone Non-Ducted, Wall Placement	HRCU-A-CB-O	None	True	True	outdoor
+174	0.07979185	2775	2775	2775	ahri-type	all	*	HMSV-A-CB	None	True	True	none
+175	0.07988823	150	162	150	ducting	all	Singlezone Non-Ducted, Floor Placement	*	None	False	True	outdoor
+176	0.07988823	150	162	150	ducting-x-ahri	all	Singlezone Non-Ducted, Floor Placement	HRCU-A-CB-O	None	False	True	outdoor
+177	0.07996425	488	526	488	ducting	all	Singlezone Non-Ducted, Floor Placement	*	None	True	True	outdoor
+178	0.08004499	463	528	463	ducting-x-ahri	all	Singlezone Ducted, Compact Ducted	HRCU-A-CB	None	False	True	outdoor
+179	0.08053090	613	664	613	ducting-x-ahri	all	Singlezone Non-Ducted, Floor Placement	HRCU-A-CB-O	None	None	True	outdoor
+180	0.08065277	664	664	664	ducting-x-ahri	all	Singlezone Non-Ducted, Floor Placement	HRCU-A-CB-O	None	None	True	none
+181	0.08067812	526	526	526	ducting	all	Singlezone Non-Ducted, Floor Placement	*	None	True	True	none
+182	0.08120227	4312	4312	4312	ducting-x-ahri	all	Singlezone Non-Ducted, Wall Placement	HRCU-A-CB-O	None	True	True	none
+183	0.08241836	1326	1329	1326	ducting-x-ahri	all	Multizone Mix of Ducted and Non-Ducted	HMSV-A-CB	None	True	True	outdoor
+184	0.08326672	1329	1329	1329	ducting-x-ahri	all	Multizone Mix of Ducted and Non-Ducted	HMSV-A-CB	None	True	True	none
+185	0.08356253	1395	1395	1395	ducting	all	Multizone Mix of Ducted and Non-Ducted	*	None	True	True	none
+186	0.08740617	76607	76607	76571	control	all	*	*	False	None	False	none
+187	0.08744616	76571	76571	76571	control	all	*	*	False	None	True	none
+188	0.08791790	464	502	464	ducting-x-ahri	all	Singlezone Non-Ducted, Floor Placement	HRCU-A-CB-O	None	True	True	outdoor
+189	0.08792453	2920	2920	2920	ahri-type	all	*	HRCU-A-C	None	False	True	none
+190	0.08792453	2920	2920	2920	ducting-x-ahri	all	Singlezone Ducted, Centrally Ducted	HRCU-A-C	None	False	True	none
+191	0.08818642	502	502	502	ducting-x-ahri	all	Singlezone Non-Ducted, Floor Placement	HRCU-A-CB-O	None	True	True	none
+192	0.08902296	30	34	30	ducting-x-ahri	all	Multizone All Ducted	HRCU-A-CB	None	True	True	outdoor
+193	0.08913819	40	44	40	ducting-x-ahri	all	Multizone All Ducted	HRCU-A-CB	None	None	True	outdoor
+194	0.09207782	44	44	44	ducting-x-ahri	all	Multizone All Ducted	HRCU-A-CB	None	None	True	none
+195	0.09456566	456	456	456	ahri-type	all	*	HSP-A	None	None	True	none
+196	0.09456566	456	456	456	ahri-type	all	*	HSP-A	None	None	True	outdoor
+197	0.09470270	1788	2292	1788	ducting	all	Singlezone Ducted, Compact Ducted	*	None	None	True	outdoor
+198	0.09538224	34	34	34	ducting-x-ahri	all	Multizone All Ducted	HRCU-A-CB	None	True	True	none
+199	0.09791809	94655	94655	94655	control	all	*	*	None	True	False	none
+200	0.09791809	94655	94655	94655	control	all	*	*	None	True	True	none
+201	0.09946012	439	439	439	ahri-type	all	*	HSP-A	None	True	True	none
+202	0.09946012	439	439	439	ahri-type	all	*	HSP-A	None	True	True	outdoor
+203	0.09975055	152301	152301	152251	control	all	*	*	None	None	False	none
+204	0.09979065	152251	152251	152251	control	all	*	*	None	None	True	none
+205	0.10026307	2292	2292	2292	ducting	all	Singlezone Ducted, Compact Ducted	*	None	None	True	none
+206	0.10234771	1335	1754	1335	ducting	all	Singlezone Ducted, Compact Ducted	*	None	True	True	outdoor
+207	0.10247343	1556	2056	1556	ducting-x-ahri	all	Singlezone Ducted, Compact Ducted	HRCU-A-CB	None	None	True	outdoor
+208	0.10293367	46802	46802	46766	control	all	*	*	False	False	False	none
+209	0.10300964	46766	46766	46766	control	all	*	*	False	False	True	none
+210	0.10794447	2056	2056	2056	ducting-x-ahri	all	Singlezone Ducted, Compact Ducted	HRCU-A-CB	None	None	True	none
+211	0.10917484	1754	1754	1754	ducting	all	Singlezone Ducted, Compact Ducted	*	None	True	True	none
+212	0.10939595	80797	80797	80797	ahri-type	all	*	HRCU-A-CB	None	True	True	none
+213	0.10953601	64850	64850	64850	control	all	*	*	True	True	False	none
+214	0.10953601	64850	64850	64850	control	all	*	*	True	True	True	none
+215	0.11015307	81782	81782	81782	ducting	all	Singlezone Ducted, Centrally Ducted	*	None	True	True	none
+216	0.11158614	79230	79230	79230	ducting-x-ahri	all	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	True	True	none
+217	0.11280114	1113	1528	1113	ducting-x-ahri	all	Singlezone Ducted, Compact Ducted	HRCU-A-CB	None	True	True	outdoor
+218	0.11290420	130651	130651	130651	ahri-type	all	*	HRCU-A-CB	None	None	True	none
+219	0.11330255	134014	134014	134014	ducting	all	Singlezone Ducted, Centrally Ducted	*	None	None	True	none
+220	0.11490724	128529	128529	128529	ducting-x-ahri	all	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	None	True	none
+221	0.11573101	216	216	216	ducting-x-ahri	all	Singlezone Ducted, Compact Ducted	HSP-A	None	None	True	none
+222	0.11573101	216	216	216	ducting-x-ahri	all	Singlezone Ducted, Compact Ducted	HSP-A	None	None	True	outdoor
+223	0.11573101	216	216	216	ducting-x-ahri	all	Singlezone Ducted, Compact Ducted	HSP-A	None	True	True	none
+224	0.11573101	216	216	216	ducting-x-ahri	all	Singlezone Ducted, Compact Ducted	HSP-A	None	True	True	outdoor
+225	0.11859626	1528	1528	1528	ducting-x-ahri	all	Singlezone Ducted, Compact Ducted	HRCU-A-CB	None	True	True	none
+226	0.11887717	132	132	132	ducting-x-ahri	all	Singlezone Non-Ducted, Wall Placement	HSP-A	None	True	True	none
+227	0.11887717	132	132	132	ducting-x-ahri	all	Singlezone Non-Ducted, Wall Placement	HSP-A	None	True	True	outdoor
+228	0.11940623	136	136	136	ducting-x-ahri	all	Singlezone Non-Ducted, Wall Placement	HSP-A	None	None	True	none
+229	0.11940623	136	136	136	ducting-x-ahri	all	Singlezone Non-Ducted, Wall Placement	HSP-A	None	None	True	outdoor
+230	0.11967416	75694	75694	75680	control	all	*	*	True	None	False	none
+231	0.11970600	75680	75680	75680	control	all	*	*	True	None	True	none
+232	0.12139884	57646	57646	57596	control	all	*	*	None	False	False	none
+233	0.12151226	57596	57596	57596	control	all	*	*	None	False	True	none
+234	0.12604375	2818	10844	2804	control	all	*	*	True	False	False	outdoor_indoor
+235	0.12696259	2804	10830	2804	control	all	*	*	True	False	True	outdoor_indoor
+236	0.13241293	41	41	41	ducting-x-ahri	all	Singlezone Ducted, Centrally Ducted	HSP-A	None	None	True	none
+237	0.13241293	41	41	41	ducting-x-ahri	all	Singlezone Ducted, Centrally Ducted	HSP-A	None	None	True	outdoor
+238	0.13309425	52232	52232	52232	ducting	all	Singlezone Ducted, Centrally Ducted	*	None	False	True	none
+239	0.13437215	49854	49854	49854	ahri-type	all	*	HRCU-A-CB	None	False	True	none
+240	0.13603355	49299	49299	49299	ducting-x-ahri	all	Singlezone Ducted, Centrally Ducted	HRCU-A-CB	None	False	True	none
+241	0.14459641	70	70	70	ducting-x-ahri	all	Multizone Mix of Ducted and Non-Ducted	HMSV-A-CB-O	None	None	True	none
+242	0.14459641	70	70	70	ducting-x-ahri	all	Multizone Mix of Ducted and Non-Ducted	HMSV-A-CB-O	None	None	True	outdoor
+243	0.14712117	66	66	66	ducting-x-ahri	all	Multizone Mix of Ducted and Non-Ducted	HMSV-A-CB-O	None	True	True	none
+244	0.14712117	66	66	66	ducting-x-ahri	all	Multizone Mix of Ducted and Non-Ducted	HMSV-A-CB-O	None	True	True	outdoor
+245	0.19634115	39	39	39	ducting-x-ahri	all	Multizone All Ducted	HSP-A	None	None	True	none
+246	0.19634115	39	39	39	ducting-x-ahri	all	Multizone All Ducted	HSP-A	None	None	True	outdoor
+247	0.19634115	39	39	39	ducting-x-ahri	all	Multizone All Ducted	HSP-A	None	True	True	none
+248	0.19634115	39	39	39	ducting-x-ahri	all	Multizone All Ducted	HSP-A	None	True	True	outdoor
+249	0.20118656	10844	10844	10830	control	all	*	*	True	False	False	none
+250	0.20150010	10830	10830	10830	control	all	*	*	True	False	True	none

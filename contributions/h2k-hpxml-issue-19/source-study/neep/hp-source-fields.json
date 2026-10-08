@@ -1,0 +1,444 @@
+{
+  "source": "NEEP ccASHP Product List",
+  "snapshot": "neep_air_source_heat_pump_2026-10-07.xlsx",
+  "sheet": "HP Report",
+  "fieldCount": 87,
+  "keyPolicy": "Mechanical code-safe representation of the exact NEEP XLSX header; not semantic normalization.",
+  "fields": [
+    {
+      "column": 1,
+      "sourceKey": "date_added_to_list",
+      "sourceHeader": "Date Added to List"
+    },
+    {
+      "column": 2,
+      "sourceKey": "status",
+      "sourceHeader": "Status"
+    },
+    {
+      "column": 3,
+      "sourceKey": "brand_owner",
+      "sourceHeader": "Brand Owner"
+    },
+    {
+      "column": 4,
+      "sourceKey": "brand_name",
+      "sourceHeader": "Brand Name"
+    },
+    {
+      "column": 5,
+      "sourceKey": "series_name",
+      "sourceHeader": "Series Name"
+    },
+    {
+      "column": 6,
+      "sourceKey": "ducting_configuration",
+      "sourceHeader": "Ducting Configuration"
+    },
+    {
+      "column": 7,
+      "sourceKey": "ahri_certified_reference_number",
+      "sourceHeader": "AHRI Certified Reference Number⁺"
+    },
+    {
+      "column": 8,
+      "sourceKey": "old_ahri_certified_reference_number",
+      "sourceHeader": "Old AHRI Certified Reference Number⁺"
+    },
+    {
+      "column": 9,
+      "sourceKey": "ahri_type",
+      "sourceHeader": "AHRI Type⁺"
+    },
+    {
+      "column": 10,
+      "sourceKey": "outdoor_unit_model_number",
+      "sourceHeader": "Outdoor Unit Model Number⁺"
+    },
+    {
+      "column": 11,
+      "sourceKey": "indoor_type",
+      "sourceHeader": "Indoor Type"
+    },
+    {
+      "column": 12,
+      "sourceKey": "indoor_model_number_s",
+      "sourceHeader": "Indoor Model Number(s)⁺"
+    },
+    {
+      "column": 13,
+      "sourceKey": "furnace_model_number_if_applicable",
+      "sourceHeader": "Furnace Model Number (if applicable)⁺"
+    },
+    {
+      "column": 14,
+      "sourceKey": "eer",
+      "sourceHeader": "EER⁺"
+    },
+    {
+      "column": 15,
+      "sourceKey": "seer",
+      "sourceHeader": "SEER⁺"
+    },
+    {
+      "column": 16,
+      "sourceKey": "hspf_region_iv",
+      "sourceHeader": "HSPF (Region IV)⁺"
+    },
+    {
+      "column": 17,
+      "sourceKey": "eer2",
+      "sourceHeader": "EER2⁺"
+    },
+    {
+      "column": 18,
+      "sourceKey": "seer2",
+      "sourceHeader": "SEER2⁺"
+    },
+    {
+      "column": 19,
+      "sourceKey": "hspf2_region_iv",
+      "sourceHeader": "HSPF2 (Region IV)⁺"
+    },
+    {
+      "column": 20,
+      "sourceKey": "hspf2_region_v",
+      "sourceHeader": "HSPF2 (Region V)"
+    },
+    {
+      "column": 21,
+      "sourceKey": "energy_star_certified",
+      "sourceHeader": "ENERGY STAR Certified"
+    },
+    {
+      "column": 22,
+      "sourceKey": "energy_star_cold_climate_certified",
+      "sourceHeader": "ENERGY STAR Cold Climate Certified"
+    },
+    {
+      "column": 23,
+      "sourceKey": "eligible_for_federal_tax_credit_north",
+      "sourceHeader": "Eligible for Federal Tax Credit - North"
+    },
+    {
+      "column": 24,
+      "sourceKey": "eligible_for_federal_tax_credit_south",
+      "sourceHeader": "Eligible for Federal Tax Credit - South"
+    },
+    {
+      "column": 25,
+      "sourceKey": "cee_tier_1_path_a_2025",
+      "sourceHeader": "CEE Tier 1 Path A (2025)"
+    },
+    {
+      "column": 26,
+      "sourceKey": "cee_tier_1_path_b_2025",
+      "sourceHeader": "CEE Tier 1 Path B (2025)"
+    },
+    {
+      "column": 27,
+      "sourceKey": "capacity_maintenance_rated_17_f_rated_47_f",
+      "sourceHeader": "Capacity Maintenance (Rated 17°F/Rated 47°F)"
+    },
+    {
+      "column": 28,
+      "sourceKey": "capacity_maintenance_rated_5_f_rated_47_f",
+      "sourceHeader": "Capacity Maintenance (Rated 5°F/Rated 47°F)"
+    },
+    {
+      "column": 29,
+      "sourceKey": "capacity_maintenance_max_5_f_rated_47_f",
+      "sourceHeader": "Capacity Maintenance (Max 5°F/Rated 47°F)"
+    },
+    {
+      "column": 30,
+      "sourceKey": "variable_capacity",
+      "sourceHeader": "Variable Capacity?"
+    },
+    {
+      "column": 31,
+      "sourceKey": "pan_heater_integrated_or_accessory_provide_model",
+      "sourceHeader": "Pan Heater: Integrated or Accessory (provide model #)"
+    },
+    {
+      "column": 32,
+      "sourceKey": "input_power_w",
+      "sourceHeader": "Input Power (W)"
+    },
+    {
+      "column": 33,
+      "sourceKey": "what_determines_when_heater_operates",
+      "sourceHeader": "What determines when heater operates?"
+    },
+    {
+      "column": 34,
+      "sourceKey": "integration_describe_any_capabilities_this_ashp_system_or_its_controller_s_have_related_to_integrating_other_heating_systems_third_party_thermostats_including_works_with_etc",
+      "sourceHeader": "Integration: Describe any capabilities this ASHP system or its controller(s) have related to integrating other heating systems/third-party thermostats, including “works with,” etc."
+    },
+    {
+      "column": 35,
+      "sourceKey": "connectivity_describe_any_capabilities_this_ashp_system_or_its_controller_s_have_related_to_communication_with_the_consumer_or_utility_e_g_meets_energy_star_connected_criteria_system_controller_have_an_interface_that_allows_for_remote_communication_with_the_consumer_or_utility_wi_fi_connected_etc",
+      "sourceHeader": "Connectivity: Describe any capabilities this ASHP system or its controller(s) have related to communication with the consumer or utility (e.g. meets ENERGY STAR “Connected” criteria, system/controller have an interface that allows for remote communication with the consumer or utility, wi-fi connected, etc.)"
+    },
+    {
+      "column": 36,
+      "sourceKey": "operational_diagnostics_describe_any_capabilities_of_this_ashp_system_to_self_report_or_self_diagnose_its_operation_or_the_quality_of_its_installation_including_whether_the_system_meets_any_all_of_energy_star_s_installation_capabilities_criteria",
+      "sourceHeader": "Operational diagnostics: Describe any capabilities of this ASHP system to self-report or self-diagnose its operation or the quality of its installation, including whether the system meets any/all of ENERGY STAR’s Installation Capabilities criteria."
+    },
+    {
+      "column": 37,
+      "sourceKey": "refrigerant",
+      "sourceHeader": "Refrigerant"
+    },
+    {
+      "column": 38,
+      "sourceKey": "sold_in",
+      "sourceHeader": "Sold In?"
+    },
+    {
+      "column": 39,
+      "sourceKey": "min_capacity_95_f",
+      "sourceHeader": "Min Capacity 95°F"
+    },
+    {
+      "column": 40,
+      "sourceKey": "input_power_min_95_f",
+      "sourceHeader": "Input Power Min 95°F"
+    },
+    {
+      "column": 41,
+      "sourceKey": "cop_min_95_f",
+      "sourceHeader": "COP Min 95°F"
+    },
+    {
+      "column": 42,
+      "sourceKey": "rated_capacity_95_f",
+      "sourceHeader": "Rated Capacity 95°F⁺"
+    },
+    {
+      "column": 43,
+      "sourceKey": "input_power_rated_95_f",
+      "sourceHeader": "Input Power Rated 95°F"
+    },
+    {
+      "column": 44,
+      "sourceKey": "cop_rated_95_f",
+      "sourceHeader": "COP Rated 95°F"
+    },
+    {
+      "column": 45,
+      "sourceKey": "max_capacity_95_f",
+      "sourceHeader": "Max Capacity 95°F"
+    },
+    {
+      "column": 46,
+      "sourceKey": "input_power_max_95_f",
+      "sourceHeader": "Input Power Max 95°F"
+    },
+    {
+      "column": 47,
+      "sourceKey": "cop_max_95_f",
+      "sourceHeader": "COP Max 95°F"
+    },
+    {
+      "column": 48,
+      "sourceKey": "min_capacity_82_f",
+      "sourceHeader": "Min Capacity 82°F"
+    },
+    {
+      "column": 49,
+      "sourceKey": "input_power_min_82_f",
+      "sourceHeader": "Input Power Min 82°F"
+    },
+    {
+      "column": 50,
+      "sourceKey": "cop_min_82_f",
+      "sourceHeader": "COP Min 82°F"
+    },
+    {
+      "column": 51,
+      "sourceKey": "max_capacity_82_f",
+      "sourceHeader": "Max Capacity 82°F"
+    },
+    {
+      "column": 52,
+      "sourceKey": "input_power_max_82_f",
+      "sourceHeader": "Input Power Max 82°F"
+    },
+    {
+      "column": 53,
+      "sourceKey": "cop_max_82_f",
+      "sourceHeader": "COP Max 82°F"
+    },
+    {
+      "column": 54,
+      "sourceKey": "min_capacity_47_f",
+      "sourceHeader": "Min Capacity 47°F"
+    },
+    {
+      "column": 55,
+      "sourceKey": "input_power_min_47_f",
+      "sourceHeader": "Input Power Min 47°F"
+    },
+    {
+      "column": 56,
+      "sourceKey": "cop_min_47_f",
+      "sourceHeader": "COP Min 47°F"
+    },
+    {
+      "column": 57,
+      "sourceKey": "rated_capacity_47_f",
+      "sourceHeader": "Rated Capacity 47°F⁺"
+    },
+    {
+      "column": 58,
+      "sourceKey": "input_power_rated_47_f",
+      "sourceHeader": "Input Power Rated 47°F"
+    },
+    {
+      "column": 59,
+      "sourceKey": "cop_rated_47_f",
+      "sourceHeader": "COP Rated 47°F"
+    },
+    {
+      "column": 60,
+      "sourceKey": "max_capacity_47_f",
+      "sourceHeader": "Max Capacity 47°F"
+    },
+    {
+      "column": 61,
+      "sourceKey": "input_power_max_47_f",
+      "sourceHeader": "Input Power Max 47°F"
+    },
+    {
+      "column": 62,
+      "sourceKey": "cop_max_47_f",
+      "sourceHeader": "COP Max 47°F"
+    },
+    {
+      "column": 63,
+      "sourceKey": "min_capacity_17_f",
+      "sourceHeader": "Min Capacity 17°F"
+    },
+    {
+      "column": 64,
+      "sourceKey": "input_power_min_17_f",
+      "sourceHeader": "Input Power Min 17°F"
+    },
+    {
+      "column": 65,
+      "sourceKey": "cop_min_17_f",
+      "sourceHeader": "COP Min 17°F"
+    },
+    {
+      "column": 66,
+      "sourceKey": "rated_capacity_17_f",
+      "sourceHeader": "Rated Capacity 17°F⁺"
+    },
+    {
+      "column": 67,
+      "sourceKey": "input_power_rated_17_f",
+      "sourceHeader": "Input Power Rated 17°F"
+    },
+    {
+      "column": 68,
+      "sourceKey": "cop_rated_17_f",
+      "sourceHeader": "COP Rated 17°F"
+    },
+    {
+      "column": 69,
+      "sourceKey": "max_capacity_17_f",
+      "sourceHeader": "Max Capacity 17°F"
+    },
+    {
+      "column": 70,
+      "sourceKey": "input_power_max_17_f",
+      "sourceHeader": "Input Power Max 17°F"
+    },
+    {
+      "column": 71,
+      "sourceKey": "cop_max_17_f",
+      "sourceHeader": "COP Max 17°F"
+    },
+    {
+      "column": 72,
+      "sourceKey": "min_capacity_5_f",
+      "sourceHeader": "Min Capacity 5°F"
+    },
+    {
+      "column": 73,
+      "sourceKey": "input_power_min_5_f",
+      "sourceHeader": "Input Power Min 5°F"
+    },
+    {
+      "column": 74,
+      "sourceKey": "cop_min_5_f",
+      "sourceHeader": "COP Min 5°F"
+    },
+    {
+      "column": 75,
+      "sourceKey": "rated_capacity_5_f_optional",
+      "sourceHeader": "Rated Capacity 5°F - Optional⁺"
+    },
+    {
+      "column": 76,
+      "sourceKey": "input_power_rated_5_f_optional",
+      "sourceHeader": "Input Power Rated 5°F - Optional"
+    },
+    {
+      "column": 77,
+      "sourceKey": "cop_rated_5_f_optional",
+      "sourceHeader": "COP Rated 5°F - Optional"
+    },
+    {
+      "column": 78,
+      "sourceKey": "max_capacity_5_f",
+      "sourceHeader": "Max Capacity 5°F"
+    },
+    {
+      "column": 79,
+      "sourceKey": "input_power_max_5_f",
+      "sourceHeader": "Input Power Max 5°F"
+    },
+    {
+      "column": 80,
+      "sourceKey": "cop_max_5_f",
+      "sourceHeader": "COP Max 5°F"
+    },
+    {
+      "column": 81,
+      "sourceKey": "lowest_cataloged_temperature_outdoor_dry_bulb_f",
+      "sourceHeader": "Lowest Cataloged Temperature (Outdoor Dry Bulb °F)"
+    },
+    {
+      "column": 82,
+      "sourceKey": "min_capacity_lct_f",
+      "sourceHeader": "Min Capacity LCT°F"
+    },
+    {
+      "column": 83,
+      "sourceKey": "input_power_min_lct_f",
+      "sourceHeader": "Input Power Min LCT°F"
+    },
+    {
+      "column": 84,
+      "sourceKey": "cop_min_lct_f",
+      "sourceHeader": "COP Min LCT°F"
+    },
+    {
+      "column": 85,
+      "sourceKey": "max_capacity_lct_f",
+      "sourceHeader": "Max Capacity LCT°F"
+    },
+    {
+      "column": 86,
+      "sourceKey": "input_power_max_lct_f",
+      "sourceHeader": "Input Power Max LCT°F"
+    },
+    {
+      "column": 87,
+      "sourceKey": "cop_max_lct_f",
+      "sourceHeader": "COP Max LCT°F"
+    }
+  ]
+}
