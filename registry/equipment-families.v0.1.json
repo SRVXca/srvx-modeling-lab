@@ -1,0 +1,63 @@
+{
+  "version": "0.1.0",
+  "status": "LAB_DRAFT",
+  "authority": "modeling-lab-only",
+  "notCanonicalSupply": true,
+  "families": [
+    {
+      "id": "air_conditioning",
+      "display": "Air Conditioning",
+      "technicalContracts": [
+        "CoolingPerformance"
+      ],
+      "hpxml": "CoolingSystem",
+      "h2kStatus": "FIELD_AUDIT_PENDING"
+    },
+    {
+      "id": "air_source_heat_pump",
+      "display": "Air-Source Heat Pumps",
+      "technicalContracts": [
+        "HeatPumpPerformance",
+        "CoolingPerformance"
+      ],
+      "hpxml": "HeatPump",
+      "h2kStatus": "FIELD_AUDIT_PENDING"
+    },
+    {
+      "id": "residential_furnace",
+      "display": "Residential Furnaces",
+      "technicalContracts": [
+        "CombustionHeatingPerformance"
+      ],
+      "hpxml": "HeatingSystem/Furnace",
+      "h2kStatus": "FIELD_AUDIT_PENDING"
+    },
+    {
+      "id": "residential_water_heater",
+      "display": "Residential Water Heaters",
+      "technicalContracts": [
+        "WaterHeatingPerformance"
+      ],
+      "hpxml": "WaterHeatingSystem",
+      "h2kStatus": "FIELD_AUDIT_PENDING"
+    },
+    {
+      "id": "residential_boiler",
+      "display": "Residential Boilers",
+      "technicalContracts": [
+        "CombustionHeatingPerformance"
+      ],
+      "hpxml": "HeatingSystem/Boiler",
+      "h2kStatus": "FIELD_AUDIT_PENDING"
+    },
+    {
+      "id": "geothermal_water_source_heat_pump",
+      "display": "Geothermal / Water-Source Heat Pumps",
+      "technicalContracts": [
+        "GroundSourcePerformance"
+      ],
+      "hpxml": "HeatPump/Ground-to-Air or Water-Loop-to-Air (verify subtype)",
+      "h2kStatus": "FIELD_AUDIT_PENDING"
+    }
+  ]
+}
