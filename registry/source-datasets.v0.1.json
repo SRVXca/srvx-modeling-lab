@@ -1,0 +1,133 @@
+{
+  "version": "0.1.0",
+  "status": "RESEARCH_REGISTRY_NO_INGESTION",
+  "notPublicationAuthority": true,
+  "sourceDatasets": [
+    {
+      "id": "AHRI_DIRECTORY",
+      "owner": "AHRI",
+      "kind": "CERTIFICATION_DIRECTORY",
+      "url": "https://www.ahridirectory.org/",
+      "families": [
+        "air_conditioning",
+        "air_source_heat_pump",
+        "residential_furnace",
+        "residential_water_heater",
+        "residential_boiler",
+        "geothermal_water_source_heat_pump"
+      ],
+      "access": "LICENSE_REVIEW_REQUIRED",
+      "workflow": "No automated full-directory collection without authorized access",
+      "target": "AHRI numbers may identify matched configurations, not single parts"
+    },
+    {
+      "id": "EPA_ENERGY_STAR",
+      "owner": "US EPA",
+      "kind": "CERTIFIED_PRODUCT_LISTS",
+      "url": "https://data.energystar.gov/",
+      "families": [
+        "air_conditioning",
+        "air_source_heat_pump",
+        "residential_furnace",
+        "residential_water_heater",
+        "residential_boiler",
+        "geothermal_water_source_heat_pump"
+      ],
+      "access": "API_TERMS_REVIEW",
+      "workflow": "Register each category and version separately; central AC current/historical status varies",
+      "target": "Certification evidence; model/certification keys"
+    },
+    {
+      "id": "NRCAN_SPL",
+      "owner": "Natural Resources Canada",
+      "kind": "CANADIAN_PRODUCT_LISTS",
+      "url": "https://spl-lpi.nrcan-rncan.gc.ca/en-US/",
+      "families": [
+        "air_conditioning",
+        "air_source_heat_pump",
+        "residential_furnace",
+        "residential_water_heater",
+        "residential_boiler",
+        "geothermal_water_source_heat_pump"
+      ],
+      "access": "TERMS_AND_CATEGORY_REVIEW",
+      "workflow": "Confirm family-by-family listing and specific downloadable schema",
+      "target": "Canadian regulatory/rating observations"
+    },
+    {
+      "id": "NEEP_CCASHP",
+      "owner": "NEEP",
+      "kind": "COLD_CLIMATE_PERFORMANCE",
+      "url": "https://neep.org/heating-electrification/ccashp-specification-product-list",
+      "families": [
+        "air_source_heat_pump"
+      ],
+      "access": "COMMERCIAL_REUSE_REVIEW",
+      "workflow": "Use versioned dataset snapshots; preserve operating level and temperature",
+      "target": "Detailed low-temperature heat pump points"
+    },
+    {
+      "id": "HYDRO_LOGISVERT",
+      "owner": "Hydro-Québec",
+      "kind": "INCENTIVE_ELIGIBILITY_EVIDENCE",
+      "url": "https://www.hydroquebec.com/residentiel/mieux-consommer/aides-financieres/logisvert/residentiel.html",
+      "families": [
+        "air_source_heat_pump",
+        "geothermal_water_source_heat_pump"
+      ],
+      "access": "TERMS_REVIEW",
+      "workflow": "Time-bound program observations, NEVER implied by certification alone",
+      "target": "Eligibility observations and effective dates, not primary equipment physics"
+    },
+    {
+      "id": "MANUFACTURER_TECHNICAL",
+      "owner": "Per manufacturer",
+      "kind": "TECHNICAL_DOCUMENTATION",
+      "url": null,
+      "families": [
+        "air_conditioning",
+        "air_source_heat_pump",
+        "residential_furnace",
+        "residential_water_heater",
+        "residential_boiler",
+        "geothermal_water_source_heat_pump"
+      ],
+      "access": "PER_DOCUMENT_LICENSE_REVIEW",
+      "workflow": "Datasheet, test standard, exact model/configuration and revision required",
+      "target": "Performance curves and missing simulation fields"
+    },
+    {
+      "id": "LAB_SYNTHETIC",
+      "owner": "SRVX Modeling Lab",
+      "kind": "TEST_FIXTURE_ONLY",
+      "url": null,
+      "families": [
+        "air_conditioning",
+        "air_source_heat_pump",
+        "residential_furnace",
+        "residential_water_heater",
+        "residential_boiler",
+        "geothermal_water_source_heat_pump"
+      ],
+      "access": "INTERNAL_SYNTHETIC",
+      "workflow": "Illustrative values only; must never be published as certified products",
+      "target": "Contract testing"
+    }
+  ],
+  "sourceVersionsMustCapture": [
+    "sourceVersion",
+    "retrievedAt",
+    "sourceRecordId",
+    "schemaFingerprint",
+    "termsReviewedAt"
+  ],
+  "matchingKeys": [
+    "certificationReference",
+    "manufacturer",
+    "outdoorModel",
+    "indoorModelSet",
+    "unitaryModel",
+    "componentRole",
+    "ratingEdition"
+  ]
+}
