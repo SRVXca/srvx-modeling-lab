@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "supply-market-fixture.geothermal.v0.1",
+  "status": "LAB_REVIEWED_NOT_CANONICAL",
+  "family": "geothermal_water_source_heat_pump",
+  "service": {
+    "id": "srv_000007",
+    "frCA": "Géothermie",
+    "enCA": "Geothermal"
+  },
+  "ahriProgramContext": {
+    "program": "WSHP",
+    "perProductReferenceStatus": "UNVERIFIED",
+    "note": "AHRI matched configuration remains a separate evidence layer."
+  },
+  "products": [
+    {
+      "brand": "York",
+      "model": "Y5SZ036BD1",
+      "energyStarPartnerNames": [
+        "WaterFurnace International, Incorporated"
+      ],
+      "energyStarCertificationOccurrences": [
+        {
+          "pdId": "4586690",
+          "energyStarModelIdentifier": "ES_1036337_Y5SZ036BD1_03042026010059_01218158046",
+          "exchangeType": "WATER_TO_AIR",
+          "loopType": "CLOSED_LOOP",
+          "cop": 4.4,
+          "eer": 23.8,
+          "refrigerant": "Other",
+          "markets": "United States, Canada",
+          "mostEfficient": "Yes"
+        },
+        {
+          "pdId": "4586700",
+          "energyStarModelIdentifier": "ES_1036337_Y5SZ036BD1_03042026010059_01218158036",
+          "exchangeType": "WATER_TO_AIR",
+          "loopType": "CLOSED_LOOP",
+          "cop": 4.4,
+          "eer": 23.8,
+          "refrigerant": "Other",
+          "markets": "United States, Canada",
+          "mostEfficient": "Yes"
+        },
+        {
+          "pdId": "4586731",
+          "energyStarModelIdentifier": "ES_1036337_Y5SZ036BD1_03042026010051_02218158046",
+          "exchangeType": "WATER_TO_AIR",
+          "loopType": "OPEN_LOOP",
+          "cop": 5.1,
+          "eer": 29.5,
+          "refrigerant": "Other",
+          "markets": "United States, Canada",
+          "mostEfficient": "Yes"
+        }
+      ],
+      "ahri": {
+        "reference": null,
+        "verificationStatus": "UNVERIFIED"
+      },
+      "commercial": {
+        "price": null,
+        "currentAvailability": null
+      },
+      "systemIdentityStatus": "MODEL_LEVEL_ONLY",
+      "fixtureReadiness": "PRODUCT_PAGE_READY_WITH_LIMITATIONS",
+      "warnings": [
+        "Multiple ENERGY STAR certification occurrences are preserved separately.",
+        "ENERGY STAR partner identity must not be treated as OEM/manufacturer proof.",
+        "Exact matched air-handler/furnace assembly remains unresolved.",
+        "AHRI reference remains unverified.",
+        "Price and current stock are intentionally not part of this fixture."
+      ]
+    },
+    {
+      "brand": "Hydro Solar Innovative Energy",
+      "model": "GEO040V1LM",
+      "energyStarPartnerNames": [
+        "AQUA SOLANOR INC"
+      ],
+      "energyStarCertificationOccurrences": [
+        {
+          "pdId": "4710776",
+          "energyStarModelIdentifier": "ES_1895880_GEO040V1LM_03232026143045_01217607620",
+          "exchangeType": "WATER_TO_WATER",
+          "loopType": "CLOSED_LOOP",
+          "cop": 3.4,
+          "eer": 17.9,
+          "refrigerant": "R-32",
+          "markets": "United States, Canada",
+          "mostEfficient": "Yes"
+        }
+      ],
+      "ahri": {
+        "reference": null,
+        "verificationStatus": "UNVERIFIED"
+      },
+      "commercial": {
+        "price": null,
+        "currentAvailability": null
+      },
+      "systemIdentityStatus": "MODEL_LEVEL_ONLY",
+      "manufacturerPerformanceVariants": [
+        {
+          "exchangerMaterial": "TITANIUM",
+          "heatingCapacityBtuH": 40600,
+          "cop": 3.5,
+          "conditions": {
+            "mode": "HEATING",
+            "sourceEnteringTemperatureC": 0,
+            "sourceLeavingTemperatureCAtMaxFlow": -4.3,
+            "loadEnteringTemperatureC": 40,
+            "loadLeavingTemperatureCAtMaxFlow": 45.1,
+            "sourceFlowUSGpmMinMax": [
+              8.8,
+              10.56
+            ],
+            "loadFlowUSGpmMinMax": [
+              6.16,
+              8.81
+            ],
+            "standard": null,
+            "antifreezeConcentration": null
+          }
+        },
+        {
+          "exchangerMaterial": "COPPER",
+          "heatingCapacityBtuH": 41456,
+          "cop": 4.4,
+          "conditions": {
+            "mode": "HEATING",
+            "sourceEnteringTemperatureC": 0,
+            "sourceLeavingTemperatureCAtMaxFlow": -2.7,
+            "loadEnteringTemperatureC": 35,
+            "loadLeavingTemperatureCAtMaxFlow": 40,
+            "sourceFlowUSGpmMinMax": [
+              9.7,
+              13
+            ],
+            "loadFlowUSGpmMinMax": [
+              6.5,
+              9.2
+            ],
+            "standard": null,
+            "antifreezeConcentration": null
+          }
+        }
+      ],
+      "fixtureReadiness": "PRODUCT_PAGE_READY_WITH_LIMITATIONS",
+      "warnings": [
+        "Copper/titanium manufacturer ratings must not be attributed to a specific ENERGY STAR occurrence without evidence.",
+        "AHRI reference remains unverified.",
+        "Price and current stock are intentionally not part of this fixture."
+      ]
+    }
+  ]
+}

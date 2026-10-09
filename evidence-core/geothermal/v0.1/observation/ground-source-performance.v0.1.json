@@ -1,0 +1,546 @@
+{
+  "schemaVersion": "evidence.ground-source-performance.v0.1",
+  "family": "geothermal_water_source_heat_pump",
+  "observations": [
+    {
+      "fixture": true,
+      "synthetic": false,
+      "publicationAllowed": true,
+      "observationId": "energy-star-geothermal-4586690-cop",
+      "family": "geothermal_water_source_heat_pump",
+      "contract": "GroundSourcePerformance",
+      "equipmentIdentity": {
+        "brand": "York",
+        "unitaryModel": "Y5SZ036BD1",
+        "matchStatus": "SOURCE_ASSERTED"
+      },
+      "metric": "cop",
+      "value": 4.4,
+      "unit": "ratio",
+      "conditions": {
+        "exchangeType": "WATER_TO_AIR",
+        "loopType": "CLOSED_LOOP",
+        "sourceEnteringWaterTemperature": null,
+        "loadEnteringWaterTemperature": null,
+        "loopFlowRate": null
+      },
+      "ratingBasis": {
+        "program": "ENERGY_STAR",
+        "sourceProductType": "Closed Loop Water-to-Air",
+        "fullTestConditionsAvailable": false
+      },
+      "evidenceKind": "CERTIFICATION_REPORTED",
+      "source": {
+        "datasetId": "EPA_ENERGY_STAR",
+        "snapshotId": "dd3864b2eeb7471b60d7768a5ea7799573e1d94c238cf904e9dd653854ad1479",
+        "sourceRecordId": "4586690",
+        "sourceField": "cop_rating",
+        "retrievedAt": "2026-10-01"
+      },
+      "warnings": [
+        "ENERGY STAR source does not expose the complete rating test conditions in this retained dataset.",
+        "This observation is not an AHRI matched-system reference."
+      ]
+    },
+    {
+      "fixture": true,
+      "synthetic": false,
+      "publicationAllowed": true,
+      "observationId": "energy-star-geothermal-4586690-eer",
+      "family": "geothermal_water_source_heat_pump",
+      "contract": "GroundSourcePerformance",
+      "equipmentIdentity": {
+        "brand": "York",
+        "unitaryModel": "Y5SZ036BD1",
+        "matchStatus": "SOURCE_ASSERTED"
+      },
+      "metric": "eer",
+      "value": 23.8,
+      "unit": "Btu/Wh",
+      "conditions": {
+        "exchangeType": "WATER_TO_AIR",
+        "loopType": "CLOSED_LOOP",
+        "sourceEnteringWaterTemperature": null,
+        "loadEnteringWaterTemperature": null,
+        "loopFlowRate": null
+      },
+      "ratingBasis": {
+        "program": "ENERGY_STAR",
+        "sourceProductType": "Closed Loop Water-to-Air",
+        "fullTestConditionsAvailable": false
+      },
+      "evidenceKind": "CERTIFICATION_REPORTED",
+      "source": {
+        "datasetId": "EPA_ENERGY_STAR",
+        "snapshotId": "dd3864b2eeb7471b60d7768a5ea7799573e1d94c238cf904e9dd653854ad1479",
+        "sourceRecordId": "4586690",
+        "sourceField": "eer_rating",
+        "retrievedAt": "2026-10-01"
+      },
+      "warnings": [
+        "ENERGY STAR source does not expose the complete rating test conditions in this retained dataset.",
+        "This observation is not an AHRI matched-system reference."
+      ]
+    },
+    {
+      "fixture": true,
+      "synthetic": false,
+      "publicationAllowed": true,
+      "observationId": "energy-star-geothermal-4586700-cop",
+      "family": "geothermal_water_source_heat_pump",
+      "contract": "GroundSourcePerformance",
+      "equipmentIdentity": {
+        "brand": "York",
+        "unitaryModel": "Y5SZ036BD1",
+        "matchStatus": "SOURCE_ASSERTED"
+      },
+      "metric": "cop",
+      "value": 4.4,
+      "unit": "ratio",
+      "conditions": {
+        "exchangeType": "WATER_TO_AIR",
+        "loopType": "CLOSED_LOOP",
+        "sourceEnteringWaterTemperature": null,
+        "loadEnteringWaterTemperature": null,
+        "loopFlowRate": null
+      },
+      "ratingBasis": {
+        "program": "ENERGY_STAR",
+        "sourceProductType": "Closed Loop Water-to-Air",
+        "fullTestConditionsAvailable": false
+      },
+      "evidenceKind": "CERTIFICATION_REPORTED",
+      "source": {
+        "datasetId": "EPA_ENERGY_STAR",
+        "snapshotId": "dd3864b2eeb7471b60d7768a5ea7799573e1d94c238cf904e9dd653854ad1479",
+        "sourceRecordId": "4586700",
+        "sourceField": "cop_rating",
+        "retrievedAt": "2026-10-01"
+      },
+      "warnings": [
+        "ENERGY STAR source does not expose the complete rating test conditions in this retained dataset.",
+        "This observation is not an AHRI matched-system reference."
+      ]
+    },
+    {
+      "fixture": true,
+      "synthetic": false,
+      "publicationAllowed": true,
+      "observationId": "energy-star-geothermal-4586700-eer",
+      "family": "geothermal_water_source_heat_pump",
+      "contract": "GroundSourcePerformance",
+      "equipmentIdentity": {
+        "brand": "York",
+        "unitaryModel": "Y5SZ036BD1",
+        "matchStatus": "SOURCE_ASSERTED"
+      },
+      "metric": "eer",
+      "value": 23.8,
+      "unit": "Btu/Wh",
+      "conditions": {
+        "exchangeType": "WATER_TO_AIR",
+        "loopType": "CLOSED_LOOP",
+        "sourceEnteringWaterTemperature": null,
+        "loadEnteringWaterTemperature": null,
+        "loopFlowRate": null
+      },
+      "ratingBasis": {
+        "program": "ENERGY_STAR",
+        "sourceProductType": "Closed Loop Water-to-Air",
+        "fullTestConditionsAvailable": false
+      },
+      "evidenceKind": "CERTIFICATION_REPORTED",
+      "source": {
+        "datasetId": "EPA_ENERGY_STAR",
+        "snapshotId": "dd3864b2eeb7471b60d7768a5ea7799573e1d94c238cf904e9dd653854ad1479",
+        "sourceRecordId": "4586700",
+        "sourceField": "eer_rating",
+        "retrievedAt": "2026-10-01"
+      },
+      "warnings": [
+        "ENERGY STAR source does not expose the complete rating test conditions in this retained dataset.",
+        "This observation is not an AHRI matched-system reference."
+      ]
+    },
+    {
+      "fixture": true,
+      "synthetic": false,
+      "publicationAllowed": true,
+      "observationId": "energy-star-geothermal-4586731-cop",
+      "family": "geothermal_water_source_heat_pump",
+      "contract": "GroundSourcePerformance",
+      "equipmentIdentity": {
+        "brand": "York",
+        "unitaryModel": "Y5SZ036BD1",
+        "matchStatus": "SOURCE_ASSERTED"
+      },
+      "metric": "cop",
+      "value": 5.1,
+      "unit": "ratio",
+      "conditions": {
+        "exchangeType": "WATER_TO_AIR",
+        "loopType": "OPEN_LOOP",
+        "sourceEnteringWaterTemperature": null,
+        "loadEnteringWaterTemperature": null,
+        "loopFlowRate": null
+      },
+      "ratingBasis": {
+        "program": "ENERGY_STAR",
+        "sourceProductType": "Open Loop Water-to-Air",
+        "fullTestConditionsAvailable": false
+      },
+      "evidenceKind": "CERTIFICATION_REPORTED",
+      "source": {
+        "datasetId": "EPA_ENERGY_STAR",
+        "snapshotId": "dd3864b2eeb7471b60d7768a5ea7799573e1d94c238cf904e9dd653854ad1479",
+        "sourceRecordId": "4586731",
+        "sourceField": "cop_rating",
+        "retrievedAt": "2026-10-01"
+      },
+      "warnings": [
+        "ENERGY STAR source does not expose the complete rating test conditions in this retained dataset.",
+        "This observation is not an AHRI matched-system reference."
+      ]
+    },
+    {
+      "fixture": true,
+      "synthetic": false,
+      "publicationAllowed": true,
+      "observationId": "energy-star-geothermal-4586731-eer",
+      "family": "geothermal_water_source_heat_pump",
+      "contract": "GroundSourcePerformance",
+      "equipmentIdentity": {
+        "brand": "York",
+        "unitaryModel": "Y5SZ036BD1",
+        "matchStatus": "SOURCE_ASSERTED"
+      },
+      "metric": "eer",
+      "value": 29.5,
+      "unit": "Btu/Wh",
+      "conditions": {
+        "exchangeType": "WATER_TO_AIR",
+        "loopType": "OPEN_LOOP",
+        "sourceEnteringWaterTemperature": null,
+        "loadEnteringWaterTemperature": null,
+        "loopFlowRate": null
+      },
+      "ratingBasis": {
+        "program": "ENERGY_STAR",
+        "sourceProductType": "Open Loop Water-to-Air",
+        "fullTestConditionsAvailable": false
+      },
+      "evidenceKind": "CERTIFICATION_REPORTED",
+      "source": {
+        "datasetId": "EPA_ENERGY_STAR",
+        "snapshotId": "dd3864b2eeb7471b60d7768a5ea7799573e1d94c238cf904e9dd653854ad1479",
+        "sourceRecordId": "4586731",
+        "sourceField": "eer_rating",
+        "retrievedAt": "2026-10-01"
+      },
+      "warnings": [
+        "ENERGY STAR source does not expose the complete rating test conditions in this retained dataset.",
+        "This observation is not an AHRI matched-system reference."
+      ]
+    },
+    {
+      "fixture": true,
+      "synthetic": false,
+      "publicationAllowed": true,
+      "observationId": "energy-star-geothermal-4710776-cop",
+      "family": "geothermal_water_source_heat_pump",
+      "contract": "GroundSourcePerformance",
+      "equipmentIdentity": {
+        "brand": "Hydro Solar Innovative Energy",
+        "unitaryModel": "GEO040V1LM",
+        "matchStatus": "SOURCE_ASSERTED"
+      },
+      "metric": "cop",
+      "value": 3.4,
+      "unit": "ratio",
+      "conditions": {
+        "exchangeType": "WATER_TO_WATER",
+        "loopType": "CLOSED_LOOP",
+        "sourceEnteringWaterTemperature": null,
+        "loadEnteringWaterTemperature": null,
+        "loopFlowRate": null
+      },
+      "ratingBasis": {
+        "program": "ENERGY_STAR",
+        "sourceProductType": "Closed Loop Water-to-Water",
+        "fullTestConditionsAvailable": false
+      },
+      "evidenceKind": "CERTIFICATION_REPORTED",
+      "source": {
+        "datasetId": "EPA_ENERGY_STAR",
+        "snapshotId": "dd3864b2eeb7471b60d7768a5ea7799573e1d94c238cf904e9dd653854ad1479",
+        "sourceRecordId": "4710776",
+        "sourceField": "cop_rating",
+        "retrievedAt": "2026-10-01"
+      },
+      "warnings": [
+        "ENERGY STAR source does not expose the complete rating test conditions in this retained dataset.",
+        "This observation is not an AHRI matched-system reference."
+      ]
+    },
+    {
+      "fixture": true,
+      "synthetic": false,
+      "publicationAllowed": true,
+      "observationId": "energy-star-geothermal-4710776-eer",
+      "family": "geothermal_water_source_heat_pump",
+      "contract": "GroundSourcePerformance",
+      "equipmentIdentity": {
+        "brand": "Hydro Solar Innovative Energy",
+        "unitaryModel": "GEO040V1LM",
+        "matchStatus": "SOURCE_ASSERTED"
+      },
+      "metric": "eer",
+      "value": 17.9,
+      "unit": "Btu/Wh",
+      "conditions": {
+        "exchangeType": "WATER_TO_WATER",
+        "loopType": "CLOSED_LOOP",
+        "sourceEnteringWaterTemperature": null,
+        "loadEnteringWaterTemperature": null,
+        "loopFlowRate": null
+      },
+      "ratingBasis": {
+        "program": "ENERGY_STAR",
+        "sourceProductType": "Closed Loop Water-to-Water",
+        "fullTestConditionsAvailable": false
+      },
+      "evidenceKind": "CERTIFICATION_REPORTED",
+      "source": {
+        "datasetId": "EPA_ENERGY_STAR",
+        "snapshotId": "dd3864b2eeb7471b60d7768a5ea7799573e1d94c238cf904e9dd653854ad1479",
+        "sourceRecordId": "4710776",
+        "sourceField": "eer_rating",
+        "retrievedAt": "2026-10-01"
+      },
+      "warnings": [
+        "ENERGY STAR source does not expose the complete rating test conditions in this retained dataset.",
+        "This observation is not an AHRI matched-system reference."
+      ]
+    },
+    {
+      "fixture": true,
+      "synthetic": false,
+      "publicationAllowed": true,
+      "family": "geothermal_water_source_heat_pump",
+      "contract": "GroundSourcePerformance",
+      "equipmentIdentity": {
+        "brand": "Hydro Solar Innovative Energy",
+        "unitaryModel": "GEO040V1LM",
+        "variant": {
+          "exchangerMaterial": "TITANIUM"
+        },
+        "matchStatus": "SOURCE_ASSERTED"
+      },
+      "conditions": {
+        "exchangeType": "WATER_TO_WATER",
+        "loopType": null,
+        "exchangerMaterial": "TITANIUM",
+        "mode": "HEATING",
+        "sourceEnteringTemperatureC": 0,
+        "sourceLeavingTemperatureCAtMaxFlow": -4.3,
+        "loadEnteringTemperatureC": 40,
+        "loadLeavingTemperatureCAtMaxFlow": 45.1,
+        "sourceFlowUSGpmMinMax": [
+          8.8,
+          10.56
+        ],
+        "loadFlowUSGpmMinMax": [
+          6.16,
+          8.81
+        ],
+        "standard": null,
+        "antifreezeConcentration": null
+      },
+      "ratingBasis": {
+        "kind": "MANUFACTURER_PERFORMANCE_TABLE",
+        "standard": null
+      },
+      "evidenceKind": "MANUFACTURER_REPORTED",
+      "source": {
+        "datasetId": "MANUFACTURER_TECHNICAL",
+        "snapshotId": "9df110cf58bc496f43ae478bad7bc730c5f06b753871c0d27a3f2ba12022ef41",
+        "sourceRecordId": "GEO040V1LM:TITANIUM",
+        "sourceField": "Heating performance, source entering 32 F / 0 C, first heating table",
+        "retrievedAt": "2026-10-01"
+      },
+      "warnings": [
+        "Manufacturer performance-table point; not an AHRI certificate.",
+        "ENERGY STAR occurrence is not proven to correspond to this exchanger variant."
+      ],
+      "observationId": "manufacturer-geothermal-GEO040V1LM-titanium-heating-capacity",
+      "metric": "heatingCapacity",
+      "value": 40600,
+      "unit": "Btu/h"
+    },
+    {
+      "fixture": true,
+      "synthetic": false,
+      "publicationAllowed": true,
+      "family": "geothermal_water_source_heat_pump",
+      "contract": "GroundSourcePerformance",
+      "equipmentIdentity": {
+        "brand": "Hydro Solar Innovative Energy",
+        "unitaryModel": "GEO040V1LM",
+        "variant": {
+          "exchangerMaterial": "TITANIUM"
+        },
+        "matchStatus": "SOURCE_ASSERTED"
+      },
+      "conditions": {
+        "exchangeType": "WATER_TO_WATER",
+        "loopType": null,
+        "exchangerMaterial": "TITANIUM",
+        "mode": "HEATING",
+        "sourceEnteringTemperatureC": 0,
+        "sourceLeavingTemperatureCAtMaxFlow": -4.3,
+        "loadEnteringTemperatureC": 40,
+        "loadLeavingTemperatureCAtMaxFlow": 45.1,
+        "sourceFlowUSGpmMinMax": [
+          8.8,
+          10.56
+        ],
+        "loadFlowUSGpmMinMax": [
+          6.16,
+          8.81
+        ],
+        "standard": null,
+        "antifreezeConcentration": null
+      },
+      "ratingBasis": {
+        "kind": "MANUFACTURER_PERFORMANCE_TABLE",
+        "standard": null
+      },
+      "evidenceKind": "MANUFACTURER_REPORTED",
+      "source": {
+        "datasetId": "MANUFACTURER_TECHNICAL",
+        "snapshotId": "9df110cf58bc496f43ae478bad7bc730c5f06b753871c0d27a3f2ba12022ef41",
+        "sourceRecordId": "GEO040V1LM:TITANIUM",
+        "sourceField": "Heating performance, source entering 32 F / 0 C, first heating table",
+        "retrievedAt": "2026-10-01"
+      },
+      "warnings": [
+        "Manufacturer performance-table point; not an AHRI certificate.",
+        "ENERGY STAR occurrence is not proven to correspond to this exchanger variant."
+      ],
+      "observationId": "manufacturer-geothermal-GEO040V1LM-titanium-cop",
+      "metric": "cop",
+      "value": 3.5,
+      "unit": "ratio"
+    },
+    {
+      "fixture": true,
+      "synthetic": false,
+      "publicationAllowed": true,
+      "family": "geothermal_water_source_heat_pump",
+      "contract": "GroundSourcePerformance",
+      "equipmentIdentity": {
+        "brand": "Hydro Solar Innovative Energy",
+        "unitaryModel": "GEO040V1LM",
+        "variant": {
+          "exchangerMaterial": "COPPER"
+        },
+        "matchStatus": "SOURCE_ASSERTED"
+      },
+      "conditions": {
+        "exchangeType": "WATER_TO_WATER",
+        "loopType": null,
+        "exchangerMaterial": "COPPER",
+        "mode": "HEATING",
+        "sourceEnteringTemperatureC": 0,
+        "sourceLeavingTemperatureCAtMaxFlow": -2.7,
+        "loadEnteringTemperatureC": 35,
+        "loadLeavingTemperatureCAtMaxFlow": 40,
+        "sourceFlowUSGpmMinMax": [
+          9.7,
+          13
+        ],
+        "loadFlowUSGpmMinMax": [
+          6.5,
+          9.2
+        ],
+        "standard": null,
+        "antifreezeConcentration": null
+      },
+      "ratingBasis": {
+        "kind": "MANUFACTURER_PERFORMANCE_TABLE",
+        "standard": null
+      },
+      "evidenceKind": "MANUFACTURER_REPORTED",
+      "source": {
+        "datasetId": "MANUFACTURER_TECHNICAL",
+        "snapshotId": "a819dd077105fd48c9433c521068485409fd1c3f92a065ce10dafccc8f01399f",
+        "sourceRecordId": "GEO040V1LM:COPPER",
+        "sourceField": "Heating performance, source entering 32 F / 0 C, first heating table",
+        "retrievedAt": "2026-10-01"
+      },
+      "warnings": [
+        "Manufacturer performance-table point; not an AHRI certificate.",
+        "ENERGY STAR occurrence is not proven to correspond to this exchanger variant."
+      ],
+      "observationId": "manufacturer-geothermal-GEO040V1LM-copper-heating-capacity",
+      "metric": "heatingCapacity",
+      "value": 41456,
+      "unit": "Btu/h"
+    },
+    {
+      "fixture": true,
+      "synthetic": false,
+      "publicationAllowed": true,
+      "family": "geothermal_water_source_heat_pump",
+      "contract": "GroundSourcePerformance",
+      "equipmentIdentity": {
+        "brand": "Hydro Solar Innovative Energy",
+        "unitaryModel": "GEO040V1LM",
+        "variant": {
+          "exchangerMaterial": "COPPER"
+        },
+        "matchStatus": "SOURCE_ASSERTED"
+      },
+      "conditions": {
+        "exchangeType": "WATER_TO_WATER",
+        "loopType": null,
+        "exchangerMaterial": "COPPER",
+        "mode": "HEATING",
+        "sourceEnteringTemperatureC": 0,
+        "sourceLeavingTemperatureCAtMaxFlow": -2.7,
+        "loadEnteringTemperatureC": 35,
+        "loadLeavingTemperatureCAtMaxFlow": 40,
+        "sourceFlowUSGpmMinMax": [
+          9.7,
+          13
+        ],
+        "loadFlowUSGpmMinMax": [
+          6.5,
+          9.2
+        ],
+        "standard": null,
+        "antifreezeConcentration": null
+      },
+      "ratingBasis": {
+        "kind": "MANUFACTURER_PERFORMANCE_TABLE",
+        "standard": null
+      },
+      "evidenceKind": "MANUFACTURER_REPORTED",
+      "source": {
+        "datasetId": "MANUFACTURER_TECHNICAL",
+        "snapshotId": "a819dd077105fd48c9433c521068485409fd1c3f92a065ce10dafccc8f01399f",
+        "sourceRecordId": "GEO040V1LM:COPPER",
+        "sourceField": "Heating performance, source entering 32 F / 0 C, first heating table",
+        "retrievedAt": "2026-10-01"
+      },
+      "warnings": [
+        "Manufacturer performance-table point; not an AHRI certificate.",
+        "ENERGY STAR occurrence is not proven to correspond to this exchanger variant."
+      ],
+      "observationId": "manufacturer-geothermal-GEO040V1LM-copper-cop",
+      "metric": "cop",
+      "value": 4.4,
+      "unit": "ratio"
+    }
+  ]
+}

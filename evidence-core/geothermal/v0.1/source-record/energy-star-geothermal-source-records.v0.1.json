@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "evidence.geothermal-energy-star-source.v0.1",
+  "family": "geothermal_water_source_heat_pump",
+  "datasetId": "EPA_ENERGY_STAR",
+  "sourceRepository": "SRVXca/nova-open",
+  "sourceRepositoryBaseline": "e620f4cbc467307799c0c33af8679ccf20bc0f63",
+  "sourceManifest": {
+    "url": "https://data.energystar.gov/resource/acvd-5wvz.json?%24where=pd_id+in+%28%274710776%27%2C%274586690%27%2C%274586731%27%2C%274586700%27%29&%24order=pd_id",
+    "retrievedAt": "2026-10-01T14:36:10.951009Z",
+    "sha256": "dd3864b2eeb7471b60d7768a5ea7799573e1d94c238cf904e9dd653854ad1479",
+    "file": "data/supply/geothermal-v0.1/energy-star.json.gz",
+    "compressedSha256": "2d5d0b154f83825e451cacf4dace7fbbeccb5b8a148c22bde01ebcf7e429671a",
+    "datasetUpdatedAt": "2026-10-01T13:29:55Z",
+    "metadata": {
+      "url": "https://data.energystar.gov/api/views/acvd-5wvz.json",
+      "file": "data/supply/geothermal-v0.1/metadata.json.gz",
+      "sha256": "88fc392b4bbddf2ed1ed374fdbc071e4e462adacab3642188333bb34a5537dae",
+      "compressedSha256": "ae2f4873723e43bfb37cd53bfc91564af7bcaf647500a4db7cba6660a6856940",
+      "retrievedAt": "2026-10-01T14:26:38.507555Z"
+    },
+    "selectedEnergyStarIds": [
+      "4586690",
+      "4586700",
+      "4586731",
+      "4710776"
+    ],
+    "status": "EVIDENCE_CANDIDATES_ONLY"
+  },
+  "records": [
+    {
+      "pd_id": "4586690",
+      "energy_star_partner": "WaterFurnace International, Incorporated",
+      "brand_name": "York",
+      "model_name": "Affinity",
+      "model_number": "Y5SZ036BD1",
+      "product_type": "Closed Loop Water-to-Air",
+      "cop_rating": "4.4",
+      "eer_rating": "23.8",
+      "refrigerant_type": "Other",
+      "date_available_on_market": "2025-01-02T00:00:00.000",
+      "date_qualified": "2026-07-23T00:00:00.000",
+      "markets": "United States, Canada",
+      "energy_star_model_identifier": "ES_1036337_Y5SZ036BD1_03042026010059_01218158046",
+      "meets_most_efficient_criteria": "Yes"
+    },
+    {
+      "pd_id": "4586700",
+      "energy_star_partner": "WaterFurnace International, Incorporated",
+      "brand_name": "York",
+      "model_name": "Affinity",
+      "model_number": "Y5SZ036BD1",
+      "product_type": "Closed Loop Water-to-Air",
+      "cop_rating": "4.4",
+      "eer_rating": "23.8",
+      "refrigerant_type": "Other",
+      "date_available_on_market": "2025-01-02T00:00:00.000",
+      "date_qualified": "2026-07-23T00:00:00.000",
+      "markets": "United States, Canada",
+      "energy_star_model_identifier": "ES_1036337_Y5SZ036BD1_03042026010059_01218158036",
+      "meets_most_efficient_criteria": "Yes"
+    },
+    {
+      "pd_id": "4586731",
+      "energy_star_partner": "WaterFurnace International, Incorporated",
+      "brand_name": "York",
+      "model_name": "Affinity",
+      "model_number": "Y5SZ036BD1",
+      "product_type": "Open Loop Water-to-Air",
+      "cop_rating": "5.1",
+      "eer_rating": "29.5",
+      "refrigerant_type": "Other",
+      "date_available_on_market": "2025-01-02T00:00:00.000",
+      "date_qualified": "2026-07-23T00:00:00.000",
+      "markets": "United States, Canada",
+      "energy_star_model_identifier": "ES_1036337_Y5SZ036BD1_03042026010051_02218158046",
+      "meets_most_efficient_criteria": "Yes"
+    },
+    {
+      "pd_id": "4710776",
+      "energy_star_partner": "AQUA SOLANOR INC",
+      "brand_name": "Hydro Solar Innovative Energy",
+      "model_name": "GEO040V1LM",
+      "model_number": "GEO040V1LM",
+      "product_type": "Closed Loop Water-to-Water",
+      "cop_rating": "3.4",
+      "eer_rating": "17.9",
+      "refrigerant_type": "R-32",
+      "date_available_on_market": "2025-01-01T00:00:00.000",
+      "date_qualified": "2026-09-28T00:00:00.000",
+      "markets": "United States, Canada",
+      "energy_star_model_identifier": "ES_1895880_GEO040V1LM_03232026143045_01217607620",
+      "meets_most_efficient_criteria": "Yes"
+    }
+  ]
+}
